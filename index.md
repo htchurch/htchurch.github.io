@@ -1,4 +1,4 @@
-[Populist Pig](2020-09-23-populist-pig.md)
-[Freddy Got Fingered (2001)](2020-09-15-freddy-got-fingered.md)
-[Straight Up (2019)](2020-09-11-straight-up.md)
-[Crumb (1994)](2020-09-09-crumb.md)
+- [Populist Pig](2020-09-23-populist-pig.md)
+- [Freddy Got Fingered (2001)](2020-09-15-freddy-got-fingered.md)
+- [Straight Up (2019)](2020-09-11-straight-up.md)
+- [Crumb (1994)](2020-09-09-crumb.md)
