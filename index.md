@@ -1,5 +1,5 @@
 <div align="center"> 
-    <a href="htchurch.github.io/about.md">About</a>
+    <a href="about.md">About</a>
 </div>
 
 - [Metropolis (1927)](2020-09-29-metropolis.md)
