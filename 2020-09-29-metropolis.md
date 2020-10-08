@@ -1,2 +1,3 @@
 # Metropolis (Fritz Lang, 1927)
+#### September 29, 2020
 One can't help but think that the film's "futuristic" vision of politics is greatly simplified to a really egregious point. If this is propaganda for some sort of "workers' revolution," one would think it pertinent to not make things so dull, that is, unthinking, or to make the film's "workers" so ravenous and barbaric and easily manipulated. There is truly wonderful imagery though, especially when Lang enters into occultist semiology--the inverted pentagram, the Whore of Babylon all strike the eye in an awe-inspiring way, dark reversals of science and "progress"--but I'll look elsewhere if I want a smarter depiction of how the world works and how people act in it.

@@ -1,2 +1,3 @@
 # Cookie's Fortune (Robert Altman, 1999)
+#### September 19, 2020
 Catfish enchilada-flavored little comedy with clever parallels to Salome that ends with tragic irony—yet it’s relentlessly funny. Insightful in the way that Altman reveals the complicated genealogy of people in the South, Cookie’s Fortune shows the connections that might seem totally unlikely anywhere else. (Just like the defense offered by Lester Boyle (Ned Beatty): “I’ve fished with him.”) Cookie’s Fortune not only challenges the strictly white-black divisions that connote the South, but it also reveals insights into the bonds that anyone, anywhere can make—-those complicated branches on the family tree.

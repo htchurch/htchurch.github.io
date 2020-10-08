@@ -1,4 +1,5 @@
 # Mulholland Drive (David Lynch, 2001)
+#### February 29, 2020
 Inside the ethical dilemmas tied to the myth of Hollywood, Lynch contorts genre(s) to show how bizarre Hollywood is and uses pop culture to find a moral center.
 
 In Mulholland Drive, we see Hollywood as everyone else has seen it  and, simultaneously, as no one has seen it; Lynch's film warps Hollywood's cultural image with nostalgia without obfuscating its exploitative reputation.
