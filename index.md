@@ -1,4 +1,6 @@
-<div align="center">[About](about.md)</div>
+<div align="center"> 
+    <a href="htchurch.github.io/about.md">About</a>
+</div>
 
 - [Metropolis (1927)](2020-09-29-metropolis.md)
 - [Babe: Pig in the City](2020-09-23-pig-in-the-city.md)
