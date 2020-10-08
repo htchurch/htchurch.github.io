@@ -1,0 +1,4 @@
+# The Standoff at Sparrow Creek (Henry Dunham, 2018)
+A movie that will really infuriate ADHD crayon-eating Millennials for its somewhat sympathetic portrayal of militia-men who are infiltrated by the police and goaded into believing that one of their own turned cop killer. Actually a little more psychologically probing than its influence Reservoir Dogs, because it understands that the desire to make the militia-men appear unequivocally evil resides in that part of the brain where everything is black-and-white.
+
+This movie ponders, if only for one line, if it’s right that this is done at all. Millennial reviewers can’t handle this fact or this representation. Too bad, however, that at 1hr 29min, there’s just not enough for the audience to chew on—so nothing here matches the drama and massive existential weight of Zahler’s conservative moral ambiguity, where there is good and evil and the person caught in-between. The Standoff at Sparrow Creek doesn’t have scale.
