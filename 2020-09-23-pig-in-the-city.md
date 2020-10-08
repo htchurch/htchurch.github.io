@@ -1,6 +1,6 @@
 # Populist Pig
 
-### The populism of *Pig in the City* (George Miller, 1998)
+### The populism of *Babe: Pig in the City* (George Miller, 1998)
 
 #### September 23, 2020
 
