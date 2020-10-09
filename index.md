@@ -8,6 +8,7 @@
 - [Crumb (1994)](2020-09-09-crumb.md)
 - [Cookie's Fortune (1999)](2020-09-19-cookies-fortune.md)
 - [Freddy Got Fingered (2001)](2020-09-15-freddy-got-fingered.md)
+- [Hacksaw Ridge (2016)](2020-10-09-hacksaw-ridge.md)
 - [Midsommar (2019)](2020-02-24-midsommar.md)
 - [Metropolis (1927)](2020-09-29-metropolis.md)
 - [Mulholland Drive (2001)](2020-02-29-mulholland-drive.md)
