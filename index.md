@@ -1,5 +1,5 @@
-<div align="center" class="horizontalgap" style="width:10px"> 
-    <span><a href="about.html">About the blog</a><a href="me.html">About me</a></span>
+<div align="center"> 
+    <a href="about.html">About the blog</a>
 </div>
 
 - [Babe: Pig in the City (1998)](2020-09-23-pig-in-the-city.md)
