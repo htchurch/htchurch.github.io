@@ -5,37 +5,36 @@ body {
     height:auto;
     margin-left:auto;
     margin-right:auto;
-    line-height:135%;
+}
+@font-face{
+    font-family:"SourceSerif";
+    src: url(fonts/SourceSerifPro-It.ttf);
 }
 @font-face {
-    font-family:"Charter";
-    src: url(fonts/Charter Regular.ttf);
+    font-family: "SourceSerif";
+    src: url(fonts/SourceSerifPro-Bold.ttf)
 }
-@font-face {
-    font-family:"Charter";
-    src: url(fonts/Charter Bold.ttf);
-    font-weight:bold;
-}
-@font-face {
-    font-family:"Charter";
-    src: url(fonts/Charter Italic.ttf);
-    font-weight:italic;
+@font-face{
+    font-family:"SourceSerif";
+    src: url(fonts/SourceSerifPro-Regular.ttf);
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Charter";
-}
-h1{
-    text-transform: uppercase;
+    font-family: "SourceSerif";
 }
 h2{
-    font-size:32px;
-    text-transform:uppercase;
-    line-height:137%;
+text-align: left;
+font-size:30px;
+font-weight: bolder;
+margin-top: 40px;
+margin-bottom:40px;
+}
+h4{
+    font-style: italic;
 }
 p{
-    font-family:"Charter", Georgia, 'Times New Roman', Times, serif;
+    font-family:"SourceSerif", Georgia, 'Times New Roman', Times, serif;
     font-size:20px;
-    line-height: 34px;
+    line-height: 145%;
 }
 a:link{
     color:black;

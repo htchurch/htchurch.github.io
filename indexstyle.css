@@ -5,27 +5,21 @@ body {
     height:auto;
     margin-left:auto;
     margin-right:auto;
-    line-height: 135%;
+}
+@font-face{
+    font-family:"SourceSerif";
+    src: url(fonts/SourceSerifPro-It.ttf);
 }
 @font-face {
-    font-family:"Charter";
-    src: url(fonts/Charter Regular.ttf);
+    font-family: "SourceSerif";
+    src: url(fonts/SourceSerifPro-Bold.ttf)
 }
-@font-face {
-    font-family:"Charter";
-    src: url(fonts/Charter Bold.ttf);
-    font-weight:bold;
+@font-face{
+    font-family:"SourceSerif";
+    src: url(fonts/SourceSerifPro-Regular.ttf);
 }
-@font-face {
-    font-family:"Charter";
-    src: url(fonts/Charter Italic.ttf);
-    font-weight:italic;
-}
-h1,h2,h3,h4,h5,h6,p {
-    font-family: "Charter";
-}
-h1{
-    text-transform:uppercase;
+h1,h2,h3,h4,h5,h6 {
+    font-family: "SourceSerif";
 }
 h2{
     font-size:27px;
@@ -33,14 +27,15 @@ h2{
 }
 p{
     font-size:20px;
+    line-height: 138%;
+    font-family: "SourceSerif";
 }
 ul {
     list-style-type: none;
     margin:0;
     padding:0;
     font-size:20px;
-    font-family:"Charter";
-    font-style: italic;
+    font-family: "SourceSerif";
 }
 a:link{
  color:black;
