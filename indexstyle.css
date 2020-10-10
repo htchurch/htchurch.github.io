@@ -1,7 +1,7 @@
 body {
-    background-color: white;
-    color:black;
-    width: 550px;
+    background-color: black;
+    color:white;
+    width: 650px;
     height:auto;
     margin-left:auto;
     margin-right:auto;
@@ -40,15 +40,15 @@ ul {
     font-family: "SourceSerif";
 }
 a:link{
- color:black;
+ color:white;
  text-decoration-color: white;
 }
 a:visited{
-    color:black;
-    text-decoration-color: white;
+    color:white;
+    text-decoration-color: black;
 }
 a:hover{
-    text-decoration-color:black;
+    text-decoration-color:white;
 }
 footer {
     position:absolute;
