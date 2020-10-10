@@ -21,20 +21,22 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: "SourceSerif";
 }
+h1{
+    font-size:30px;
+}
 h2{
-    font-size:27px;
-    text-transform:uppercase;
+    font-size:25px;
 }
 p{
-    font-size:20px;
+    font-size:10px;
     line-height: 138%;
     font-family: "SourceSerif";
 }
 ul {
-    list-style-type: none;
+    list-style-type: unset;
     margin:0;
     padding:0;
-    font-size:20px;
+    font-size:15px;
     font-family: "SourceSerif";
 }
 a:link{
