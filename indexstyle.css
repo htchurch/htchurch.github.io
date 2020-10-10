@@ -5,6 +5,7 @@ body {
     height:auto;
     margin-left:auto;
     margin-right:auto;
+    letter-spacing: 0.05em;
 }
 @font-face {
     font-family:"Charter";
@@ -23,9 +24,12 @@ body {
 h1,h2,h3,h4,h5,h6,p {
     font-family: "Charter";
 }
+h1{
+    text-transform:uppercase;
+}
 h2{
     font-size:27px;
-
+    text-transform:uppercase;
 }
 p{
     font-size:20px;
