@@ -49,9 +49,9 @@ h4{
 }
 p{
     font-family:"SourceSerif", Georgia, 'Times New Roman', Times, serif;
-    font-size:22px;
-    line-height: 145%;
+    font-size:20px;
     text-indent: 30pt;
+    line-height: 150%;
 }
 a:link{
     color:white;
