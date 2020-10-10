@@ -1,1 +1,0 @@
-# thewayitis.github.io
