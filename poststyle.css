@@ -33,14 +33,14 @@ p{
 }
 a:link{
     color:black;
-    text-decoration-color: black;
+    text-decoration-color: white;
 }
 a:visited{
     color:black;
-    text-decoration-color: black;
+    text-decoration-color: white;
 }
 a:hover{
-    text-decoration-color:white;
+    text-decoration-color:black;
 }
 footer {
     position: relative;

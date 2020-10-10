@@ -36,16 +36,18 @@ ul {
     padding:0;
     font-size:20px;
     font-family:"Charter";
+    font-style: italic;
 }
 a:link{
-    color:black;
-    text-decoration-color:black;
+ color:black;
+ text-decoration-color: white;
 }
 a:visited{
     color:black;
+    text-decoration-color: white;
 }
 a:hover{
-    text-decoration-color:white;
+    text-decoration-color:black;
 }
 footer {
     position:absolute;
