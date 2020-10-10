@@ -23,6 +23,10 @@ body {
 h1,h2,h3,h4,h5,h6,p {
     font-family: "Charter";
 }
+h2{
+    font-size:27px;
+
+}
 p{
     font-size:20px;
 }
@@ -30,10 +34,12 @@ ul {
     list-style-type: none;
     margin:0;
     padding:0;
-    font-family:"Charter"
+    font-size:20px;
+    font-family:"Charter";
 }
 a:link{
     color:black;
+    text-decoration-color:black;
 }
 a:visited{
     color:black;

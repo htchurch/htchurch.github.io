@@ -32,6 +32,7 @@ p{
     line-height: 34px;
 }
 a:link{
+    color:black;
     text-decoration-color: black;
 }
 a:visited{
