@@ -1,11 +1,11 @@
 body {
     background-color: white;
     color:black;
-    width: 727.08px;
+    width: 550px;
     height:auto;
     margin-left:auto;
     margin-right:auto;
-    letter-spacing: 0.05em;
+    line-height: 135%;
 }
 @font-face {
     font-family:"Charter";
