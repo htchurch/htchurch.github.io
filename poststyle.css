@@ -34,18 +34,14 @@ h1,h4 {
     font-family: "Charter";
 }
 h1{
-    font-size:30px;
+    font-size:35px;
+    text-transform:lowercase;
 }
 h2{
 text-align: left;
 font-family: "Charter";
 font-size:30px;
-margin-top: 40px;
-margin-bottom:40px;
 text-transform: lowercase;
-}
-h4{
-    font-style: italic;
 }
 p{
     font-family:"SourceSerif", Georgia, 'Times New Roman', Times, serif;

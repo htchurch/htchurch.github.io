@@ -22,13 +22,15 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "SourceSerif";
 }
 h1{
-    font-size:30px;
+    font-size:35px;
+    text-transform:lowercase;
 }
 h2{
-    font-size:25px;
+    font-size:30px;
+    text-transform:lowercase;
 }
 p{
-    font-size:10px;
+    font-size:15px;
     line-height: 138%;
     font-family: "SourceSerif";
 }
