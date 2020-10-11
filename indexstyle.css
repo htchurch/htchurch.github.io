@@ -29,11 +29,6 @@ h2{
     font-size:30px;
     text-transform:lowercase;
 }
-p{
-    font-size:15px;
-    line-height: 138%;
-    font-family: "SourceSerif";
-}
 ul {
     list-style-type: none;
     margin:0;
