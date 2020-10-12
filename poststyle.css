@@ -7,16 +7,8 @@ body {
     margin-right:auto;
 }
 @font-face{
-    font-family:"SourceSerif";
-    src: url(fonts/SourceSerifPro-It.ttf);
-}
-@font-face {
-    font-family: "SourceSerif";
-    src: url(fonts/SourceSerifPro-Bold.ttf)
-}
-@font-face{
-    font-family:"SourceSerif";
-    src: url(fonts/SourceSerifPro-Regular.ttf);
+    font-family:"CooperHewitt";
+    src: url(fonts/CooperHewitt-Bold.woff);
 }
 @font-face{
     font-family: "Charter";
@@ -30,23 +22,21 @@ body {
     font-family: "Charter";
     src: url(fonts/Charter-Regular.ttf);
 }
-h1,h4 {
-    font-family: "Charter";
+h1,h2 {
+    font-family: "CooperHewitt";
 }
 h1{
-    font-size:35px;
-    text-transform:lowercase;
+    text-align:center;
+    font-size:40px;
 }
 h2{
-text-align: left;
-font-family: "Charter";
 font-size:30px;
 text-transform: lowercase;
 }
 p{
-    font-family:"SourceSerif", Georgia, 'Times New Roman', Times, serif;
+    font-family:"Charter", Georgia, 'Times New Roman', Times, serif;
     font-size:20px;
-    text-indent: 30pt;
+    text-indent: 25pt;
     line-height: 150%;
 }
 a:link{

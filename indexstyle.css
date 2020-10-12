@@ -7,6 +7,10 @@ body {
     margin-right:auto;
 }
 @font-face{
+    font-family:"CooperHewitt";
+    src: url(fonts/CooperHewitt-Bold.woff);
+}
+@font-face{
     font-family:"SourceSerif";
     src: url(fonts/SourceSerifPro-It.ttf);
 }
@@ -18,12 +22,12 @@ body {
     font-family:"SourceSerif";
     src: url(fonts/SourceSerifPro-Regular.ttf);
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: "SourceSerif";
+h1,h2 {
+    font-family: "CooperHewitt";
 }
 h1{
-    font-size:35px;
-    text-transform:lowercase;
+    text-align:center;
+    font-size:40px;
 }
 h2{
     font-size:30px;
@@ -33,7 +37,7 @@ ul {
     list-style-type: none;
     margin:0;
     padding:0;
-    font-size:15px;
+    font-size:20px;
     font-family: "SourceSerif";
     text-transform:lowercase;
 }
@@ -49,7 +53,7 @@ a:hover{
     text-decoration-color:white;
 }
 footer {
-    position:absolute;
+    position: relative;
     top:95%;
     left:50;
     text-align:center;
