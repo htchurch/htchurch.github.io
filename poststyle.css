@@ -50,9 +50,9 @@ text-transform: lowercase;
 font-family:"NHass";
 }
 p{
+    line-height:135%;
     font-size:20px;
     text-indent: 25pt;
-    line-height: 150%;
 }
 a:link{
     color:black;
