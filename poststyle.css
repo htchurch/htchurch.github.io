@@ -25,7 +25,12 @@
     font-family:"SourceSerif";
     src: url(fonts/SourceSerifPro-Regular.ttf);
 }
+@font-face{
+    font-family:"NHass";
+    src: url(fonts/NHaasGroteskTXPro-65Md.ttf);
+}
 body {
+    font-family:"NHass";
     background-color: white;
     color:black;
     width: 650px;
@@ -35,17 +40,16 @@ body {
 }
 
 h1 {
-    font-family: "CooperHewitt";
+    font-family: "NHass";
     text-align:center;
-    font-size:40px;
+    font-size:50px;
 }
 h2{
 font-size:30px;
 text-transform: lowercase;
-font-family:"CooperHewitt";
+font-family:"NHass";
 }
 p{
-    font-family:"Charter", Georgia, 'Times New Roman', Times, serif;
     font-size:20px;
     text-indent: 25pt;
     line-height: 150%;
