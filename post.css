@@ -1,0 +1,42 @@
+@font-face{
+    font-family:"Charter";
+    src:url(fonts/Charter-Regular.ttf);
+}
+@font-face{
+    font-family:"NHass";
+    src: url(fonts/NHaasGroteskTXPro-55Rg.woff);
+}
+body{
+    width:650px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+h1{
+    font-family:"NHass";
+    font-size:35px;
+}
+p{
+    font-family:"Charter";
+    font-size:20px;
+    line-height:30px;
+}
+footer{
+    position: relative;
+    margin:auto;
+    font-family:"NHass";
+    font-size:15px;
+    text-transform:lowercase;
+}
+footer a{
+    color:black;
+    text-decoration:none;
+}
+footer a:hover{
+    background-color: lightgray;
+}
+blockquote{
+    font-family:"Charter";
+    font-size:18px;
+    line-height:28px;
+}

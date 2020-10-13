@@ -1,0 +1,28 @@
+@font-face{
+    font-family:"NHaas";
+    src:url(fonts/NHaasGroteskTXPro-55Rg.woff);
+}
+#containerdiv{
+    font-family:"NHaas";
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+}
+#logo{
+    font-size:50px;
+}
+#indexdiv ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    font-size:20px;
+    text-transform:lowercase;
+}
+a {
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    background-color:lightgray;
+}
+
