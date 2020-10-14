@@ -3,8 +3,16 @@
     src:url(fonts/Charter-Regular.ttf);
 }
 @font-face{
+    font-family:"Charter Italic";
+    src:url(fonts/Charter-Italic.ttf);
+}
+@font-face{
     font-family:"NHass";
     src: url(fonts/NHaasGroteskTXPro-55Rg.woff);
+}
+@font-face{
+    font-family:"NHass Bold";
+    src: url(fonts/NHaasGroteskTXPro-75Bd.woff);
 }
 body{
     width:650px;
@@ -13,13 +21,21 @@ body{
     margin-right:auto;
 }
 h1{
-    font-family:"NHass";
-    font-size:35px;
+    font-family:"NHass Bold";
 }
 p{
     font-family:"Charter";
     font-size:20px;
     line-height:30px;
+}
+p a{
+    font-family:"NHass";
+    color:black;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+p a:hover{
+    background-color: lightgray;
 }
 footer{
     position: relative;
@@ -28,6 +44,7 @@ footer{
     font-size:15px;
     text-transform:lowercase;
 }
+
 footer a{
     color:black;
     text-decoration:none;
