@@ -23,6 +23,9 @@ body{
 h1{
     font-family:"NHass Bold";
 }
+h2{
+    font-family:"NHass Bold"
+}
 p{
     font-family:"Charter";
     font-size:20px;
@@ -56,4 +59,8 @@ blockquote{
     font-family:"Charter";
     font-size:18px;
     line-height:28px;
+}
+.references p{
+    font-size:18px;
+    line-height:22px;
 }
