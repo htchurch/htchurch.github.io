@@ -2,6 +2,9 @@
     font-family:"NHaas";
     src:url(fonts/NHaasGroteskTXPro-55Rg.woff);
 }
+body{
+    background-color: gainsboro;
+}
 #containerdiv{
     font-family:"NHaas";
     display:grid;
@@ -9,20 +12,28 @@
     grid-gap:10px;
 }
 #logo{
-    font-size:50px;
+    margin-left:10%;
+    font-size:70px;
+}
+#logo h2{
+    font-size: 60px;
 }
 #indexdiv ul{
     list-style-type: none;
     margin:0;
     padding:0;
-    font-size:20px;
+    font-size:30px;
     text-transform:lowercase;
+}
+#indexdiv h2{
+    font-size:35px;
+    color:black;
 }
 a {
     color:black;
     text-decoration:none;
 }
 a:hover{
-    background-color:lightgray;
+    background-color:darkgrey;
 }
 
