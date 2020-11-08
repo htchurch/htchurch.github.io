@@ -3,37 +3,40 @@
     src:url(fonts/NHaasGroteskTXPro-55Rg.woff);
 }
 body{
-    background-color: gainsboro;
+    background-color:gainsboro;
 }
-#containerdiv{
-    font-family:"NHaas";
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:10px;
-}
-#logo{
-    margin-left:10%;
-    font-size:70px;
-}
-#logo h2{
-    font-size: 60px;
-}
-#indexdiv ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    font-size:30px;
-    text-transform:lowercase;
-}
-#indexdiv h2{
-    font-size:35px;
-    color:black;
-}
-a {
+a{
     color:black;
     text-decoration:none;
 }
 a:hover{
-    background-color:darkgrey;
+    background-color:lightgray;
 }
-
+#logodiv{
+    font-family:"NHaas";
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:70px;
+}
+#containerdiv{
+    font-family:"NHaas";
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    border:1px solid black;
+    box-shadow: 2px 2px 2px 2px darkgray;
+}
+#aboutdiv, a{
+    text-align:center;
+    color:black;
+    text-decoration:none;
+}
+#specialdiv{
+    padding-left:5%;
+}
+ul{
+    list-style: none;
+}

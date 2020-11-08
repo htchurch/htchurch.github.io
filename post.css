@@ -15,6 +15,7 @@
     src: url(fonts/NHaasGroteskTXPro-75Bd.woff);
 }
 body{
+    background-color:gainsboro;
     width:650px;
     height:auto;
     margin-left:auto;
