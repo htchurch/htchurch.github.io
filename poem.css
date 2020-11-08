@@ -8,10 +8,19 @@
 }
 body{
     background-color:gainsboro;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
 }
 
-h1, h2, h3, h4, p, li{
+h1, h2, h3, h4 {
     font-family:"NHaas";
+    text-align:center;
+}
+
+p{
+    font-size:25px;
 }
 a{
     color: #A54657;
@@ -21,27 +30,10 @@ a:hover{
     background-color:lightgray;
 }
 
-#logodiv{
-    margin-top:5%;
+#poemdiv{
+    font-family:"Charter";
+    padding-left:15%;
     margin-left:auto;
     margin-right:auto;
-    text-align:center;
-    font-size:50px;
-}
-#containerdiv{
-    background-color:white;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left:2%;
-    width:500px;
-    border:1px solid black;
-    box-shadow: 2px 2px darkgray;
-}
-
-#containerdiv li{
-    font-size:150%;
-}
-
-ul{
-    list-style: none;
+    line-height:1.35;
 }
