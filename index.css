@@ -2,41 +2,47 @@
     font-family:"NHaas";
     src:url(fonts/NHaasGroteskTXPro-55Rg.woff);
 }
+@font-face{
+    font-family:"Charter";
+    src:url(fonts/Charter-Regular.ttf);
+}
 body{
     background-color:gainsboro;
 }
+
+h1, h2, h3, h4, p, li{
+    font-family:"NHaas";
+}
 a{
-    color:black;
-    text-decoration:none;
+    color: #A54657;
+    text-decoration-color:#A54657;
 }
 a:hover{
     background-color:lightgray;
 }
+
 #logodiv{
     font-family:"NHaas";
     margin-top:5%;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
-    font-size:70px;
+    font-size:50px;
 }
 #containerdiv{
-    font-family:"NHaas";
     background-color:white;
     margin-left:auto;
     margin-right:auto;
+    padding-left:2%;
     width:500px;
     border:1px solid black;
-    box-shadow: 2px 2px 2px 2px darkgray;
+    box-shadow: 2px 2px darkgray;
 }
-#aboutdiv, a{
-    text-align:center;
-    color:black;
-    text-decoration:none;
+
+#containerdiv li{
+    font-size:150%;
 }
-#specialdiv{
-    padding-left:5%;
-}
+
 ul{
     list-style: none;
 }
