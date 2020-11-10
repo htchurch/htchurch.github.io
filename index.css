@@ -28,17 +28,18 @@ a:hover{
     text-align:center;
     font-size:30px;
 }
-#containerdiv{
+#indexdiv{
     background-color:white;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:5%;
     padding-left:2%;
     width:500px;
     border:1px solid black;
     box-shadow: 2px 2px darkgray;
 }
 
-#containerdiv li{
+#indexdiv li{
     font-size:150%;
 }
 
