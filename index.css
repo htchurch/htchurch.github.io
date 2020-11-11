@@ -82,6 +82,15 @@ dt{
     font-family:"FiraSansLight";
     font-size:23.5px;
 }
+
+table, th, td{
+    font-family:'Courier New', Courier, monospace;
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
 #homepic{
     margin:20px;
 }
