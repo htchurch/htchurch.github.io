@@ -63,7 +63,10 @@ h3{
 p{
     font-family: "NHaas";
     font-size:23px;
-    line-height: 135%;
+    line-height: 31px;
+    margin-top:12px;
+    margin-bottom:12px;
+    hyphens: auto;
 }
 
 ul{
@@ -73,7 +76,7 @@ ul{
 li{
     font-family:"NHaas";
     font-size:25px;
-    line-height:135%;
+    line-height:33px;
     color:black;
     
 }
