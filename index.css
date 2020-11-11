@@ -11,56 +11,76 @@
     src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Thin.otf);
 }
 @font-face{
-    font-family: "FiraSansLightIt";
-    src: url(fonts/Fira_Sans_OTF_4301/Normal/Italic/FiraSans-LightItalic.otf);
+    font-family: "FiraSansLight";
+    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Light.otf);
 }
+@font-face{
+    font-family: "FiraSansBook";
+    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Book.otf);
+}
+@font-face{
+    font-family: "Charter";
+    src: url(fonts/Charter-Regular.ttf);
+}
+
 body{
     width:700px;
     height:auto;
     margin-right:auto;
     margin-left:auto;
-    background-color:#E4E2BC;
+    background-color:#FFFFFF;
+    color:black;
     margin-top:5%;
     text-rendering: optimizeLegibility;
     font-feature-settings:"kern";
 
 }
-
-h1, h2, h3{
-    font-family:"FiraSansThin";
-}
-h1{
-    font-size:27px;
-    color:black;
-}
-h2{
-    font-size:25px;
-    letter-spacing: 0.05em;
-    text-transform:uppercase;
-    color:black;
-}
-h3{
-    font-size:20.5px;
-    letter-spacing: 0.05em;
-    text-transform:uppercase;
-    color:black;
-}
-
-p, li{
-    font-size:20px;
-    line-height:135%;
-    color:black;
+h1, h2, h3 {
     font-family:"FiraSans";
 }
 
+h1{
+    font-size:29px;
+}
+
+h2{
+    font-size:25px;
+}
+
+h2, h3{
+    letter-spacing: 0.05em;
+}
+
+p{
+    font-family: "Charter";
+    font-size:23px;
+    line-height: 135%;
+}
+
+li{
+    font-size:25px;
+    line-height:135%;
+    color:black;
+    font-family:"FiraSansBook";
+}
+
+a{
+    color:#3967CB;
+}
+
 a:hover{
-    background-color:whitesmoke;
+    color:black;
     text-decoration:none;
 }
 
 dd{
-    font-family:"FiraSansLightIt";
-    font-size:17px;
+    font-family:"FiraSansLight";
+    font-size:15px;
+}
+
+dt{
+    font-family:"FiraSansLight";
+    font-size:23.5px;
 }
 #homepic{
     margin:20px;
@@ -71,6 +91,11 @@ dd{
     border:2px double #EDD9BE;
 }
 
+#homepic a{
+    background-color:none;
+    text-decoration:none;
+}
+
 #indexdiv{
     margin-left:auto;
     margin-right:auto;
@@ -79,8 +104,19 @@ dd{
     width:700px;
 }
 
-#indexdiv li{
-    font-size:150%;
+#postdiv{
+    width:740px;
+}
+
+#postdiv img{
+    margin-left:auto;
+    margin-right:auto;
+    height:75%;
+    width:75%;
+}
+
+#referencediv p{
+    font-size:20px;
 }
 
 ul{
