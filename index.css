@@ -1,36 +1,82 @@
 @font-face{
-    font-family:"NHaas";
-    src:url(fonts/NHaasGroteskTXPro-55Rg.woff);
+    font-family: "FiraSans";
+    src:url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Regular.otf);
 }
 @font-face{
-    font-family:"Charter";
-    src:url(fonts/Charter-Regular.ttf);
+    font-family: "FiraSansBold";
+    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-SemiBold.otf);
+}
+@font-face{
+    font-family:"FiraSansThin";
+    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Thin.otf);
+}
+@font-face{
+    font-family: "FiraSansLightIt";
+    src: url(fonts/Fira_Sans_OTF_4301/Normal/Italic/FiraSans-LightItalic.otf);
 }
 body{
-    color:white;
-    background-color:black;
+    width:700px;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#E4E2BC;
     margin-top:5%;
+    text-rendering: optimizeLegibility;
+    font-feature-settings:"kern";
+
 }
 
-h1, h2, h3, h4, li, p{
-    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1, h2, h3{
+    font-family:"FiraSansThin";
 }
-a{
-    color: #A54657;
-    text-decoration-color:gray;
+h1{
+    font-size:27px;
+    color:black;
 }
+h2{
+    font-size:25px;
+    letter-spacing: 0.05em;
+    text-transform:uppercase;
+    color:black;
+}
+h3{
+    font-size:20.5px;
+    letter-spacing: 0.05em;
+    text-transform:uppercase;
+    color:black;
+}
+
+p, li{
+    font-size:20px;
+    line-height:135%;
+    color:black;
+    font-family:"FiraSans";
+}
+
 a:hover{
     background-color:whitesmoke;
-    text-decoration: none;
+    text-decoration:none;
+}
+
+dd{
+    font-family:"FiraSansLightIt";
+    font-size:17px;
+}
+#homepic{
+    margin:20px;
+}
+#homepic img{ 
+    max-height:300px;
+    max-width:150px;
+    border:2px double #EDD9BE;
 }
 
 #indexdiv{
-    color:white;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:5%;
     padding-left:2%;
-    width:500px;
+    width:700px;
 }
 
 #indexdiv li{
