@@ -123,17 +123,15 @@ footer p{
 }
 
 #homepic{
-    margin:20px;
-}
-#homepic img{ 
-    max-height:300px;
-    max-width:150px;
-    border:2px double #EDD9BE;
+    height:200px;
+    width:150px;
+    margin:20px; 
+    border:2px double black;
 }
 
-#homepic a{
-    background-color:none;
-    text-decoration:none;
+#homepic img{
+    height:200px;
+    width:150px; 
 }
 
 #indexdiv{
