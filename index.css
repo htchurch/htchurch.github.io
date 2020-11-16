@@ -142,6 +142,10 @@ footer p{
     width:700px;
 }
 
+#indexdiv dt{
+    font-size:18px;
+}
+
 #postdiv{
     width:740px;
 }
