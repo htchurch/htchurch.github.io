@@ -1,4 +1,20 @@
 @font-face{
+    font-family: "Charter";
+    src: url(fonts/Charter/Charter-Regular.ttf);
+}
+@font-face{
+    font-family:"ConcourseC4";
+    src:url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
+}
+@font-face{
+    font-family:"ConcourseT3";
+    src:url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
+}
+@font-face{
+    font-family:"ConcourseT4";
+    src:url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
+}
+@font-face{
     font-family: "FiraSans";
     src:url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Regular.otf);
 }
@@ -26,10 +42,7 @@
     font-family:"SourceCodePro";
     src: url(fonts/source-code-pro-release/source-code-pro-release/OTF/SourceCodePro-Regular.otf);
 }
-@font-face{
-    font-family: "Charter";
-    src: url(fonts/Charter/Charter-Regular.ttf);
-}
+
 
 body{
     width:700px;
@@ -44,7 +57,7 @@ body{
 
 }
 h1, h2, h3 {
-    font-family:"SourceCodePro";
+    font-family:"ConcourseC4";
     letter-spacing: 0.05em;
 }
 
@@ -74,7 +87,7 @@ ul{
 }
 
 li{
-    font-family:"NHaas";
+    font-family:"ConcourseT4";
     font-size:25px;
     line-height:33px;
     color:black;
@@ -98,13 +111,18 @@ a:hover{
 }
 
 dd{
-    font-family:'Courier New', Courier, monospace;
+    font-family:"ConcourseT3";
     font-size:16px;
 }
 
 dt{
-    font-family:'Courier New', Courier, monospace;
+    font-family:"ConcourseT3";
     font-size:23.5px;
+}
+pre{
+    font-family:"ConcourseT4";
+    font-size:23px;
+    line-height: 31px;
 }
 
 table, th, td{
@@ -115,6 +133,10 @@ table, th, td{
     border-collapse: collapse;
     margin-top:50px;
     margin-bottom:50px;
+}
+footer{
+    font-size:15px;
+    margin-bottom:15%;
 }
 
 footer p{
