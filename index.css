@@ -1,4 +1,8 @@
 @font-face{
+    font-family:"CenturySupra";
+    src:url(fonts/Century_Supra/WOFF_2/century_supra_t4_regular.woff2);
+}
+@font-face{
     font-family: "Charter";
     src: url(fonts/Charter/Charter-Regular.ttf);
 }
@@ -13,26 +17,6 @@
 @font-face{
     font-family:"ConcourseT4";
     src:url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
-}
-@font-face{
-    font-family: "FiraSans";
-    src:url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Regular.otf);
-}
-@font-face{
-    font-family: "FiraSansBold";
-    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-SemiBold.otf);
-}
-@font-face{
-    font-family:"FiraSansThin";
-    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Thin.otf);
-}
-@font-face{
-    font-family: "FiraSansLight";
-    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Light.otf);
-}
-@font-face{
-    font-family: "FiraSansBook";
-    src: url(fonts/Fira_Sans_OTF_4301/Normal/Roman/FiraSans-Book.otf);
 }
 @font-face{
     font-family:"NHaas";
@@ -74,7 +58,7 @@ h3{
 }
 
 p{
-    font-family: "NHaas";
+    font-family: "ConcourseT4";
     font-size:23px;
     line-height: 31px;
     margin-top:12px;
@@ -120,7 +104,7 @@ dt{
     font-size:23.5px;
 }
 pre{
-    font-family:"ConcourseT4";
+    font-family:"CenturySupra";
     font-size:23px;
     line-height: 31px;
 }
@@ -135,8 +119,10 @@ table, th, td{
     margin-bottom:50px;
 }
 footer{
+    font-family:"NHaas";
     font-size:15px;
-    margin-bottom:15%;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 footer p{
