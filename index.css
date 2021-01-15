@@ -30,8 +30,6 @@
 
 
 body{
-    font-feature-settings: "kern";
-    text-rendering: optimizeLegibility;
     width:700px;
     height:auto;
     margin-right:auto;
@@ -42,12 +40,16 @@ body{
     font-feature-settings:"kern";
 
 }
-h1, h2, h3 {
-    font-family:"CenturySupra";
+h1{
+    font-family:"ConcourseC4";
+}
+
+h2, h3 {
+    font-family:"ConcourseT4";
 }
 
 h1{
-    font-size:29px;
+    font-size:39px;
 }
 
 h2{
@@ -72,7 +74,7 @@ ul{
 }
 
 li{
-    font-family:"ConcourseT3";
+    font-family:"ConcourseC4",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:25px;
     line-height:33px;
     color:black;
@@ -125,14 +127,5 @@ footer p{
 
 #indexdiv dt{
     font-size:18px;
-}
-
-#postdiv{
-    width:740px;
-}
-
-#referencediv p{
-    font-family:'Courier New', Courier, monospace;
-    font-size:20px;
 }
 
