@@ -48,12 +48,9 @@ body{
     font-feature-settings:"kern";
 
 }
-h1{
+h1, h2, h3 {
+    letter-spacing: 0.04em;
     font-family:"ConcourseC4";
-}
-
-h2, h3 {
-    font-family:"ConcourseT4";
 }
 
 h1{
@@ -65,7 +62,7 @@ h2{
 }
 
 h3{
-    font-size:21px;
+    font-size:20px;
 }
 
 p{
