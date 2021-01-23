@@ -32,6 +32,10 @@
     src:url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
 }
 @font-face{
+    font-family:"ConcourseT2bold";
+    src:url(fonts/Concourse/WOFF2_web/concourse_t2_bold.woff2);
+}
+@font-face{
     font-family:"NHaas";
     src:url(fonts/NHaasGrotesk/NHaasGroteskTXPro-55Rg.woff);
 }
@@ -39,46 +43,36 @@
 
 
 body{
-    width:710px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width:770px;
     height:auto;
     margin-right:auto;
     margin-left:auto;
-    background-color:#EEEEEE;
+    color: black;
+    background-color:white;
     text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
     font-feature-settings:"kern";
 
-}
-h1, h2, h3 {
-    letter-spacing: 0.04em;
-    font-family:"ConcourseC4";
-}
-
-h1{
-    font-size:39px;
-}
-
-h2{
-    font-size:23px;
-}
-
-h3{
-    font-size:20px;
 }
 
 p{
     font-family: "ConcourseT3";
     font-size:23px;
     line-height: 31px;
-    margin-bottom:23px;
+    margin-bottom:24px;
     hyphens: auto;
 }
+
+
+a{text-decoration:none;}
 
 ul{
     list-style: none;
 }
 
 li{
-    font-family:"ConcourseC4",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"ConcourseT3",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:25px;
     line-height:33px;
     
@@ -90,8 +84,8 @@ dd{
 }
 
 dt{
-    font-family:"ConcourseT3";
-    font-size:23.5px;
+    font-family:"ConcourseT4";
+    font-size:22px;
 }
 pre{
     font-family:"ConcourseT3";
