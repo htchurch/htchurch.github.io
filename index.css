@@ -1,6 +1,10 @@
 @font-face{
-    font-family:"CenturySupra";
+    font-family:"CenturySupraT4";
     src:url(fonts/Century_Supra/WOFF_2/century_supra_t4_regular.woff2);
+}
+@font-face{
+    font-family:"CenturySupraT3";
+    src:url(fonts/Century_Supra/WOFF_2/century_supra_t3_regular.woff2);
 }
 @font-face{
     font-family: "Charter";
@@ -44,7 +48,7 @@
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width:770px;
+    max-width:800px;
     height:auto;
     margin-right:auto;
     margin-left:auto;
@@ -84,10 +88,11 @@ dd{
 }
 
 dt{
-    font-family:"ConcourseT4";
-    font-size:22px;
+    font-size:25px;
 }
 pre{
+    margin-top: 0;
+    margin-bottom:0;
     font-family:"ConcourseT3";
     font-size:23px;
     line-height: 31px;
