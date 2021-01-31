@@ -36,6 +36,10 @@
     src:url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
 }
 @font-face{
+    font-family:"ConcourseT6";
+    src:url(fonts/Concourse/WOFF2_web/concourse_t7_regular.woff2)
+}
+@font-face{
     font-family:"ConcourseT2bold";
     src:url(fonts/Concourse/WOFF2_web/concourse_t2_bold.woff2);
 }
@@ -64,7 +68,6 @@ p{
     font-family: "ConcourseT3";
     font-size:25px;
     line-height: 31px;
-    text-indent: 2.5em;
     margin-top:0px;
     margin-bottom:0px;
     hyphens: auto;
