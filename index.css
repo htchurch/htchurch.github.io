@@ -51,32 +51,32 @@
 
 
 body{
-    margin-left:10%;
+    font:25px/1.333 "Athelas", serif;
+    margin:0 auto;
+    padding:2em;
     max-width:900px;
-    color:#fff;
-    background-color: #141414;
+    text-align:left;
+    color:#141414;
+    background-color: #FFFFFF;
     text-rendering: optimizeLegibility;
-    font-feature-settings: "liga";
-    font-feature-settings:"kern";
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: contextual;
 
 }
+h1{font-size:3.375em; font-family:"ConcourseC4"; text-transform: uppercase;}
+h2{font-size:2.25em;}
+h3{font-size:1.5em; font-family: "ConcourseC4";}
 
 p{
     font-family: "ConcourseT3";
-    font-size:28px;
+    font-size:25px;
     line-height: 1.333;
     margin-top:0px;
     margin-bottom:0px;
 }
 a{
     color:#0A84FF;
-}
-a:visited{
-    
-}
-
-ul{
-    list-style: none;
 }
 
 li{
