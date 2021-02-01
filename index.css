@@ -51,13 +51,10 @@
 
 
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width:800px;
-    height:auto;
-    margin-right:auto;
-    margin-left:auto;
-    color: black;
-    background-color:white;
+    margin-left:10%;
+    max-width:900px;
+    color:#333;
+    background-color: #fff;
     text-rendering: optimizeLegibility;
     font-feature-settings: "liga";
     font-feature-settings:"kern";
@@ -66,14 +63,11 @@ body{
 
 p{
     font-family: "ConcourseT3";
-    font-size:25px;
-    line-height: 31px;
+    font-size:28px;
+    line-height: 1.333;
     margin-top:0px;
     margin-bottom:0px;
 }
-
-
-a{text-decoration:none;}
 
 ul{
     list-style: none;
@@ -87,41 +81,24 @@ li{
 }
 
 dd{
-    font-family:"ConcourseT3";
-    font-size:20px;
+    font-family:"ConcourseT2";
+    font-size:25px;
+    line-height: 1.333;
+    margin-bottom:1.5em;
 }
 
 dt{
-    font-size:26px;
+    font-family: "ConcourseC4";
+    font-size:29px;
 }
 pre{
-    margin-top: 0;
-    margin-bottom:0;
     font-family:"ConcourseT3";
     font-size:25px;
-    line-height: 35px;
+    line-height: 1.333;
 }
 
 footer{
-    font-family:"ConcourseT4", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:15px;
-    margin-top:50px;
-    margin-bottom:50px;
-}
-
-footer p{
-    font-size:13px;
-}
-
-#indexdiv{
-    margin-left:auto;
-    margin-right:auto;
+    font-family:monospace;
+    font-size:25px;
     margin-bottom:5%;
-    padding-left:2%;
-    width:750px;
 }
-
-#indexdiv dt{
-    font-size:18px;
-}
-
