@@ -53,8 +53,8 @@
 body{
     margin-left:10%;
     max-width:900px;
-    color:#333;
-    background-color: #fff;
+    color:#fff;
+    background-color: #141414;
     text-rendering: optimizeLegibility;
     font-feature-settings: "liga";
     font-feature-settings:"kern";
@@ -67,6 +67,12 @@ p{
     line-height: 1.333;
     margin-top:0px;
     margin-bottom:0px;
+}
+a{
+    color:#0A84FF;
+}
+a:visited{
+    
 }
 
 ul{
