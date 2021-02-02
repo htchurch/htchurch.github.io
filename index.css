@@ -45,7 +45,7 @@
 }
 @font-face{
     font-family:"MaragsaDisplay";
-    src:url(fonts/Maragsâ-Display.otf);
+    src:url(fonts/Maragsâ-Display.otf) format("opentype");
 }
 @font-face{
     font-family:"NHaas";
