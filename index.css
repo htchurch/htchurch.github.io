@@ -44,14 +44,18 @@
     src:url(fonts/Concourse/WOFF2_web/concourse_t2_bold.woff2);
 }
 @font-face{
+    font-family:"MaragsaDisplay";
+    src:url(fonts/Maragsâ-Display.otf);
+}
+@font-face{
     font-family:"NHaas";
-    src:url(fonts/NHaasGrotesk/NHaasGroteskTXPro-55Rg.woff);
+    src:url(fonts/NeueHaasDisplay-Roman/NeueHaasDisplay-Roman.woff2);
 }
 
 
 
 body{
-    font:25px/1.35 "Athelas", "Iowan Old Style", "Georgia";
+    font:25px/1.35 "NHaas", sans-serif;
     margin:0 auto;
     padding:2em;
     max-width:1100px;
@@ -64,15 +68,16 @@ body{
     font-variant-ligatures: contextual;
 
 }
-h1{font-size:3.375em; font-family:"ConcourseC4"; text-transform: uppercase;}
-h2{font-size:2.25em; font-family:"ConcourseC4"}
-h3{font-size:1.5em; font-family: "ConcourseC4";}
+h1{font-size:3.375em; font-family:"MaragsaDisplay"; text-transform: uppercase;}
+h2{font-size:2.25em; font-family:"MaragsaDisplay"}
+h3{font-size:1.5em; font-family: "MaragsaDisplay";}
 
 p{
     margin-top:0px;
     margin-bottom:0px;
 }
 a{
+    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#0A84FF;
 }
 a:hover{
@@ -81,27 +86,26 @@ a:hover{
 }
 
 li{
-    font-family:"ConcourseT3",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"MaragsaDisplay", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:25px;
     line-height:35px;
     
 }
 
 dd{
-    font-family:"ConcourseT2";
+    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:22px;
     line-height: 1.333;
     margin-bottom:1.5em;
 }
 
 dt{
-    font-family: "ConcourseC4";
     font-size:29px;
 }
 pre{
-    font-family:"ConcourseT3";
+    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:25px;
-    line-height: 1.333;
+    line-height: 1.35;
 }
 
 footer{
