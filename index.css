@@ -1,4 +1,12 @@
 @font-face{
+    font-family:"ConcourseC4";
+    src:url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
+}
+@font-face{
+    font-family:"ConcourseT3";
+    src:url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
+}
+@font-face{
     font-family:"ConcourseT4";
     src: url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
 }
@@ -32,7 +40,7 @@ body{
     max-width:1100px;
     text-align:left;
     color:#141414;
-    background-color: #FFFFFF;
+    background-color: #F4ECD6;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant-ligatures: common-ligatures;
@@ -50,25 +58,27 @@ p{
     margin-bottom:0px;
 }
 a{
-    font-family:"ConcourseT4", "NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"ConcourseC4", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#0A84FF;
+    text-transform: uppercase;
     text-decoration:none;
+    font-size: 25px;
 }
 a:hover{
     color:#141414;
     text-decoration:none;
-    background: #dcdcdc;
+    background: rgb(244, 251, 214);
 }
 
 li{
     font-family:"MaragsaDisplay", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:25px;
-    line-height:35px;
-    
+    font-size:30px;
+    line-height:1.3;
+    list-style: none;
 }
 
 dd{
-    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"ConcourseT3", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:22px;
     line-height: 1.333;
     margin-bottom:1.5em;
@@ -83,6 +93,6 @@ pre{
     line-height: 1.35;
 }
 
-footer{;
+footer{
     font-size:20px;
 }
