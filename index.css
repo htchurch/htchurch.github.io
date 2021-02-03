@@ -1,61 +1,32 @@
 @font-face{
-    font-family:"CenturySupraT4";
-    src:url(fonts/Century_Supra/WOFF_2/century_supra_t4_regular.woff2);
-}
-@font-face{
-    font-family:"CenturySupraT3";
-    src:url(fonts/Century_Supra/WOFF_2/century_supra_t3_regular.woff2);
-}
-@font-face{
-    font-family: "Charter";
-    src: url(fonts/Charter/Charter-Regular.ttf);
-}
-@font-face{
-    font-family:"ConcourseC2";
-    src:url(fonts/Concourse/WOFF2_web/concourse_c2_regular.woff2);
-}
-@font-face{
-    font-family:"ConcourseC4";
-    src:url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
-}
-
-@font-face{
-    font-family:"ConcourseC6";
-    src:url(fonts/Concourse/WOFF2_web/concourse_c6_regular.woff2);
-}
-@font-face{
-    font-family:"ConcourseT2";
-    src:url(fonts/Concourse/WOFF2_web/concourse_t2_regular.woff2);
-}
-@font-face{
-    font-family:"ConcourseT3";
-    src:url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
-}
-@font-face{
     font-family:"ConcourseT4";
-    src:url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
-}
-@font-face{
-    font-family:"ConcourseT6";
-    src:url(fonts/Concourse/WOFF2_web/concourse_t7_regular.woff2)
-}
-@font-face{
-    font-family:"ConcourseT2bold";
-    src:url(fonts/Concourse/WOFF2_web/concourse_t2_bold.woff2);
+    src: url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
 }
 @font-face{
     font-family:"MaragsaDisplay";
     src:url(fonts/Maragsâ-Display.otf) format("opentype");
 }
 @font-face{
+    font-family:"FiraReg";
+    src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Regular.woff2);
+}
+@font-face{
+    font-family:"FiraMono";
+    src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
+}
+@font-face{
     font-family:"NHaas";
-    src:url(fonts/NeueHaasDisplay-Roman/NeueHaasDisplay-Roman.woff2);
+    src:url(fonts/NHaasGrotesk/NHaasGroteskTXPro-55Rg.ttf);
+}
+@font-face{
+    font-family:"SKModernist";
+    src:url(fonts/Sk-Modernist-Regular.otf) format("opentype");
 }
 
 
 
 body{
-    font:25px/1.35 "NHaas", sans-serif;
+    font:23px/1.35 "ConcourseT4", sans-serif;
     margin:0 auto;
     padding:2em;
     max-width:1100px;
@@ -68,6 +39,8 @@ body{
     font-variant-ligatures: contextual;
 
 }
+
+h1,h2,h3{letter-spacing: 0.08em;}
 h1{font-size:3.375em; font-family:"MaragsaDisplay"; text-transform: uppercase;}
 h2{font-size:2.25em; font-family:"MaragsaDisplay"}
 h3{font-size:1.5em; font-family: "MaragsaDisplay";}
@@ -77,12 +50,14 @@ p{
     margin-bottom:0px;
 }
 a{
-    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"ConcourseT4", "NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#0A84FF;
+    text-decoration:none;
 }
 a:hover{
     color:#141414;
     text-decoration:none;
+    background: #dcdcdc;
 }
 
 li{
@@ -103,7 +78,7 @@ dt{
     font-size:29px;
 }
 pre{
-    font-family:"NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"ConcourseT4", "NHaas", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:25px;
     line-height: 1.35;
 }
