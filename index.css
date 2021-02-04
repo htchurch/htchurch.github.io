@@ -34,13 +34,13 @@
 
 
 body{
-    font:23px/1.35 "ConcourseT4", sans-serif;
+    font:25px/1.35 "ConcourseT3", sans-serif;
     margin:0 auto;
     padding:2em;
     max-width:1100px;
     text-align:left;
     color:#141414;
-    background-color: #F4ECD6;
+    background-color: #F5F5F5;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
     font-variant-ligatures: common-ligatures;
@@ -59,15 +59,14 @@ p{
 }
 a{
     font-family:"ConcourseC4", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#0A84FF;
-    text-transform: uppercase;
+    color:rgb(72, 1, 255);
     text-decoration:none;
-    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 21px;
 }
 a:hover{
     color:#141414;
     text-decoration:none;
-    background: rgb(244, 251, 214);
 }
 
 li{
