@@ -32,11 +32,10 @@
 }
 
 body{
-    font-size:clamp(20px, 23px, 25px);
     line-height: 1.45;
     font-family:"Athelas", "Iowan Old Style", "Calisto MT","ConcourseT3", sans-serif;
     margin:0 auto;
-    max-width:60vw;
+    max-width:75vw;
     color:#141414;
     background-color: #F5F5F5;
     text-rendering: optimizeLegibility;
@@ -45,12 +44,29 @@ body{
     font-variant-ligatures: contextual;
 
 }
+$mobile: 600px; // Screen min
+$desktop: 1200px; // Screen max
+$font-min: 20px; 
+$font-max: 40px;
+$screen-diff: ($desktop / 1px - $mobile / 1px);
+$font-diff: ($font-max / 1px - $font-min / 1px);h1 {
+  // Mobile
+  @media (max-width: 599px) {
+    font-size: $font-min;
+  }
+  
+  // Everything in between mobile (600px) to desktop (1200px)
+  @media (min-width: 600px) and (max-width: 1200px) {
+    font-size: calc(#{$font-min} + (100vw - #{$mobile}) / #{$screen-diff} * #{$font-diff});
+  }// Desktop
+  @media (min-width: 1201px) {
+    font-size: $font-max;
+  }
+}
 
 h1,h2,h3{letter-spacing: 0.08em;}
 
-h1{font-size:4.5vw; font-family:"MaragsaDisplay"; text-transform: uppercase;}
-h2{font-size:3.5vw; font-family:"MaragsaDisplay"}
-h3{font-size:2.5vw; font-family: "MaragsaDisplay";}
+h1{font-family:"MaragsaDisplay"; text-transform: uppercase;}
 
 p{
     font-size:clamp(20px, 23px, 25px);
@@ -69,7 +85,7 @@ a:hover{
 }
 
 blockquote{
-    font-size:clamp(17px, 21px, 23px);
+    font-size:(17px, 21px, 23px);
 }
 
 li{
