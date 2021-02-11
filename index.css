@@ -128,7 +128,9 @@ footer{
         font-size:15px;
     }
     .blog{
-        max-width:75vw;
+        max-width:100vw;
+        margin-left:0em;
+        margin-right:0em;
     }
 }
 @media all and
