@@ -116,25 +116,25 @@ footer{
 @media all and
 (max-width: 640px){
     html{
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 @media all and
 (min-width: 641px) and (max-width: 800px){
     html{
-        font-size:24px;
+        font-size:21px;
     }
 }
 @media all and
 (min-width: 801px) and (max-width: 1024px){
     html{
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 @media all and
 (min-width: 1025px){
     html{
-        font-size:25px;
+        font-size:23px;
     }
 }
 
