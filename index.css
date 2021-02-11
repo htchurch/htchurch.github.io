@@ -118,6 +118,11 @@ footer{
     html{
         font-size:15px;
     }
+    #body{
+        max-width:100vw;
+        margin-left:0em;
+        margin-right:0em;
+    }
     .blog{
         max-width:100vw;
         margin-left:0em;
@@ -128,6 +133,11 @@ footer{
 (min-width: 641px) and (max-width: 800px){
     html{
         font-size:15px;
+    }
+    #body{
+        max-width:100vw;
+        margin-left:0em;
+        margin-right:0em;
     }
     .blog{
         max-width:100vw;
