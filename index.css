@@ -1,165 +1,188 @@
-@font-face{
-    font-family:"ConcourseC2";
-    src:url(fonts/Concourse/WOFF2_web/concourse_c2_regular.woff2);
+@font-face {
+  font-family: "ConcourseC2";
+  src: url(fonts/Concourse/WOFF2_web/concourse_c2_regular.woff2);
 }
-@font-face{
-    font-family:"ConcourseC4";
-    src:url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
+@font-face {
+  font-family: "ConcourseC4";
+  src: url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
 }
-@font-face{
-    font-family:"ConcourseT3";
-    src:url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
+@font-face {
+  font-family: "ConcourseT3";
+  src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
 }
-@font-face{
-    font-family:"ConcourseT4";
-    src: url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
+@font-face {
+  font-family: "ConcourseT4";
+  src: url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
 }
-@font-face{
-    font-family:"MonumentBlack";
-    src:url(fonts/MonumentExtended/MonumentExtended-Black.woff2);
+@font-face {
+  font-family: "MonumentBlack";
+  src: url(fonts/MonumentExtended/MonumentExtended-Black.woff2);
 }
-@font-face{
-    font-family:"MonumentRegular";
-    src: url(fonts/MonumentExtended/MonumentExtended-Regular.woff2);
+@font-face {
+  font-family: "MonumentRegular";
+  src: url(fonts/MonumentExtended/MonumentExtended-Regular.woff2);
 }
-@font-face{
-    font-family:"MonumentLight";
-    src: url(fonts/MonumentExtended/MonumentExtended-Light.woff2);
-}
-
-html{
-    font-size:20px;
+@font-face {
+  font-family: "MonumentLight";
+  src: url(fonts/MonumentExtended/MonumentExtended-Light.woff2);
 }
 
-body{
-    font-family:"Athelas", "Iowan Old Style", "Calisto MT","ConcourseT3", sans-serif;
-    max-width:100vw;
-    color:#141414;
-    background-color: #F5F5F5;
-    text-rendering: optimizeLegibility;
-    font-kerning: normal;
-    font-variant-ligatures: common-ligatures;
-    font-variant-ligatures: contextual;
+    .blog{max-width:100%;margin-left:25%; margin-right:25%;}
+    .blog blockquote{line-height:28px;}
+    .blog li{letter-spacing: 0.05em; margin-top:50px; margin-bottom:25px; list-style-type: none;}
+    .blog p, pre{margin-top:0px;margin-bottom:1em;}
+    .blogindex{border-bottom:1px solid #e7ded9;}}
 
-}
-h1,h2,h3{
-    font-family:"MonumentBlack", "Athelas", "Iowan Old Style", "Calisto MT", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-}
-h1{ font-size: calc(1rem + 21px);
-    font-family: "MonumentBlack";
+html {
+  font-size: 20px;
 }
 
-h2{ font-size: calc(1rem + 12px);
-    font-family: "MonumentBlack"
+body {
+  font-family: "Athelas", "Iowan Old Style", "Calisto MT", "ConcourseT3",
+    sans-serif;
+  max-width: 100vw;
+  color: #141414;
+  background-color: #f5f5f5;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: contextual;
+}
+h1,
+h2,
+h3 {
+  font-family: "MonumentBlack", "Athelas", "Iowan Old Style", "Calisto MT",
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+h1 {
+  font-size: calc(1rem + 21px);
+  font-family: "MonumentBlack";
 }
 
- /* blog titles */
-h3{ font-size: calc(1rem + 5px);
-    font-family: "MonumentRegular", sans-serif;
-    letter-spacing: 0em;
-    text-transform: none;
+h2 {
+  font-size: calc(1rem + 12px);
+  font-family: "MonumentBlack";
 }
 
-h1{font-size:2em;}
-h2{font-size:1.25em;}
-h3{font-family: "MonumentRegular";}
-a{
-    font-family:"MonumentRegular", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: .82em;
-    color:rgb(72, 1, 255);
-    text-decoration:none;
-    text-transform: uppercase;
+/* blog titles */
+h3 {
+  font-size: calc(1rem + 5px);
+  font-family: "MonumentRegular", sans-serif;
+  letter-spacing: 0em;
+  text-transform: none;
 }
 
-a:hover{
-    color:#141414;
-    text-decoration:none;
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.25em;
+}
+h3 {
+  font-family: "MonumentRegular";
+}
+a {
+  font-family: "MonumentRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.82em;
+  color: rgb(72, 1, 255);
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-p{
-    font-family:"Athelas", "Iowan Old Style", "Calisto MT","ConcourseT3", sans-serif;
-    line-height:1.35;
-}
-blockquote{
-    font-size:.954em;
-    line-height:1.3;
+a:hover {
+  color: #141414;
+  text-decoration: none;
 }
 
-li{
-    font-family:"MonumentLight", "Athelas", "Iowan Old Style", serif;
-    font-size: .64em;
-    line-height:1.3;
-    list-style: none;
+p {
+  font-family: "Athelas", "Iowan Old Style", "Calisto MT", "ConcourseT3",
+    sans-serif;
+  line-height: 1.35;
+}
+blockquote {
+  font-size: 0.954em;
+  line-height: 1.3;
 }
 
-dd{
-    line-height: 1.333;
-    margin-bottom:1.5em;
+li {
+    margin-bottom: 10px;
+  font-family: "MonumentLight", "Athelas", "Iowan Old Style", serif;
+  font-size: 0.64em;
+  line-height: 1.3;
+  list-style: none;
 }
 
-dt{
-    font-family:"Athelas", "Iowan Old Style", "Calisto MT","ConcourseT3", sans-serif;
+dd {
+  line-height: 1.333;
+  margin-bottom: 1.5em;
 }
 
-img{display:block;max-height:50%; max-width: 50%; margin-left:auto; margin-right:auto;
+dt {
+  font-family: "Athelas", "Iowan Old Style", "Calisto MT", "ConcourseT3",
+    sans-serif;
 }
 
-pre{
-    font-family:"Athelas", "Iowan Old Style", "Calisto MT","ConcourseT3", sans-serif;
-    line-height: 1.35;
+img {
+  display: block;
+  max-height: 50%;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-footer{
-    margin-bottom:1%;
-}
-@media all and
-(max-width: 640px){
-    html{
-        font-size:16px;
-    }
-    #body{
-        width:100vw;
-        max-width:640px;
-        margin-left:0em;
-        margin-right:0em;
-    }
-    .blog{
-        width:100%;
-        max-width:640px;
-        margin-left:0em;
-        margin-right:0em;
-    }
-}
-@media all and
-(min-width: 641px) and (max-width: 800px){
-    html{
-        font-size:17px;
-    }
-    #body{
-        width:100%;
-        max-width:800px;
-        margin-left:0em;
-        margin-right:0em;
-    }
-    .blog{
-        width:100%;
-        max-width:800px;
-        margin-left:0em;
-        margin-right:0em;
-    }
-}
-@media all and
-(min-width: 801px) and (max-width: 1024px){
-    html{
-        font-size: 22px;
-    }
-}
-@media all and
-(min-width: 1025px){
-    html{
-        font-size:23px;
-    }
+pre {
+  font-family: "Athelas", "Iowan Old Style", "Calisto MT", "ConcourseT3",
+    sans-serif;
+  line-height: 1.35;
 }
 
+footer {
+  margin-bottom: 1%;
+}
+@media all and (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+  #body {
+    width: 100vw;
+    max-width: 640px;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .blog {
+    width: 100%;
+    max-width: 640px;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
+@media all and (min-width: 641px) and (max-width: 800px) {
+  html {
+    font-size: 17px;
+  }
+  #body {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .blog {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
+@media all and (min-width: 801px) and (max-width: 1024px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media all and (min-width: 1025px) {
+  html {
+    font-size: 23px;
+  }
+}
