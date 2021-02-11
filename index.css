@@ -27,12 +27,59 @@
   src: url(fonts/MonumentExtended/MonumentExtended-Light.woff2);
 }
 
-    .blog{max-width:100%;margin-left:25%; margin-right:25%;}
-    .blog blockquote{line-height:28px;}
-    .blog li{letter-spacing: 0.05em; margin-top:50px; margin-bottom:25px; list-style-type: none;}
-    .blog p, pre{margin-top:0px;margin-bottom:1em;}
-    .blogindex{border-bottom:1px solid #e7ded9;}}
+/* Where the directory for the blog and its links are located */
+.blogindex {
+  border-bottom: 1px solid #e7ded9;
+}
 
+/* Used mostly on the descriptions for the longer essay posts */
+.blogindex dd {
+  line-height: 1.333;
+  margin-bottom: 1.5em;
+}
+
+/* To provide spacing between each element of the directory*/
+.blogindex h2 {
+  margin-top: 80px;
+}
+
+/* the unordered links to all the blog posts; 
+there is no font-size because it will default to whatever I've set links (a) to be */
+.blogindex li {
+  margin-bottom: 10px;
+  font-family: "MonumentLight", "Athelas", "Iowan Old Style", serif;
+  line-height: 1.3;
+  list-style: none;
+}
+
+/* The blog body  */
+.blog {
+  max-width: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.blog blockquote {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+/* Blog entry dates */
+.blog li {
+  font-size: calc(1rem + 3px);
+  font-family: "MonumentLight";
+  margin-top: 100px;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+/* blog body text */
+.blog p,
+pre {
+  margin-top: 0px;
+  margin-bottom: 1em;
+}
+
+/* Universal styles */
 html {
   font-size: 20px;
 }
@@ -66,7 +113,7 @@ h2 {
   font-family: "MonumentBlack";
 }
 
-/* blog titles */
+/* use for blog entry titles */
 h3 {
   font-size: calc(1rem + 5px);
   font-family: "MonumentRegular", sans-serif;
@@ -86,7 +133,7 @@ h3 {
 a {
   font-family: "MonumentRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 0.82em;
+  font-size: calc(1rem - 3px);
   color: rgb(72, 1, 255);
   text-decoration: none;
   text-transform: uppercase;
@@ -101,28 +148,6 @@ p {
   font-family: "Athelas", "Iowan Old Style", "Calisto MT", "ConcourseT3",
     sans-serif;
   line-height: 1.35;
-}
-blockquote {
-  font-size: 0.954em;
-  line-height: 1.3;
-}
-
-li {
-    margin-bottom: 10px;
-  font-family: "MonumentLight", "Athelas", "Iowan Old Style", serif;
-  font-size: 0.64em;
-  line-height: 1.3;
-  list-style: none;
-}
-
-dd {
-  line-height: 1.333;
-  margin-bottom: 1.5em;
-}
-
-dt {
-  font-family: "Athelas", "Iowan Old Style", "Calisto MT", "ConcourseT3",
-    sans-serif;
 }
 
 img {
