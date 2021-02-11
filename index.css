@@ -32,7 +32,6 @@ html{
 }
 
 body{
-    line-height: 1.35;
     font-family:"Athelas", "Iowan Old Style", "Calisto MT","ConcourseT3", sans-serif;
     max-width:100vw;
     color:#141414;
@@ -46,6 +45,21 @@ body{
 h1,h2,h3{
     font-family:"MonumentBlack", "Athelas", "Iowan Old Style", "Calisto MT", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+h1{ font-size: calc(1rem + 21px);
+    font-family: "MonumentBlack";
+}
+
+h2{ font-size: calc(1rem + 12px);
+    font-family: "MonumentBlack"
+}
+
+ /* blog titles */
+h3{ font-size: calc(1rem + 5px);
+    font-family: "MonumentRegular", sans-serif;
+    letter-spacing: 0em;
+    text-transform: none;
 }
 
 h1{font-size:2em;}
@@ -56,7 +70,8 @@ a{
     font-size: .82em;
     color:rgb(72, 1, 255);
     text-decoration:none;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+}
 
 a:hover{
     color:#141414;
