@@ -116,15 +116,15 @@ footer{
 @media all and
 (max-width: 640px){
     html{
-        font-size:15px;
+        font-size:10px;
     }
     #body{
-        max-width:100vw;
+        width:100vw;
         margin-left:0em;
         margin-right:0em;
     }
     .blog{
-        max-width:100vw;
+        width:100vw;
         margin-left:0em;
         margin-right:0em;
     }
@@ -132,7 +132,7 @@ footer{
 @media all and
 (min-width: 641px) and (max-width: 800px){
     html{
-        font-size:15px;
+        font-size:10px;
     }
     #body{
         max-width:100vw;
