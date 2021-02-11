@@ -52,36 +52,26 @@ h3 {
   letter-spacing: 0.08em;
 }
 h1 {
-  font-size: calc(1rem + 21px);
+  font-size: calc(1rem + 5px);
   font-family: "MonumentBlack";
 }
 
 h2 {
-  font-size: calc(1rem + 12px);
+  font-size: 1rem;
   font-family: "MonumentBlack";
 }
 
 /* use for blog entry titles */
 h3 {
-  font-size: calc(1rem + 5px);
+  font-size: calc(1rem - 3px);
   font-family: "MonumentRegular", sans-serif;
   letter-spacing: 0em;
   text-transform: none;
 }
-
-h1 {
-  font-size: 2em;
-}
-h2 {
-  font-size: 1.25em;
-}
-h3 {
-  font-family: "MonumentRegular";
-}
 a {
   font-family: "MonumentRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: calc(1rem - 3px);
+  font-size: calc(1rem - 5px);
   color: rgb(72, 1, 255);
   text-decoration: none;
   text-transform: uppercase;
@@ -116,9 +106,10 @@ footer {
 
 /* The blog body  */
 .blog {
-  max-width: 100%;
-  margin-left: 25%;
-  margin-right: 25%;
+  max-width: 670px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .blog-blockquote {
   font-size: calc(1rem - 2px);
@@ -150,6 +141,10 @@ footer {
 
 /* Where the directory for the blog and its links are located */
 .blogindex {
+  width: 100%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
 }
 
@@ -173,14 +168,17 @@ there is no font-size because it will default to whatever I've set links (a) to 
   list-style: none;
 }
 
+.blogindex-social-links {
+  margin-left: 15%;
+}
 .blogindex-social-links ul {
   list-style: none;
 }
 
 /* Template for essay body texts and headers*/
 .essay-body {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   max-width: 750px;
 }
@@ -193,7 +191,8 @@ there is no font-size because it will default to whatever I've set links (a) to 
 
 .essay-header {
   text-align: center;
-  margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .essay-body p {
@@ -206,7 +205,8 @@ there is no font-size because it will default to whatever I've set links (a) to 
 .references {
   width: 100%;
   max-width: 750px;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.3;
 }
 
