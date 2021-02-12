@@ -28,6 +28,12 @@
 }
 
 /* Universal styles */
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
 html {
   font-size: 20px;
 }
@@ -35,7 +41,6 @@ html {
 body {
   font-family: "Athelas", "Iowan Old Style", "Franklin Gothic Book",
     "ConcourseT4", sans-serif;
-  max-width: 100vw;
   color: #141414;
   background-color: #f5f5f5;
   text-rendering: optimizeLegibility;
@@ -46,19 +51,19 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "MonumentBlack", "Athelas", "Iowan Old Style", "Calisto MT",
+  font-family: "MonumentRegular", "Athelas", "Iowan Old Style", "Calisto MT",
     sans-serif;
   text-transform: uppercase;
+  font-weight: 400;
   letter-spacing: 0.08em;
+  line-height: 1.1;
 }
 h1 {
   font-size: calc(1rem + 5px);
-  font-family: "MonumentBlack";
 }
 
 h2 {
   font-size: 1rem;
-  font-family: "MonumentBlack";
 }
 
 /* use for blog entry titles */
@@ -108,8 +113,6 @@ footer {
 .blog {
   max-width: 670px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .blog-blockquote {
   font-size: calc(1rem - 2px);
@@ -133,8 +136,10 @@ footer {
 }
 
 /* Blog body text */
-.blog p {
+.blog p,
+.blog blockquote {
   text-indent: 1.5rem;
+  max-width: 60chl;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -142,9 +147,7 @@ footer {
 /* Where the directory for the blog and its links are located */
 .blogindex {
   width: 100%;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 700px;
   margin-bottom: 50px;
 }
 
@@ -168,25 +171,22 @@ there is no font-size because it will default to whatever I've set links (a) to 
   list-style: none;
 }
 
-.blogindex-social-links {
-  margin-left: 15%;
-}
 .blogindex-social-links ul {
   list-style: none;
 }
 
 /* Template for essay body texts and headers*/
 .essay-body {
+  max-width: 60ch;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: 750px;
 }
 
 .essay-blockquote {
-  margin-left: 2em;
   font-size: calc(1rem - 2px);
   line-height: 1.3;
+  text-indent: none;
+  max-width: 60ch;
 }
 
 .essay-header {
@@ -220,14 +220,10 @@ there is no font-size because it will default to whatever I've set links (a) to 
   #body {
     width: 100vw;
     max-width: 640px;
-    margin-left: 0em;
-    margin-right: 0em;
   }
   .blog {
     width: 100%;
     max-width: 640px;
-    margin-left: 0em;
-    margin-right: 0em;
   }
 }
 @media all and (min-width: 641px) and (max-width: 800px) {
@@ -237,14 +233,10 @@ there is no font-size because it will default to whatever I've set links (a) to 
   #body {
     width: 100%;
     max-width: 800px;
-    margin-left: 0em;
-    margin-right: 0em;
   }
   .blog {
     width: 100%;
     max-width: 800px;
-    margin-left: 0em;
-    margin-right: 0em;
   }
 }
 @media all and (min-width: 801px) and (max-width: 1024px) {
