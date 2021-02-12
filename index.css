@@ -69,13 +69,11 @@ h2 {
 /* use for blog entry titles */
 h3 {
   font-size: calc(1rem - 3px);
-  font-family: "MonumentRegular", sans-serif;
   letter-spacing: 0em;
   text-transform: none;
 }
 a {
-  font-family: "MonumentRegular", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "MonumentRegular", sans-serif;
   font-size: calc(1rem - 5px);
   color: rgb(72, 1, 255);
   text-decoration: none;
@@ -83,7 +81,8 @@ a {
 }
 
 a:hover {
-  color: #141414;
+  color: rgb(72, 1, 255);
+  outline: 3px solid black;
   text-decoration: none;
 }
 
@@ -111,19 +110,25 @@ footer {
 
 /* The blog body  */
 .blog {
-  max-width: 670px;
+  max-width: 900px;
   width: 100%;
 }
-.blog-blockquote {
+.blog blockquote {
   font-size: calc(1rem - 2px);
   line-height: 1.3;
+  max-width: 60chl;
 }
 .blog-blockquote a {
   font-size: 15px;
 }
 /* the links that take the reader back up top*/
 .blog footer {
-  margin-top: 1rem;
+  padding-top: 30px;
+}
+
+.blog h3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /* Blog entry dates */
@@ -136,30 +141,40 @@ footer {
 }
 
 /* Blog body text */
-.blog p,
-.blog blockquote {
+.blog p {
   text-indent: 1.5rem;
   max-width: 60chl;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
+.blog-date-header {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
 /* Where the directory for the blog and its links are located */
 .blogindex {
+  padding: 0.5em;
   width: 100%;
-  max-width: 700px;
-  margin-bottom: 50px;
+  max-width: 900px;
 }
 
 /* Used mostly on the descriptions for the longer essay posts */
 .blogindex dd {
+  max-width: 60ch;
+  font-size: 19px;
   line-height: 1.35;
   margin-bottom: 1.5em;
 }
 
 /* To provide spacing between each element of the directory*/
 .blogindex h2 {
-  margin-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 /* the unordered links to all the blog posts; 
