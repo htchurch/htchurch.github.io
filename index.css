@@ -4,11 +4,15 @@
 }
 
 body {
-  font-family: "NHaasGroteskReg";
+  font-family: "Athelas", "Franklin Gothic Book", "NHaasGroteskReg", sans-serif;
   background-color: #f6f4f4;
   font-size: 20px;
   max-width: 700px;
   margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: contextual;
 }
 
 h1,
@@ -27,6 +31,8 @@ a,
 a:hover {
   color: #002fa7;
   text-decoration: none;
+  font-family: "NHaas", sans-serif;
+  font-size: 19px;
 }
 
 .container {

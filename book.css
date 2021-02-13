@@ -26,7 +26,8 @@ p {
 a,
 a:hover,
 a:visited {
-  color: blue;
+  color: #002fa7;
+  text-decoration: none;
 }
 
 .container {
