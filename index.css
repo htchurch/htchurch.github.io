@@ -1,266 +1,45 @@
 @font-face {
-  font-family: "ConcourseC2";
-  src: url(fonts/Concourse/WOFF2_web/concourse_c2_regular.woff2);
-}
-@font-face {
-  font-family: "ConcourseC4";
-  src: url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
-}
-@font-face {
-  font-family: "ConcourseT3";
-  src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
-}
-@font-face {
-  font-family: "ConcourseT4";
-  src: url(fonts/Concourse/WOFF2_web/concourse_t4_regular.woff2);
-}
-@font-face {
-  font-family: "MonumentBlack";
-  src: url(fonts/MonumentExtended/MonumentExtended-Black.woff2);
-}
-@font-face {
-  font-family: "MonumentRegular";
-  src: url(fonts/MonumentExtended/MonumentExtended-Regular.woff2);
-}
-@font-face {
-  font-family: "MonumentLight";
-  src: url(fonts/MonumentExtended/MonumentExtended-Light.woff2);
-}
-
-/* Universal styles */
-
-.container {
-  width: 80%;
-  max-width: 700px;
-  margin: auto;
-}
-html {
-  font-size: 20px;
+  font-family: "NHaasGroteskReg";
+  src: url(fonts/NHaasGrotesk/NHaasGroteskTXPro-55Rg.woff);
 }
 
 body {
-  font-family: "Athelas", "Iowan Old Style", "Franklin Gothic Book",
-    "ConcourseT4", sans-serif;
-  color: #141414;
-  background-color: #f5f5f5;
-  text-rendering: optimizeLegibility;
-  font-kerning: normal;
-  font-variant-ligatures: common-ligatures;
-  font-variant-ligatures: contextual;
+  font-family: "NHaasGroteskReg";
+  background-color: #f6f4f4;
+  font-size: 20px;
+  max-width: 700px;
+  margin: 0 auto;
 }
+
 h1,
-h2,
-h3 {
-  font-family: "MonumentRegular", "Athelas", "Iowan Old Style", "Calisto MT",
-    sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 0.08em;
+h2 {
   line-height: 1.1;
 }
+
 h1 {
-  font-size: calc(1rem + 5px);
+  font-size: 1.5em;
 }
-
 h2 {
-  font-size: 1rem;
+  font-size: 1.3em;
 }
 
-/* use for blog entry titles */
-h3 {
-  font-size: calc(1rem - 3px);
-  letter-spacing: 0em;
-  text-transform: none;
-}
-a {
-  font-family: "MonumentRegular", sans-serif;
-  font-size: calc(1rem - 5px);
-  color: rgb(72, 1, 255);
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
+a,
 a:hover {
-  color: rgb(72, 1, 255);
-  outline: 3px solid black;
+  color: #002fa7;
   text-decoration: none;
 }
 
-p {
+.container {
+  padding-left: 5px;
+  margin-bottom: 20px;
+  background-color: #f6f4f4;
+}
+
+.container-links {
+  outline: 1px solid black;
   line-height: 1.35;
-}
-
-img {
-  display: block;
-  max-height: 50%;
-  max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-pre {
-  font-family: "Athelas", "Iowan Old Style", "Franklin Gothic Book",
-    "ConcourseT3", sans-serif;
-  line-height: 1.35;
-}
-
-footer {
-  margin-bottom: 1%;
-}
-
-/* The blog body  */
-.blog {
-  max-width: 900px;
-  width: 100%;
-}
-.blog blockquote {
-  font-size: calc(1rem - 2px);
-  line-height: 1.3;
-  max-width: 60chl;
-}
-.blog-blockquote a {
-  font-size: 15px;
-}
-/* the links that take the reader back up top*/
-.blog footer {
-  padding-top: 30px;
-}
-
-.blog h3 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-/* Blog entry dates */
-.blog li {
-  font-size: calc(1rem + 3px);
-  font-family: "MonumentLight";
-  margin-top: 100px;
-  margin-bottom: 25px;
-  list-style-type: none;
-}
-
-/* Blog body text */
-.blog p {
-  text-indent: 1.5rem;
-  max-width: 60chl;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.blog-date-header {
-  background-color: pink;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-}
-
-/* Where the directory for the blog and its links are located */
-.blogindex {
-  padding: 0.5em;
-  width: 100%;
-  max-width: 900px;
-}
-
-/* Used mostly on the descriptions for the longer essay posts */
-.blogindex dd {
-  max-width: 60ch;
-  font-size: 19px;
-  line-height: 1.35;
-  margin-bottom: 1.5em;
-}
-
-/* To provide spacing between each element of the directory*/
-.blogindex h2 {
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-
-/* the unordered links to all the blog posts; 
-there is no font-size because it will default to whatever I've set links (a) to be */
-.blogindex li {
+  padding-left: 5px;
   margin-bottom: 10px;
-  font-family: "MonumentLight", "Athelas", "Iowan Old Style", serif;
-  line-height: 1.3;
   list-style: none;
-}
-
-.blogindex-social-links ul {
-  list-style: none;
-}
-
-/* Template for essay body texts and headers*/
-.essay-body {
-  max-width: 60ch;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.essay-blockquote {
-  font-size: calc(1rem - 2px);
-  line-height: 1.3;
-  text-indent: none;
-  max-width: 60ch;
-}
-
-.essay-header {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.essay-body p {
-  text-indent: 1.5rem;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-/* Works cited/bibliography section */
-.references {
-  width: 100%;
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.3;
-}
-
-.references a {
-  font-size: calc(1rem - 6px);
-}
-@media all and (max-width: 640px) {
-  html {
-    font-size: 16px;
-  }
-  #body {
-    width: 100vw;
-    max-width: 640px;
-  }
-  .blog {
-    width: 100%;
-    max-width: 640px;
-  }
-}
-@media all and (min-width: 641px) and (max-width: 800px) {
-  html {
-    font-size: 17px;
-  }
-  #body {
-    width: 100%;
-    max-width: 800px;
-  }
-  .blog {
-    width: 100%;
-    max-width: 800px;
-  }
-}
-@media all and (min-width: 801px) and (max-width: 1024px) {
-  html {
-    font-size: 22px;
-  }
-}
-@media all and (min-width: 1025px) {
-  html {
-    font-size: 23px;
-  }
+  background-color: #f6f4f4;
 }

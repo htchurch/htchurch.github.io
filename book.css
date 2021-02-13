@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "MonumentReg";
+  src: url(fonts/MonumentExtended/MonumentExtended-Regular.woff2);
+}
+
+body {
+  font-family: "Athelas", "Iowan Old Style", "Californian FB", serif;
+  font-size: 20px;
+  color: #141414;
+  background-color: #f5f5f5;
+  max-width: 60ch;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "MonumentReg";
+  line-height: 1.1;
+}
+
+p {
+  line-height: 1.35;
+}
+
+a,
+a:hover,
+a:visited {
+  color: blue;
+}
+
+.container {
+  color: #141414;
+  background-color: #f5f5f5;
+}
+.book-preview {
+  margin: auto;
+  padding-bottom: 1em;
+}
