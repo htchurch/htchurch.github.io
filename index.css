@@ -2,9 +2,13 @@
   font-family: "NHaasGroteskReg";
   src: url(fonts/NHaasGrotesk/NHaasGroteskTXPro-55Rg.woff);
 }
+@font-face {
+  font-family: "FiraSans";
+  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
+}
 
 body {
-  font-family: "Athelas", "Franklin Gothic Book", "NHaasGroteskReg", sans-serif;
+  font-family: "FiraSans", "Athelas", "Franklin Gothic Book", sans-serif;
   background-color: #f6f4f4;
   font-size: 20px;
   max-width: 700px;
@@ -17,32 +21,35 @@ body {
 
 h1,
 h2 {
+  font-weight: 700;
   line-height: 1.1;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 h2 {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 a,
 a:hover {
   color: #002fa7;
   text-decoration: none;
-  font-family: "NHaas", sans-serif;
   font-size: 19px;
+}
+
+a:hover {
+  outline: 3px solid black;
 }
 
 .container {
   padding-left: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-color: #f6f4f4;
 }
 
 .container-links {
-  outline: 1px solid black;
   line-height: 1.35;
   padding-left: 5px;
   margin-bottom: 10px;

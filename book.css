@@ -2,9 +2,13 @@
   font-family: "MonumentReg";
   src: url(fonts/MonumentExtended/MonumentExtended-Regular.woff2);
 }
+@font-face {
+  font-family: "FiraSans";
+  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
+}
 
 body {
-  font-family: "Athelas", "Iowan Old Style", "Californian FB", serif;
+  font-family: "FiraSans", "Athelas", "Iowan Old Style", "Californian FB", serif;
   font-size: 20px;
   color: #141414;
   background-color: #f5f5f5;
@@ -28,6 +32,10 @@ a:hover,
 a:visited {
   color: #002fa7;
   text-decoration: none;
+}
+
+a:hover {
+  outline: 2px solid black;
 }
 
 .container {
