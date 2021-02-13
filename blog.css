@@ -79,8 +79,8 @@ pre {
 }
 
 .copyright-footer {
-  margin-bottom: 1%;
-  font-family: monospace;
+  padding: 15px;
+  padding-top: 25px;
 }
 
 /* The blog body  */

@@ -32,6 +32,19 @@ h2 {
   font-size: 1.2em;
 }
 
+.footer {
+  padding: 15px;
+}
+
+.landing-photo img {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
 a,
 a:hover {
   color: #002fa7;
