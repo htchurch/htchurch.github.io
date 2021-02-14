@@ -32,16 +32,9 @@ body {
 }
 
 .container {
-  padding-left: 50px;
+  padding: 20px;
   max-width: 55ch;
-  margin-left: 2vw;
-}
-
-.container h1,
-.container h2,
-.container h3,
-.container p {
-  margin: 0;
+  margin: auto;
 }
 
 .container a,
@@ -76,12 +69,10 @@ body {
 }
 
 /* the body text for the blog posts*/
-.container p {
+p {
   min-width: 45ch;
   width: auto;
   line-height: 1.45;
-  margin-left: 2vw;
-  margin-right: 5vw;
   margin-bottom: 0.6rem; /* space between paragraphs*/
 }
 
@@ -93,9 +84,9 @@ body {
 /* blockquote body text within a post */
 .container blockquote {
   font-family: "FiraSansCompressed";
-  min-width: 45ch;
-  max-width: 55ch;
   font-size: 0.95rem;
+  min-width: 45ch;
+  max-width: 60ch;
   line-height: 1.4;
 }
 
@@ -126,6 +117,6 @@ body {
     margin-bottom: 0.8rem;
   }
   .container blockquote {
-    line-height: 1.4;
+    line-height: 1.5;
   }
 }
