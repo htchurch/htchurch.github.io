@@ -18,7 +18,7 @@
 }
 
 html {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body {
@@ -77,8 +77,9 @@ body {
 
 /* the body text for the blog posts*/
 .container p {
+  min-width: 45ch;
   width: auto;
-  line-height: 1.35;
+  line-height: 1.45;
   margin-left: 2vw;
   margin-right: 5vw;
   margin-bottom: 0.6rem; /* space between paragraphs*/
@@ -92,8 +93,10 @@ body {
 /* blockquote body text within a post */
 .container blockquote {
   font-family: "FiraSansCompressed";
-  font-size: 0.94rem;
-  line-height: 1.32;
+  min-width: 45ch;
+  max-width: 55ch;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 /* the link that ends each post and lets the reader go back to the beginning*/
@@ -107,7 +110,7 @@ body {
 
 @media (min-width: 550px) {
   html {
-    font-size: ;
+    font-size: 19px;
   }
 }
 
