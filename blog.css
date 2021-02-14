@@ -14,7 +14,7 @@
 
 body {
   font-family: "FiraSans";
-  font-size: 18px;
+  font-size: 16px;
   background-color: #f6f4f4;
   color: #3d3d3d;
   text-rendering: optimizeLegibility;
@@ -24,8 +24,10 @@ body {
 }
 
 .container {
-  padding: 3em;
-  max-width: 60ch;
+  padding-left: 3em;
+  padding-right: 3em;
+  max-width: 55ch;
+  width: 100%;
   margin: auto;
 }
 
@@ -39,18 +41,20 @@ body {
 .container a:hover,
 .container a:visited {
   text-decoration: none;
-  color: #002fa7; /* International Klein blue */
-  font-weight: 600;
+  color: #c43e3d;
+  /*  color: #002fa7; International Klein blue */
   letter-spacing: 0.03em;
 }
 
 /* header at top of page*/
 .container h2 {
-  padding-bottom: 50px;
+  font-size: 1.5em;
+  padding-bottom: 100px;
 }
 
 /* the dates that precede each blog post*/
 .container li {
+  font-family: "FiraSansMono";
   font-size: 1.1em;
   list-style: none;
   padding-bottom: 10px;
@@ -58,8 +62,8 @@ body {
 
 /* the title for each blog post*/
 .container h3 {
-  font-family: "FiraSansMono";
-  font-size: 1em;
+  font-family: "FiraSans";
+  font-size: 1.2em;
   margin-bottom: 25px; /* the space between the blog title and the blog body text*/
 }
 
@@ -91,6 +95,16 @@ body {
 
 @media (min-width: 900px) {
   body {
-    font-size: 23px;
+    font-size: 20px;
+  }
+  .container {
+    max-width: 65ch;
+  }
+  .container p {
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+  }
+  .container blockquote {
+    line-height: 1.4em;
   }
 }
