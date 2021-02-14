@@ -10,6 +10,7 @@
 body {
   font-family: "FiraSans", "Athelas", "Franklin Gothic Book", sans-serif;
   background-color: #f6f4f4;
+  color: #3d3d3d;
   font-size: 20px;
   margin: 0 auto;
   text-rendering: optimizeLegibility;
@@ -43,8 +44,9 @@ a:hover {
 
 .container {
   width: 100%;
+  max-width: 600px;
   padding-left: 10px;
-  margin: 0 auto;
+  margin: auto;
   background-color: #f6f4f4;
 }
 

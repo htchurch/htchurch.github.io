@@ -4,133 +4,93 @@
 }
 @font-face {
   font-family: "FiraSansCondensed";
-  src: url(fonts/Fira_Sans_WEB_4301/Condensed/Roman/FiraSansCondensed-Regular.woff2);
+  src: url(fonts/Fira_Sans_WEB_4301/Condensed/Roman/FiraSansCondensed-Light.woff2);
 }
 
-/* Universal styles */
-
-.container {
-  width: 100%;
-  padding: 25px;
-  max-width: 60ch;
-  margin: auto;
+@font-face {
+  font-family: "FiraSansMono";
+  src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
 }
 
 body {
-  font-size: 20px;
-  font-family: "FiraSans", "Athelas", "Iowan Old Style", "Franklin Gothic Book",
-    "NHaasGroteskReg", sans-serif;
-  color: #141414;
-  background-color: #f5f5f5;
+  font-family: "FiraSans";
+  font-size: 18px;
+  background-color: #f6f4f4;
+  color: #3d3d3d;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
   font-variant-ligatures: contextual;
 }
-h2,
-h3 {
-  font-family: "FiraSansCondensed", "NHaasGroteskReg", "Athelas",
-    "Iowan Old Style", sans-serif;
-  line-height: 1.1;
+
+.container {
+  padding: 3em;
+  max-width: 60ch;
+  margin: auto;
 }
 
-h2 {
-  font-size: 27px;
+.container h2,
+.container h3,
+.container p,
+.container li {
+  margin: 0;
 }
-h3 {
-  font-size: 25px;
-}
-
-/* use for blog entry titles */
-h3 {
-  font-size: 21px;
-  letter-spacing: 0em;
-  text-transform: none;
-}
-a {
-  color: rgb(72, 1, 255);
+.container a,
+.container a:hover,
+.container a:visited {
   text-decoration: none;
+  color: #002fa7; /* International Klein blue */
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
-a:hover {
-  color: rgb(72, 1, 255);
-  outline: 3px solid black;
-  text-decoration: none;
+/* header at top of page*/
+.container h2 {
+  padding-bottom: 50px;
 }
 
-p {
-  width: 65ch;
-  font-size: 21px;
+/* the dates that precede each blog post*/
+.container li {
+  font-size: 1.1em;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+/* the title for each blog post*/
+.container h3 {
+  font-family: "FiraSansMono";
+  font-size: 1em;
+  margin-bottom: 25px; /* the space between the blog title and the blog body text*/
+}
+
+/* the body text for the blog posts*/
+.container p {
+  line-height: 1.35;
+  margin-bottom: 0.6em; /* space between paragraphs*/
+}
+
+.container pre {
+  font-family: inherit;
   line-height: 1.45;
 }
 
-img {
-  display: block;
-  max-height: 50%;
-  max-width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+/* blockquote body text within a post */
+.container blockquote {
+  font-size: 0.94em;
+  line-height: 1.32em;
 }
 
-pre {
-  font-family: "FiraSans", "Athelas", "Iowan Old Style", "Franklin Gothic Book",
-    "ConcourseT3", sans-serif;
-  font-size: 21px;
-  line-height: 1.45;
+/* the link that ends each post and lets the reader go back to the beginning*/
+.container footer {
+  margin-bottom: 60px;
 }
-
 .copyright-footer {
-  padding: 15px;
-  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-/* The blog body  */
-.blog {
-  max-width: 900px;
-  width: 100%;
-}
-.blog blockquote {
-  font-size: 20px;
-  line-height: 1.4;
-  max-width: 50chl;
-}
-
-/* the links that take the reader back up top*/
-.blog footer {
-  padding-top: 15px;
-}
-
-.blog h3 {
-  padding-top: 1em;
-}
-
-/* Blog entry dates */
-.blog li {
-  font-size: 25px;
-  margin-top: 100px;
-  margin-bottom: 25px;
-  list-style-type: none;
-}
-
-/* Blog body text */
-.blog p {
-  width: 100%;
-  max-width: 60chl;
-  margin-top: 0px;
-  margin-bottom: 15px;
-}
 @media (min-width: 900px) {
-  h2 {
-    font-size: 25px;
-  }
-  h3 {
+  body {
     font-size: 23px;
-  }
-  li {
-    font-size: 25px;
-  }
-  p {
-    font-size: 23px;
-    max-width: 60ch;
   }
 }
