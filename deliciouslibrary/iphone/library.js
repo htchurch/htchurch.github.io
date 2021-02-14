@@ -1,69 +1,53 @@
 // library.js
-// Copyright 2007 Delicious Monster
+// Copyright 2007 Delicious Monster Software
 
-if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/))
+if (!!navigator.userAgent.match(/iP*.*Mobile.*Safari/)) {
     addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+    window.onorientationchange = adjustPadding;
+} else
+    window.onresize = adjustPadding;
 
 function hideURLbar() {
     window.scrollTo(0, 1);
 }
 
-function mediumElementForButton(button) {
-    var medium = button.parentNode.parentNode;
-    if (medium.className != "medium" && medium.className != "medium_selected")
-        return null;
-    
-    return medium;
+function adjustPadding() {
+    var paddingSize = ((window.innerWidth - (Math.floor(window.innerWidth / 115.0) * 115.0)) / 2) - 14.0;
+    $("mediatable").style.padding = "0 " + paddingSize + "px";
 }
 
-var selectedMediumDetailsButton = null;
+var selectedMedium = null;
+var detailsVisible = false;
 
-function clickMediumDetailsButton(button) {
-    var medium = mediumElementForButton(button);
-    
-    if (selectedMediumDetailsButton && button != selectedMediumDetailsButton) // deselect the other medium
-        clickMediumDetailsButton(selectedMediumDetailsButton);
-    
-    var isNewSelection = (selectedMediumDetailsButton == null);
-    selectedMediumDetailsButton = isNewSelection ? button : null; // select or deselect ourselves
-    button.src = !isNewSelection ? "../images/moredetails-close.png" : "../images/moredetails-open.png";
-    
-    mediumAnimator(medium, isNewSelection);
-    detailsAnimator(medium, isNewSelection);
-}
-
-function mediumAnimator(medium, selected) {
-    if (!medium || !medium.id)
+function showDetails(element, event) {
+    var medium = element.parentNode.parentNode;
+    if (selectedMedium == medium) {
+        deselect();
         return;
-    
-    medium.style.webkitBoxShadow = selected ? "0px 1px 5px rgba(0, 0, 0, 0.5)" : "";
-    medium.className = selected ? "medium_selected" : "medium";
-    for (var elementIndex = 0; elementIndex < medium.childNodes.length; elementIndex++) {
-        var element = medium.childNodes[elementIndex];
-        if (!element.className || element.className.length < 1)
-            continue;
-        if (element.className == "cover" || element.className == "cover_selected")
-            element.className = selected ? "cover_selected" : "cover";
-        else if (element.className == "creator" || element.className == "creator_selected")
-            element.className = selected ? "creator_selected": "creator";
-        else if (element.className == "title" || element.className == "title_selected")
-            element.className = selected ? "title_selected": "title";
     }
+    
+    $("detailstitle").innerHTML = medium.getElementsByClassName("title")[0].innerHTML;
+    $("detailscreator").innerHTML = medium.getElementsByClassName("creator")[0].innerHTML;
+    $("detailsbody").innerHTML = medium.getElementsByClassName("description")[0].innerHTML;
+    $("detailscover").innerHTML = medium.getElementsByClassName("cover")[0].innerHTML;
+    $("searchinsideanchor").setAttribute("href", "http://www.amazon.com/gp/reader/" + medium.getElementsByClassName("asin")[0].innerText);
+    
+    if (!detailsVisible) {
+        $("details").style.display = "block";
+        $("details").style.top = document.body.clientHeight + "px";
+        $("details").style.opacity = 1.0;
+    }
+    $("details").style.top = (window.pageYOffset + 20) + "px";
+    selectedMedium = medium;
+    detailsVisible = true;
 }
 
-function detailsAnimator(medium, selected) {
-    if (!medium || !medium.id)
-        return;
-    
-    var detailsAnimator;
-    var listOfChildElements = medium.getElementsByTagName("div");
-    for (var elementIndex = 0; elementIndex < listOfChildElements.length; elementIndex++) {
-        var element = listOfChildElements[elementIndex];
-        if (!element.className || element.className.length < 1)
-            continue;
-        if (element.className == "description" || element.className == "description_selected") {
-            element.className = selected ? "description_selected" : "description";
-            break;
-        }
-    }
+var displayInterval = null;
+
+function hideDetails()
+{
+    displayInterval = setInterval(function() {$("details").style.display = "none"; clearInterval(displayInterval);}, 500);
+    new Animator({interval:25, duration:500}).addSubject(new CSSStyleSubject($("details"), "opacity: 0.0")).play();
+    selectedMedium = null;
+    detailsVisible = false;
 }
