@@ -7,11 +7,14 @@
   src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
 }
 
+html {
+  font-size: 25px;
+}
+
 body {
   font-family: "FiraSans", "Athelas", "Franklin Gothic Book", sans-serif;
   background-color: #f6f4f4;
   color: #3d3d3d;
-  font-size: 23px;
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
@@ -26,10 +29,10 @@ h2 {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 h2 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 a,
 a:hover {
@@ -43,16 +46,15 @@ a:hover {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 600px;
-  padding-left: 10px;
   margin: auto;
   background-color: #f6f4f4;
 }
 
 .container-header {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
 }
 .container-links {
   line-height: 1.35;
@@ -63,7 +65,6 @@ a:hover {
 
 .landing-photo img {
   height: auto;
-  max-width: 90vw;
   display: block;
   margin-left: auto;
   margin-right: auto;

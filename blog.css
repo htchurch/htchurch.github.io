@@ -4,7 +4,12 @@
 }
 @font-face {
   font-family: "FiraSansCondensed";
-  src: url(fonts/Fira_Sans_WEB_4301/Condensed/Roman/FiraSansCondensed-Light.woff2);
+  src: url(fonts/Fira_Sans_WEB_4301/Condensed/Roman/FiraSansCondensed-Medium.woff2);
+}
+
+@font-face {
+  font-family: "FiraSansCompressed";
+  src: url(fonts/Fira_Sans_WEB_4301/Compressed/Roman/FiraSansCompressed-Book.woff2);
 }
 
 @font-face {
@@ -12,9 +17,12 @@
   src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
 }
 
+html {
+  font-size: 20px;
+}
+
 body {
   font-family: "FiraSans";
-  font-size: 16px;
   background-color: #f6f4f4;
   color: #3d3d3d;
   text-rendering: optimizeLegibility;
@@ -24,38 +32,38 @@ body {
 }
 
 .container {
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 50px;
   max-width: 55ch;
-  width: 100%;
-  margin: auto;
+  margin-left: 2vw;
 }
 
+.container h1,
 .container h2,
 .container h3,
-.container p,
-.container li {
+.container p {
   margin: 0;
 }
+
 .container a,
 .container a:hover,
 .container a:visited {
+  font-family: "FiraSansCompressed";
   text-decoration: none;
   color: #c43e3d;
   /*  color: #002fa7; International Klein blue */
-  letter-spacing: 0.03em;
 }
 
 /* header at top of page*/
-.container h2 {
-  font-size: 1.5em;
+.container h1 {
+  font-family: "FiraSansCondensed";
+  font-size: 1.4rem;
   padding-bottom: 100px;
 }
 
 /* the dates that precede each blog post*/
-.container li {
+.container h2 {
   font-family: "FiraSansMono";
-  font-size: 1.1em;
+  font-size: 1rem;
   list-style: none;
   padding-bottom: 10px;
 }
@@ -63,14 +71,17 @@ body {
 /* the title for each blog post*/
 .container h3 {
   font-family: "FiraSans";
-  font-size: 1.2em;
+  font-size: 1.1rem;
   margin-bottom: 25px; /* the space between the blog title and the blog body text*/
 }
 
 /* the body text for the blog posts*/
 .container p {
+  width: auto;
   line-height: 1.35;
-  margin-bottom: 0.6em; /* space between paragraphs*/
+  margin-left: 2vw;
+  margin-right: 5vw;
+  margin-bottom: 0.6rem; /* space between paragraphs*/
 }
 
 .container pre {
@@ -80,8 +91,9 @@ body {
 
 /* blockquote body text within a post */
 .container blockquote {
-  font-size: 0.94em;
-  line-height: 1.32em;
+  font-family: "FiraSansCompressed";
+  font-size: 0.94rem;
+  line-height: 1.32;
 }
 
 /* the link that ends each post and lets the reader go back to the beginning*/
@@ -93,8 +105,14 @@ body {
   padding-bottom: 15px;
 }
 
+@media (min-width: 550px) {
+  html {
+    font-size: ;
+  }
+}
+
 @media (min-width: 900px) {
-  body {
+  html {
     font-size: 20px;
   }
   .container {
@@ -102,9 +120,9 @@ body {
   }
   .container p {
     line-height: 1.5;
-    margin-bottom: 0.8em;
+    margin-bottom: 0.8rem;
   }
   .container blockquote {
-    line-height: 1.4em;
+    line-height: 1.4;
   }
 }
