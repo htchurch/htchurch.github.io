@@ -10,8 +10,9 @@
 /* Universal styles */
 
 .container {
-  width: 80%;
-  max-width: 700px;
+  width: 100%;
+  padding: 25px;
+  max-width: 60ch;
   margin: auto;
 }
 
@@ -34,10 +35,10 @@ h3 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 27px;
 }
 h3 {
-  font-size: 23px;
+  font-size: 25px;
 }
 
 /* use for blog entry titles */
@@ -59,7 +60,7 @@ a:hover {
 
 p {
   width: 65ch;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.45;
 }
 
@@ -74,7 +75,7 @@ img {
 pre {
   font-family: "FiraSans", "Athelas", "Iowan Old Style", "Franklin Gothic Book",
     "ConcourseT3", sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.45;
 }
 
@@ -89,9 +90,9 @@ pre {
   width: 100%;
 }
 .blog blockquote {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
-  max-width: 60chl;
+  max-width: 50chl;
 }
 
 /* the links that take the reader back up top*/
@@ -105,7 +106,7 @@ pre {
 
 /* Blog entry dates */
 .blog li {
-  font-size: 22px;
+  font-size: 25px;
   margin-top: 100px;
   margin-bottom: 25px;
   list-style-type: none;
@@ -113,44 +114,23 @@ pre {
 
 /* Blog body text */
 .blog p {
+  width: 100%;
   max-width: 60chl;
   margin-top: 0px;
   margin-bottom: 15px;
 }
-
-@media all and (max-width: 640px) {
-  html {
-    font-size: 16px;
+@media (min-width: 900px) {
+  h2 {
+    font-size: 25px;
   }
-  #body {
-    width: 100vw;
-    max-width: 640px;
-  }
-  .blog {
-    width: 100%;
-    max-width: 640px;
-  }
-}
-@media all and (min-width: 641px) and (max-width: 800px) {
-  html {
-    font-size: 17px;
-  }
-  #body {
-    width: 100%;
-    max-width: 800px;
-  }
-  .blog {
-    width: 100%;
-    max-width: 800px;
-  }
-}
-@media all and (min-width: 801px) and (max-width: 1024px) {
-  html {
-    font-size: 22px;
-  }
-}
-@media all and (min-width: 1025px) {
-  html {
+  h3 {
     font-size: 23px;
+  }
+  li {
+    font-size: 25px;
+  }
+  p {
+    font-size: 23px;
+    max-width: 60ch;
   }
 }
