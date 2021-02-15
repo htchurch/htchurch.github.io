@@ -90,6 +90,12 @@ p {
   line-height: 1.4;
 }
 
+.container img {
+  outline: 1px solid black;
+  height: 75%;
+  width: 75%;
+}
+
 /* the link that ends each post and lets the reader go back to the beginning*/
 .container footer {
   margin-bottom: 60px;
