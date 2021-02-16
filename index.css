@@ -138,19 +138,13 @@ nav a {
     /*color: #002fa7;*/
     text-decoration: none;
   }
-  main {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-  }
 
   .container {
     max-width: 600px;
-    max-height: 100%;
     margin: 0 auto;
     margin-top: 35px;
     margin-bottom: 35px;
-    background: /*linear-gradient(to right, #ffffff,*/ #f0ead6;
+    background: /*linear-gradient(to right, #ffffff,*/ rgb(240, 234, 214, 0.3);
     box-shadow: 15px 15px lightgray;
   }
 }
