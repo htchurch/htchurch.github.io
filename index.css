@@ -22,7 +22,7 @@ body {
   color: #3d3d3d;
   /*
   background-color: #f0ebd5;*/
-  background-color: #f8f8ff;
+  background-color: white;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
@@ -60,7 +60,7 @@ main {
 
 .container {
   width: 100%;
-  background-color: white;
+
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -96,7 +96,7 @@ nav a {
   border: 1px solid darkgray;
   box-shadow: 1px 1px gray;
   border-radius: 5%;
-  background: linear-gradient(to right, #ffffff, #f8f8ff);
+  background-color: #ffffff;
 }
 
 .landing-photo img {
@@ -145,13 +145,12 @@ nav a {
   }
 
   .container {
-    max-width: 60%;
-    background-color: white;
+    max-width: 600px;
+    max-height: 100%;
     margin: 0 auto;
-    margin-bottom: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 2px solid lightgray;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: /*linear-gradient(to right, #ffffff,*/ #f0ead6;
     box-shadow: 15px 15px lightgray;
   }
 }
