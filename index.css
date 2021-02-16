@@ -1,21 +1,28 @@
 @font-face {
-  font-family: "NHaasGroteskReg";
-  src: url(fonts/NHaasGrotesk/NHaasGroteskTXPro-55Rg.woff);
+  font-family: "FiraSans";
+  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff);
+  font-weight: normal;
 }
 @font-face {
-  font-family: "FiraSans";
-  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
+  font-family: "FiraSansSB";
+  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-SemiBold.woff2);
+}
+
+@font-face {
+  font-family: "FiraSansMono";
+  src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
 }
 
 html {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 body {
   font-family: "FiraSans", "Athelas", "Franklin Gothic Book", sans-serif;
-  background-color: #f6f4f4;
   color: #3d3d3d;
-  margin: 0 auto;
+  /*
+  background-color: #f0ebd5;*/
+  background-color: #f8f8ff;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
@@ -29,50 +36,122 @@ h2 {
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-family: "FiraSansSB";
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.08em;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 20px;
 }
+
 a,
 a:hover {
+  font-family: "FiraSansMono";
   color: #c43e3d;
   /*color: #002fa7;*/
   text-decoration: none;
 }
-
-a:hover {
-  outline: 3px solid black;
+main {
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
 .container {
-  width: 90%;
-  max-width: 600px;
-  margin: auto;
-  background-color: #f6f4f4;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.container-header {
-  margin-top: 2em;
-  margin-bottom: 2.5em;
+/*#f6f4f4 */
+header {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
-.container-links {
-  line-height: 1.35;
-  margin-bottom: 10px;
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  background-color: #f6f4f4;
+  text-align: center;
+}
+
+nav li {
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+nav a {
+  padding: 10px 10px;
+  border: 1px solid darkgray;
+  box-shadow: 1px 1px gray;
+  border-radius: 5%;
+  background: linear-gradient(to right, #ffffff, #f8f8ff);
 }
 
 .landing-photo img {
   height: auto;
-  max-width: 80vw;
+  max-width: 80%;
   display: block;
-  outline: 1px solid black;
+  border: 1px solid darkgray;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
 }
+
 .footer {
+  text-align: center;
   padding: 20px;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+  h1,
+  h2 {
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  a,
+  a:hover {
+    color: #c43e3d;
+    /*color: #002fa7;*/
+    text-decoration: none;
+  }
+  main {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .container {
+    max-width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid lightgray;
+    box-shadow: 15px 15px lightgray;
+  }
 }
