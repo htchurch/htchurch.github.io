@@ -1,104 +1,84 @@
 @font-face {
+  font-family: "ConcourseC4";
+  src: url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
+}
+@font-face {
   font-family: "FiraSans";
-  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff);
-  font-weight: normal;
+  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
 }
 @font-face {
   font-family: "FiraSansSB";
   src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-SemiBold.woff2);
 }
-
 @font-face {
   font-family: "FiraSansMono";
   src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
 }
-
 html {
   font-size: 18px;
 }
-
 body {
-  font-family: "FiraSans", "Athelas", "Franklin Gothic Book", sans-serif;
   color: #3d3d3d;
-  /*
-  background-color: #f0ebd5;*/
-  background-color: white;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
   font-variant-ligatures: contextual;
 }
-
 h1,
 h2 {
-  font-weight: 700;
   line-height: 1.1;
 }
-
 h1 {
-  font-family: "FiraSansSB";
+  font-family: "ConcourseC4";
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 27px;
   letter-spacing: 0.08em;
 }
 h2 {
   font-size: 20px;
 }
-
 a,
 a:hover {
-  font-family: "FiraSansMono";
+  font-family: "ConcourseC4";
+  text-transform: uppercase;
+  font-weight: bold;
   color: #c43e3d;
-  /*color: #002fa7;*/
   text-decoration: none;
-}
-main {
-  height: 100%;
-  width: 100%;
-  margin: auto;
 }
 
 .container {
   width: 100%;
-
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-
-/*#f6f4f4 */
 header {
-  height: 100%;
-  width: 100%;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-
 nav {
   width: 100%;
 }
-
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-
 nav li {
   display: inline-flex;
   justify-content: center;
   padding: 10px 10px;
 }
 nav a {
+  font-size: 16px;
   padding: 10px 10px;
   border: 1px solid darkgray;
   box-shadow: 1px 1px gray;
-  border-radius: 5%;
+  border-radius: 1%;
   background-color: #ffffff;
 }
-
 .landing-photo img {
   height: auto;
   max-width: 80%;
@@ -109,42 +89,43 @@ nav a {
   margin-right: auto;
   margin-bottom: 15px;
 }
-
 .footer {
+  font-family: "ConcourseC4";
+  text-transform: uppercase;
   text-align: center;
   padding: 20px;
 }
-
 @media (min-width: 600px) {
   html {
     font-size: 20px;
+  }
+  body {
+    background-color: rgb(240, 234, 214);
   }
   h1,
   h2 {
     font-weight: 700;
     line-height: 1.1;
   }
-
   h1 {
     font-size: 1.4rem;
   }
   h2 {
     font-size: 1.2rem;
   }
-
   a,
   a:hover {
     color: #c43e3d;
-    /*color: #002fa7;*/
+  }
+  a:hover {
     text-decoration: none;
   }
-
   .container {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 35px;
     margin-bottom: 35px;
-    background: /*linear-gradient(to right, #ffffff,*/ rgb(240, 234, 214, 0.3);
-    box-shadow: 15px 15px lightgray;
+    border: 3px solid black;
+    background-color: #ffffff;
   }
 }
