@@ -3,6 +3,10 @@
   src: url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
 }
 @font-face {
+  font-family: "ConcourseT4";
+  src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
+}
+@font-face {
   font-family: "FiraSans";
   src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
 }
@@ -35,6 +39,8 @@ h1 {
   letter-spacing: 0.08em;
 }
 h2 {
+  font-family: "ConcourseC4";
+  text-transform: uppercase;
   font-size: 20px;
 }
 a,
