@@ -23,6 +23,7 @@ html {
 }
 body {
   color: #3d3d3d;
+  background-color: rgb(240, 234, 214);
   text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
@@ -73,9 +74,9 @@ nav ul {
   text-align: center;
 }
 nav li {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 0px 10px;
   margin-bottom: 15px;
 }
 nav a {
