@@ -3,6 +3,7 @@
   src: url(fonts/Concourse/WOFF2_web/concourse_c6_regular.woff2);
 }
 @font-face {
+  font-family: "ConcourseT3";
   src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
 }
 :root {
