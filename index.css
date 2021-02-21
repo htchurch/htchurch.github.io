@@ -3,6 +3,10 @@
   src: url(fonts/Concourse/WOFF2_web/concourse_c4_regular.woff2);
 }
 @font-face {
+  font-family: "ConcourseC6";
+  src: url(fonts/Concourse/WOFF2_web/concourse_c6_regular.woff2);
+}
+@font-face {
   font-family: "ConcourseT4";
   src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
 }
@@ -18,7 +22,7 @@
   font-family: "FiraSansMono";
   src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
 }
-html {
+:root {
   font-size: 18px;
 }
 body {
@@ -34,21 +38,14 @@ h2 {
   line-height: 1.1;
 }
 h1 {
-  font-family: "ConcourseC4";
+  font-family: "ConcourseC6";
   text-transform: uppercase;
-  font-size: 27px;
   letter-spacing: 0.08em;
 }
-h2 {
+nav a,
+nav a:hover {
   font-family: "ConcourseC4";
   text-transform: uppercase;
-  font-size: 20px;
-}
-a,
-a:hover {
-  font-family: "ConcourseC4";
-  text-transform: uppercase;
-  font-weight: bold;
   color: #c43e3d;
   text-decoration: none;
 }
@@ -78,7 +75,7 @@ nav li {
   padding: 10px 10px;
 }
 nav a {
-  font-size: 16px;
+  font-size: 1rem;
   padding: 10px 10px;
   border: 1px solid darkgray;
   box-shadow: 1px 1px gray;
@@ -108,22 +105,16 @@ nav a {
   body {
     background-color: rgb(240, 234, 214);
   }
-  h1,
-  h2 {
-    font-weight: 700;
-    line-height: 1.1;
-  }
   h1 {
+    line-height: 1.1;
     font-size: 1.4rem;
   }
-  h2 {
-    font-size: 1.2rem;
-  }
-  a,
-  a:hover {
+  nav a,
+  nav a:hover {
     color: #c43e3d;
   }
-  a:hover {
+  nav a:hover {
+    outline: 1px solid black;
     text-decoration: none;
   }
   .container {

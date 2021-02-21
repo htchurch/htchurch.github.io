@@ -105,29 +105,28 @@ nav a {
   padding: 20px;
 }
 @media (min-width: 600px) {
-  html {
-    font-size: 20px;
+  :root {
+    font-size: 18px;
   }
   body {
     background-color: rgb(240, 234, 214);
   }
   h1,
   h2 {
-    font-weight: 700;
     line-height: 1.1;
   }
   h1 {
     font-size: 1.4rem;
   }
-  h2 {
-    font-size: 1.2rem;
-  }
-  a,
-  a:hover {
+
+  nav a,
+  nav a:hover {
     color: #c43e3d;
   }
-  a:hover {
+  nav a:hover {
     text-decoration: none;
+    outline: 1px solid black;
+    box-shadow: none;
   }
   .container {
     width: 300px;
