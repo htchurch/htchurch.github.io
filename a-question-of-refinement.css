@@ -1,17 +1,24 @@
 @font-face {
-  font-family: "FiraSans";
-  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Light.woff2);
+  font-family: "ConcourseC6";
+  src: url(fonts/Concourse/WOFF2_web/concourse_c6_regular.woff2);
 }
-
-html {
-  font-family: "FiraSans", "Athelas", "Iowan Old Style", "Californian FB", serif;
+@font-face {
+  src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
+}
+:root {
   font-size: 20px;
+}
+body {
+  font-family: "ConcourseT3", "Athelas", serif;
   color: #141414;
-  background-color: #f5f5f5;
+  background-color: rgb(240, 234, 214);
 }
 
-p {
+.container p {
+  max-width: 50ch;
   line-height: 1.35;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a,
@@ -30,7 +37,13 @@ a:hover {
   max-width: 60ch;
   margin: auto;
   color: #141414;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+}
+.container h1 {
+  font-family: "ConcourseC6";
+  text-align: center;
+  font-size: 1.4rem;
 }
 .book-preview {
   margin: auto;
