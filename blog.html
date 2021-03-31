@@ -1,145 +1,58 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>blog</title>
 
-<head>
+    <style type="text/css">
+      /*! Typebase.less v0.1.0 | MIT License */
+      /* Setup */
+      html {
+        /* Change default typefaces here */
+        font-size: 137.5%;
+        -webkit-font-smoothing: antialiased;
+      }
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>blog</title>
+      /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-
-<style type="text/css">
-/*! Typebase.less v0.1.0 | MIT License */
-/* Setup */
-html {
-  /* Change default typefaces here */
-  font-family: "Athelas", "Iowan Old Style", "Franklin Gothic Book",
-    "Californian FB", serif;
-  font-size: 137.5%;
-  -webkit-font-smoothing: antialiased;
-}
-/* Copy & Lists */
-p {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
-ul,
-ol {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-ul li,
-ol li {
-  line-height: 1.5rem;
-}
-ul ul,
-ol ul,
-ul ol,
-ol ol {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-blockquote {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* Change heading typefaces here */
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-  line-height: 1.5rem;
-}
-h1 {
-  font-size: 4.242rem;
-  line-height: 4.5rem;
-  margin-top: 3rem;
-}
-h2 {
-  font-size: 2.828rem;
-  line-height: 3rem;
-  margin-top: 3rem;
-}
-h3 {
-  font-size: 1.414rem;
-}
-h4 {
-  font-size: 0.707rem;
-}
-h5 {
-  font-size: 0.4713333333333333rem;
-}
-h6 {
-  font-size: 0.3535rem;
-}
-/* Tables */
-table {
-  margin-top: 1.5rem;
-  border-spacing: 0px;
-  border-collapse: collapse;
-}
-table td,
-table th {
-  padding: 0;
-  line-height: 33px;
-}
-/* Code blocks */
-code {
-  vertical-align: bottom;
-}
-/* Leading paragraph text */
-.lead {
-  font-size: 1.414rem;
-}
-/* Hug the block above you */
-.hug {
-  margin-top: 0;
-}
-
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
+      /* Document
    ========================================================================== */
 
-/**
+      /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
+      html {
+        line-height: 1.35; /* 1 */
+        -webkit-text-size-adjust: 100%; /* 2 */
+      }
 
-/* Sections
+      /* Sections
    ========================================================================== */
 
-/**
+      /**
  * Remove the margin in all browsers.
  */
 
-body {
-  max-width: 60ch;
-  margin: 0 auto;
-}
+      body {
+        max-width: 65ch;
+        margin: 0 auto;
+      }
 
-/**
+      /**
  * Render the `main` element consistently in IE.
  */
 
-main {
-  display: block;
-}
+      main {
+        display: block;
+      }
 
-/**
+      /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  
@@ -149,526 +62,1130 @@ h1 {
   margin: 0.67em 0;
 }*/
 
-/* Grouping content
+      /* Grouping content
    ========================================================================== */
 
-/**
+      /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
 
-hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
-}
+      hr {
+        box-sizing: content-box; /* 1 */
+        height: 0; /* 1 */
+        overflow: visible; /* 2 */
+      }
 
-/**
+      /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
+      pre {
+        font-family: monospace, monospace; /* 1 */
+        font-size: 1em; /* 2 */
+      }
 
-/* Text-level semantics
+      /* Text-level semantics
    ========================================================================== */
 
-/**
+      /**
  * Remove the gray background on active links in IE 10.
  */
 
-a {
-  background-color: transparent;
-}
+      a {
+        background-color: transparent;
+      }
 
-/**
+      /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
-abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
-}
+      abbr[title] {
+        border-bottom: none; /* 1 */
+        text-decoration: underline; /* 2 */
+        text-decoration: underline dotted; /* 2 */
+      }
 
-/**
+      /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,
-strong {
-  font-weight: bolder;
-}
+      b,
+      strong {
+        font-weight: bolder;
+      }
 
-/**
+      /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code,
-kbd,
-samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-}
+      code,
+      kbd,
+      samp {
+        font-family: monospace, monospace; /* 1 */
+        font-size: 1em; /* 2 */
+      }
 
-/**
+      /**
  * Add the correct font size in all browsers.
  */
 
-small {
-  font-size: 80%;
-}
+      small {
+        font-size: 80%;
+      }
 
-/**
+      /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
 
-sub {
-  bottom: -0.25em;
-}
+      sub {
+        bottom: -0.25em;
+      }
 
-sup {
-  top: -0.5em;
-}
+      sup {
+        top: -0.5em;
+      }
 
-/* Embedded content
+      /* Embedded content
    ========================================================================== */
 
-/**
+      /**
  * Remove the border on images inside links in IE 10.
  */
 
-img {
-  border-style: none;
-}
+      img {
+        border-style: none;
+      }
 
-/* Forms
+      /* Forms
    ========================================================================== */
 
-/**
+      /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
-}
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit; /* 1 */
+        font-size: 100%; /* 1 */
+        line-height: 1.15; /* 1 */
+        margin: 0; /* 2 */
+      }
 
-/**
+      /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
 
-button,
-input {
-  /* 1 */
-  overflow: visible;
-}
+      button,
+      input {
+        /* 1 */
+        overflow: visible;
+      }
 
-/**
+      /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button,
-select {
-  /* 1 */
-  text-transform: none;
-}
+      button,
+      select {
+        /* 1 */
+        text-transform: none;
+      }
 
-/**
+      /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
 
-/**
+      /**
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
 
-/**
+      /**
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+      button:-moz-focusring,
+      [type="button"]:-moz-focusring,
+      [type="reset"]:-moz-focusring,
+      [type="submit"]:-moz-focusring {
+        outline: 1px dotted ButtonText;
+      }
 
-/**
+      /**
  * Correct the padding in Firefox.
  */
 
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+      fieldset {
+        padding: 0.35em 0.75em 0.625em;
+      }
 
-/**
+      /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
 
-legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
-}
+      legend {
+        box-sizing: border-box; /* 1 */
+        color: inherit; /* 2 */
+        display: table; /* 1 */
+        max-width: 100%; /* 1 */
+        padding: 0; /* 3 */
+        white-space: normal; /* 1 */
+      }
 
-/**
+      /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 
-progress {
-  vertical-align: baseline;
-}
+      progress {
+        vertical-align: baseline;
+      }
 
-/**
+      /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 
-textarea {
-  overflow: auto;
-}
+      textarea {
+        overflow: auto;
+      }
 
-/**
+      /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
 
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
+      [type="checkbox"],
+      [type="radio"] {
+        box-sizing: border-box; /* 1 */
+        padding: 0; /* 2 */
+      }
 
-/**
+      /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+      [type="number"]::-webkit-inner-spin-button,
+      [type="number"]::-webkit-outer-spin-button {
+        height: auto;
+      }
 
-/**
+      /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
+      [type="search"] {
+        -webkit-appearance: textfield; /* 1 */
+        outline-offset: -2px; /* 2 */
+      }
 
-/**
+      /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+      [type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
 
-/**
+      /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
 
-::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
-}
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button; /* 1 */
+        font: inherit; /* 2 */
+      }
 
-/* Interactive
+      /* Interactive
    ========================================================================== */
 
-/*
+      /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details {
-  display: block;
-}
+      details {
+        display: block;
+      }
 
-/*
+      /*
  * Add the correct display in all browsers.
  */
 
-summary {
-  display: list-item;
-}
+      summary {
+        display: list-item;
+      }
 
-/* Misc
+      /* Misc
    ========================================================================== */
 
-/**
+      /**
  * Add the correct display in IE 10+.
  */
 
-template {
-  display: none;
-}
+      template {
+        display: none;
+      }
 
-/**
+      /**
  * Add the correct display in IE 10.
  */
 
-[hidden] {
-  display: none;
-}
-</style>
-
-
-</head>
-
-<body>
-
-<h1 id="toc_0">Phantom Cinema</h1>
-
-<h2 id="toc_1">Love &amp; Friendship</h2>
-
-<p>February 24, 2021</p>
-
-<p><em>Love and Friendship</em>, starring Kate Beckinsale as Lady Susan Vernon, formerly an Austen character whose noble title only describes her social rank reminds me that Mr. Whit Stillman is a rare breed of filmmaker: he&rsquo;s neither insane, nor self-obsessed, but he&rsquo;s also, fittingly, witty and precise. His observations about human behavior are mostly satire; that&rsquo;s been his mode in all of his films, and it&rsquo;s clear by now that Jane Austen &mdash; genius satirist &mdash; inspires him greatly. Lady Susan, like many other of Stillman&rsquo;s well-to-do characters, casually slips between the role of the satirist and the object of satire. It&rsquo;s through her that Stillman calls America a &ldquo;nation of ingrates&rdquo;; it&rsquo;s the type of line that cuts right through the spoiled insanity that runs through our nation. It leaves the crazies fuming and the reasonable and pleasant satisfied. That means it&rsquo;s one of his best, one of his most timely. She&rsquo;s a jealous woman, manipulative and cunning too, but we can&rsquo;t forget that her environment encourages her behavior &mdash; and that&rsquo;s the film&rsquo;s Stillmanian wit coming out, if you can catch it.</p>
-
-<h2 id="toc_2">Paterson</h2>
-
-<p>February 22, 2021</p>
-
-<p>Adam Driver&rsquo;s &ldquo;Paterson&rdquo; and Jim Jarmusch&rsquo;s <em>Paterson</em> suffer the problem of timidity. Paterson, a secret poet, writes poems about matches, his girlfriend, in solitude. He drives a bus for a living, so he figures himself a bus driver only. His girlfriend (Golshifteh Farahani) encourages his work, and he encourages hers &mdash; though not with the same enthusiasm as she does with his. She&rsquo;s a visual artist, a baker, and, curiously, wants to be a country singer. &ldquo;Like Patsy Cline,&rdquo; she says. Farahani&rsquo;s depiction is so eccentric and kooky that, I imagine, Jarmusch wants to make you feel bad if you doubt her delusions (which the film continually confuses as &ldquo;dreams&rdquo;).</p>
-
-<p>If Driver&rsquo;s Paterson really is so closed off from the world (Jarmusch likes to go back to a photo of Driver in military uniform), one wonders why he ever decided to pick up the pen. Why write? How the hell did he get into David Foster Wallace? These questions remain unresolved; you&rsquo;re not meant to question their veracity. That&rsquo;s a more interesting subject than his own relation to himself as an &ldquo;artist,&rdquo; and one can&rsquo;t but help think that Jarmusch thought that answering the latter would answer the former. It certainly doesn&rsquo;t.</p>
-
-<p>But it would be wrong to suggest that Paterson the poet &mdash;mystically encouraged by a Japanese businessman&mdash;would come to embody Paterson the place just by word association. Paterson guards his talents in a way that the city doesn&rsquo;t; in fact, the film shows a city blooming with talent, people with beautiful souls, who come to be more than they seem. Does Paterson&rsquo;s presumptions about these people &mdash; which are, it is implied, quickly assuaged by simply talking &mdash; come from Paterson or Jarmusch? This is just to say that where Paterson ends and Jarmusch begins isn&rsquo;t clear. But Paterson is Paterson, just not in the way you might think. Mostly, Jim Jarmusch wants you to know he&rsquo;s cool, that his characters are cool. So cool, mind you, that they can&rsquo;t quite process their emotions in a way that&rsquo;s relatable &mdash; or inviting &mdash; to his viewers.</p>
-
-<h2 id="toc_3">The Long Day Closes</h2>
-
-<p>February 18, 2021</p>
-
-<p>When the protagonist’s mother (Marjorie Yates) in Terence Davies’ <em>The Long Day Closes</em> sings “Me and My Shadow” to her son, the blossoming and peculiar Bud (Leigh McCormack), her words lie down deep inside her. Not seeking escape so much as expression, she finds herself respite in her son, “all alone and feeling blue,” and by that point we already know that young Bud feels the same.</p>
-
-<p><em>The Long Day Closes</em> is the first film I’ve seen from British director Terence Davies, and I saw it mostly on the recommendation of Armond White, who called it “<a href="https://www.advocate.com/print-issue/current-issue/2014/07/23/armond-white-long-day-closes-greatest-gay-film-ever-made?pg=full">the greatest gay film ever made</a>.” I’d be hard pressed to disagree.</p>
-
-<p>Davies&#39; Bud, an 11-year old in 1950s Liverpool, discovers he&rsquo;s gay in a moment that&rsquo;s particular &mdash; but also peculiar &mdash; to gay men: staring out his working-class apartment onto the street, he catches the eye of a bricklayer, who winks at him. It&rsquo;s a moment of pleasure and pain; the moment reads on Bud’s face as a realization that he’s enraptured, but with the pain that accompanies the isolation of what it used to mean to be queer.</p>
-
-<p>Bud is always around his mother, an older widow with several older children, but her connection to Bud seems closer. Sitting on the couch with Bud, their fingers intertwine; she cries, and Davies’ memory of her tears becomes another memory of rain, like when Bud tries to get money outside the cinema. One can’t but help wonder if her tears are a silent acknowledgment of Bud’s peculiarity.</p>
-
-<p>Davies understands well the dynamics of gay life, even for a young boy. In a scene at a carnival, Bud’s brothers take up BB gun shooting, while Bud follows his sister, eating a cotton candy. There’s rapport, like when Bud’s mom asks him, “Do you prefer havin’ nits?” But Bud’s family’s acceptance of his individuality — the way he washes his brother’s back, the way he buys his sister perfume and laughs in harmony with the girls — gently dissolves the temptation to pathologize that seems to guide our current culture. When Bud’s mother sings “If I Had My Life to Live Over,” it’s all love, all feeling.</p>
-
-<p>Davies knows, too, the way the gay imagination is guided by pop culture, the way the gay imagination plays with and subverts it — he knows, too, that we’re all guided by it. Bud’s daydreams picture a vast world outside Liverpool: first he sees a ship, sailing on the sea; then he’s full of wonder at the clouds in the sky, and God. The film’s now-famous “Tammy” sequence is its best: as Debbie Reynolds’ voice sets the mundane montage of Bud’s life, it captures perfectly the loneliness typical of a longing young boy, but it also suggests the specific feminine identification of all gay men.</p>
-
-<p>Davies grounds the film — and Bud’s understanding — in pop culture memory, those movies and songs that carry the experience of what academics would call <em>jouissance</em>; the moment when the pleasure principle meets identification, leading to a distinctly emptying transgression of pleasure and pain. It’s why the daydreams about sailing on the open sea and staring at the vastness of the stars is accompanied by a nightmare: a man reaches out, grabs Bud, and steals him away. That’s every child’s (and parent’s) fear, but it takes on a queer tone, too, in every gay man’s fear of coming out. This film is sublime.</p>
-
-<h2 id="toc_4">The Thin Red Line</h2>
-
-<p>February 14, 2021</p>
-
-<p>Terrence Malick&rsquo;s <em>The Thin Red Line</em> (1998) is brutal. Consider Malick&rsquo;s well-known predilection for soft frames filled with beauty and one would think, at first, that the barbarity of war would reduce or muddle this softness. One assumes the fields of grass will fold under an Army book. Not so: Malick mixes together moments of humane, conscious film-making and moral courage inside what is otherwise Hell, like a war film must.</p>
-
-<p>This isn&rsquo;t a techno-fest of blood and guts like Sam Mendes&#39; horrible <em>1917</em> (2019), in which there are no spoils of war, it turns out, and that is the greatest tragedy of all, apparently. No; Malick&rsquo;s operating on a different level — not so much as a pop-auteur, like his 1998 war-film colleague Steven Spielberg; instead, Malick uses the camera to film soldiers in amazement and horror, often misinterpreted as &ldquo;sublimity.&rdquo; But it&rsquo;s what the soldiers say and do that matters more. Their bravery, such as John Cusack&rsquo;s character&rsquo;s flanking of five Japanese gunners, invokes humanism just as much as the sometimes highfalutin dialogue, though its some of the best ever put in a war film.</p>
-
-<p>Malick reaches across enemy lines, too, like Spielberg was scared to do in <em>Saving Private Ryan</em> and Mel Gibson kind of did in <em>Hacksaw Ridge</em> (2016) — except better. This sequence starts with a Japanese soldier&rsquo;s face in the dirt; mist fills the screen, tempting the sublime, but the effect is ghostly, and the soldier&rsquo;s dead-POV voice-over speaks:</p>
-
-<blockquote>
-<p>Are you righteous? Kind? Does your confidence lie in this? Are you loved by all? Know that I was, too. Do you imagine your sufferings will be less because you loved goodness? Truth?</p>
-</blockquote>
-
-<p>Malick cuts to a soldier&rsquo;s face (Jim Caviezel of Gibson&rsquo;s <em>Passion of the Christ</em> fame) then to a roaring fire on the hillside. Caviezel&rsquo;s character, Pvt. Witt, goes AWOL at the beginning of the film and lives among the indigenous population. He&rsquo;s a more humane version, if not less cynical, of Stanley Kubrick&rsquo;s Joker (played by Matthew Modine). Now he&rsquo;s been cast into the fire. This is Malick&rsquo;s recognition that there is no beauty to be found in war, in the inhumanity of politics. It&rsquo;s a recognition that doesn&rsquo;t absolve us of politics. One character speaks an uncomfortable truth, and it almost gets lost beneath the fury of gunfire: &ldquo;It&rsquo;s all for property!&rdquo; More for property than God (or good) that is, which seems to be Malick&rsquo;s point.</p>
-
-<h2 id="toc_5">Sounder</h2>
-
-<p>February 9, 2021</p>
-
-<p><em>Sounder</em> is one of the best American films ever made. Set in the sharecropping South — now understood in contemporary history as the cousin of slavery and white supremacy — the story is simple: a father steals a pig to feed his family; he is caught and sent away; the son looks for him, meets a kind teacher, and returns without his father; through God&rsquo;s grace, or mere happenstance, he returns, and demands his son get an education. The film&rsquo;s emotion and weight is carried by performances by the recently-departed Cicely Tyson, whose Rebecca is tested by cruelty and hardship, yet is stronger than it all through faith and love, as well as Paul Winfield&rsquo;s wisened humility hubris, upon whom the film inflicts most of the physical pain, save for Sounder the dog. These are characters whose history we can read on their faces; yet their charm and humor and wisdom is always deeper than their pain, and we, the audience, soon realize that, after Nathan (Winfield&rsquo;s character) returns from a labor camp almost crippled, that they already have, by experience, intuited the words of W. E. B. Du Bois, spoken from the heart by the kind teacher Ms. Camille (Myrl Sharkey). Their pain runs deep but their love for each other runs deeper.</p>
-
-<p>Like all classic, timeless films, Martin Ritt&rsquo;s <em>Sounder</em> is not, also, a perfect film. But it is an amazing, moving film about love and struggle — as simple as that may sound — that is made even richer, and deeper, because it&rsquo;s a film that puts truth above all else. Like <em>The Birth of a Nation</em>, <em>Nashville</em>, <em>The Godfather</em>, <em>Gone with the Wind</em>, <em>Sounder</em> is a vital film in the American film art tradition; you&rsquo;d be missing out a lot if you neglected it.</p>
-
-<h2 id="toc_6">The Deer Hunter</h2>
-
-<p>February 2, 2021</p>
-
-<p>I just yesterday watched The Deer Hunter (1978), directed by Michael Cimino and starring Robert De Niro, Christopher Walken, and Meryl Streep. I posted my take on it on my Letterboxd, but I will post the review here, too:</p>
-
-<p>One of the biggest complaints about this movie that is totally fair to lodge — that isn&rsquo;t about it being too long, a side effect of over-diagnosed ADHD Letterboxd brains — is that the highs of this movie are so great, and Cimino&rsquo;s direction is so brilliant in parts, and all of the actors are doing their best, considering that their characters aren&rsquo;t much to work with, truthfully, but the movie, while anti-war, really and truly doesn&rsquo;t know what kind of moral attitude it really wants to have about all the totally brutal scenes that happen during the middle of the film. It&rsquo;s oddly structured, with a too Romantic jump from total terror, with the escape from a Vietnamese torture camp to the awkward sexual chastity back in middle America.</p>
-
-<p>Cimino&rsquo;s steel town middle Americans experience the terror of war and people so foreign to them they&rsquo;re alien (It is not bleeding heart liberalism to suggest that the Vietnamese of this film are portrayed in a particularly harsh way, at least I don&rsquo;t think.)
-But this is a wonderful film, honestly on-par with the much-lauded <em>Apocalypse Now</em>, if only because we aren&rsquo;t allowed to see a civilian world in <em>Apocalypse Now</em> — where [as <a href="https://disquietthoughts.blogspot.com/2007/11/baudrillard-on-apocalypse-now.html">Baudrillard</a> suggests] Coppola is caught up in the spectacle of war — in The Deer Hunter the spacious world from America to Vietnam becomes a testament to the spaciousness of our own capabilities under the heart of darkness. Perhaps the brutality of De Niro&rsquo;s character in Vietnam is a extrapolation of his pent-up sexual energies. If only Cimino was able to articulate a position more fully developed, then who knows, maybe more people would talk about The Deer Hunter like they do about Apocalypse Now, but what&rsquo;s here is already pretty near great. Cimino&rsquo;s vision is astounding.</p>
-
-<h2 id="toc_7">Close Encounters of the Third Kind</h2>
-
-<p>October 11, 2020</p>
-
-<p>The fixation on technology as the sole manufacturer of movie &ldquo;magic&rdquo; in Hollywood is probably worse than it&rsquo;s ever been, so it&rsquo;s shocking to see, through Steven Spielberg&rsquo;s third feature film <em>Close Encounters of the Third Kind</em> (1977), that there existed a time when such a fascination with spectacle actually furthered the humanist imagination.</p>
-
-<p>Close Encounters sees power company employee Roy Neary (Richard Dreyfuss) and single mother Jillian Guiler (Melinda Dillon) experience strange, obsessive visions after the arrival of apparently extra-terrestrial beings, who descend upon the Malick-like dusty Midwest fields of Muncie, Indiana. Suburbanite Roy&rsquo;s intense fascination with his UFO encounter leaves half his face tanned-and with visions of a strange organic shape-while Jillian&rsquo;s son Barry, who serves as the film&rsquo;s second hero, is lured by the starships and disappears into the clouds.</p>
-
-<p>But Spielberg&rsquo;s sense of pro-human filmmaking doesn&rsquo;t render a totally culture-blind picture: Roy&rsquo;s obsession not only drives his family apart, but it also tortures him, as he waits for the strange shape-a pyramidal form that represents divine providence-to finally make sense. The same goes for Barry, whose child&rsquo;s wonder at the UFOs invokes his own joy for toys (&ldquo;Toys! Toys! Toys!&rdquo; he yells). The various reactions of the Muncie townspeople to the unprecedented events happening before them provide a spectrum across which human belief exists-like the thought that gets slowly burned into the face of Roy&rsquo;s wife Ronnie (Teri Garr) that her husband might have really just gone insane, which Spielberg pokes fun at with one man&rsquo;s tall tale about Bigfoot. As the two families are torn apart, Roy&rsquo;s and Barry&rsquo;s predicaments provide us with both the incomprehensible wonder-and horror-of technology.</p>
-
-<p>So as a UFO investigation team, headed by French scientist Claude Lacombe (played here by perhaps American cinema&rsquo;s most influential proponent, François Truffaut), head to Muncie to investigate the series of disturbances, Lacombe&rsquo;s act of cross-cultural witnessing — from Mexico to India to America — breaks down both cultural and language barriers, as he soon discovers that the events unfolding before him aren&rsquo;t meant for him to experience.</p>
-
-<p>It&rsquo;s why he tells Roy, &ldquo;I envy you&rdquo;; he&rsquo;s found himself disallowed from the transcendent experiences of Roy, Barry, and Jillian, but he&rsquo;s more than willing to believe in something he hasn&rsquo;t experienced himself. This is the essence of the cinematic experience and, importantly, it&rsquo;s also at the core of religious belief, what most would call faith.</p>
-
-<p>Spielberg&rsquo;s Judeo-Christian allegories have always been enlightening and, like the wonderful cross images in <em>Amistad</em> (1997), the 9/11 allegory of the omniscient PreCogs in <em>Minority Report</em> (2002), as well as, well, the entirety of <em>A.I.</em> (2001), his sense of Americanism stems from those shared universal values that connect us all-no matter what religion, culture, or language we profess. That sense of humanism, now rare, speaks a language that anyone can understand, the kind of humanism that artists like Truffaut championed and was fully realized in the &lsquo;70s, perhaps the best decade for American movies.</p>
-
-<h2 id="toc_8">Hacksaw Ridge</h2>
-
-<p>October 9, 2020</p>
-
-<p>In <em>Hacksaw Ridge</em>, the war scenes are terrifying, surreal, inspiring and maddeningly evil — none so effective as when a U.S. and Japanese soldier grab each other by their bare hands, in close-quarters-combat, only for an artillery strike to brutalize them. The spectacle of the representations in <em>Hacksaw Ridge</em> make the bloody tolls of war not-quite-real through a constant haze of smoke and fire and bombs that cloak and disguise the sky, an inhumane abandonment of God. Through the acts of World War Two medic Donald Doss (Andrew Garfield), an unarmed Conscientious Objector who risks his life to save his fellow soldiers, director Mel Gibson reminds the rest of us-especially the Washington elite-of the basic denial of humanity, and the viciousness, of war.</p>
-
-<p>But the mass of bleeding soldiers, fighting for the U.S. and Japan, don&rsquo;t aim to distract as clichéd &ldquo;anti-war&rdquo; spectacle; they aim to universalize the calamity of war as yet another reminder of mankind&rsquo;s deeply savage capabilities. This is why the battlefield seems staged; a theater for the wars that take millions of innocent combatant lives and make the rich a lot of money, subjects about which lesser films pretend philosophical sophistication but which this film boldly eschews for deeply held religious conviction. Gibson cuts through this brutality with well-placed empathy, like in the scene where Doss soothes the pain of a bleeding, dying Japanese solider with morphine, a reminder of the quiet moments of humanism and empathy that wars don&rsquo;t allow.</p>
-
-<p>In the recent war film <em>1917</em> (2019), Sam Mendes&rsquo; steady-cam, on-rails, one-take trickery only served to make war a visual experiment, a marvel of modern technology that expressed the current, status quo Hollywood arrogance and cynicism about sacrifice; the kind of sacrifice and personal commitment that most can&rsquo;t comprehend today, especially Hollywood and the media-class, who only understand it through the lens of their institutional nepotism. That kind of media-class vindictiveness Mel Gibson has come to know so well, and he cuts through the godless skies of Hollywood savagery with a noble, humane response to this era&rsquo;s ruthlessness — mostly unarmed.</p>
-
-<h2 id="toc_9">Metropolis</h2>
-
-<p>September 29, 2020</p>
-
-<p>One can’t help but think that Fritz Lang&rsquo;s 1927 film of the &ldquo;future&rdquo; of politics is greatly simplified to a really egregious point — even if it might have been made to appeal to working-class audiences. If this is propaganda for some sort of “workers’ revolution,” one would think it pertinent to not make the proles so dull, that is, unthinking, or to make the film’s “workers” so ravenous and barbaric and easily manipulated. Of course, they can&rsquo;t help it, Lang suggests; they&rsquo;re under a magic spell from the bourgeoisie.</p>
-
-<p>There is truly wonderful imagery though, especially when Lang enters into occultist semiology — the inverted pentagram, the Whore of Babylon all strike the eye in an awe-inspiring way; they&rsquo;re dark reversals of science and “progress.&ldquo; Lang&rsquo;s biblical poetry is wonderful, but I get the sense he means it too literally. People, even the poor ones, have better morals than the bourgeoisie, and this film feels a bit too condescending when it talks about the Whore of Babylon, who stirs up all the lust of the workers. The workers are controlled by their desires, and the bourgeoisie is controlled by their desires, too, except workers want sex and bougie people want money. Maybe Lang is onto something, but the proles are smarter than you think. I’ll look elsewhere though if I want a smarter depiction of how the world works and how people act in it.</p>
-
-<h2 id="toc_10">Babe: Pig in the City</h2>
-
-<p>September 23, 2020</p>
-
-<p>Despite the commercial success of the <em>Mad Max</em> films and the critical acclaim of the environmental propagandizing of <em>Happy Feet</em>, George Miller’s filmmaking was as never so precise — and artful — as it is in <em>Babe: Pig in the City</em>. In our current political moment, where revenge and enmity rule the political landscape — be it the professional anarchist class of wealthy, white, young people; ruling elites that break their own rules (like Nancy Pelosi’s secret spa day); or mob violence in the streets — Pig in the City answers our current political moment’s insanity with a small animal’s humanism.</p>
-
-<p>Set just moments after the events of <em>Babe</em>, where little pig Babe wins acclaim for his sheepherding talent (really his unique ability to empathize), <em>Pig in the City</em> raises the stakes with an accident that leaves Farmer Hoggett and his farm under threat of ruin by bankers. A generous appearance fee provokes Mrs. Hoggett and Babe to leave for the city — but not before animal hijinks throws her entire plan into disarray, leaving her and the pig strayed in the big city and their home in danger.</p>
-
-<p>In previous films, Miller’s political vision had never matched his kinetic frenzy. <em>Mad Max: Fury Road</em> tapped into obvious feminist themes, espousing questionable (yet predictable) radical-sympathizing politics, while <em>Happy Feet</em>’s obnoxious, bleeding-heart environmentalism goaded the Oscars to give him some attention. But the brilliance of <em>Pig in the City</em> is that Miller’s political commitments have never been less didactic: in this film, Miller’s filmmaking not only evokes populist themes; it’s mildly spiritual, and also clever.</p>
-
-<p>The animals at the simply labeled HOTEL where Babe and Mrs. Hoggett stay embody sympathetic human failures and their outcomes, like the mistreated pink poodle prostitute or the disabled, purblind Flealick, an aggressive, wheelchair-bound Jack Russell terrier. Though they all distinguish themselves by their animality, their proximity to human guile and folly gives them qualities that distinguish them from the stratified farm animals that filled the first film.</p>
-
-<p>This time, empathy isn’t simplified. The film’s best subplot involves Thelonious (brilliantly voiced by James Cosmo), an orangutan whose affected accent and distinguished get-up signify desires beyond basic animal instinct — the desire to become human; in humans, the tendency to social climb. These animals’ alienation both inspire the compassionate Babe to help while also forming recognizable human types that the audience can identify. That these eccentric pets aren’t so far away from the follies of humans is the point. They&rsquo;re eccentric, but so are humans. In <em>Pig in the City</em>, the unnamed city is a grab-bag of urban landscapes, blending Hollywood, New York, San Francisco, even Sydney, into a synecdoche that evokes all cities in all places. The focus here isn’t to romanticize the pastoral of the left-behind farm, where the film ends; instead, Miller’s focus is on urbanity’s ultra-capitalist, as well as spiritual, failures — those who are left behind, avoided, and forgotten.</p>
-
-<p>But <em>Pig in the City</em> is also about forgiveness. Far from the technical prowess of the rest of the film, which elevates its storybook construction, Miller’s best scene breaks through potentially maudlin material with genuinely moving animal empathy. After Babe saves his attacker, a bull terrier, from drowning, the terrier offers his collar as recompense; but when he laments, “A murderous shadow lies hard across my soul,” the film moves past the previous film’s one-note unsophistication into humane brilliance.</p>
-
-<p>And in this way, each new scene not only reveals new ways of seeing the world, using identifiable types and moral predicaments, but also new ways of seeing movies. Babe’s moral consistency in the film’s scenarios exposes the frailty of our own morality in everyday situations. What we at first might have confused in Babe the pig for childish naïveté Miller reveals as ethics, a concern for the well-being others that religious believers take seriously, which is abused by our powerful elites.</p>
-
-<p>Over the last decade, moviegoers endured — and eventually succumbed to — Marvel-movie insanity. Now in the era of streaming, filmmakers look to cash-in on its conditioned audience with pointless movies that indulge the neuroses of the filmmaker, like Charlie Kaufman’s most recent worst film, <em>I&rsquo;m Thinking of Ending Things</em>. Today&rsquo;s filmmakers propagate our always-current political problem of solipsism. As fewer good movies are made, and more of our political discourse revolves around violence and revenge, it’s always good to remember a time when political and moral values could influence good art.</p>
-
-<h2 id="toc_11">Cookie&rsquo;s Fortune</h2>
-
-<p>September 19, 2020</p>
-
-<p>Catfish enchilada-flavored little comedy with clever parallels to <em>Salome</em> (I haven&rsquo;t seen it yet) that ends with tragic irony — yet it’s relentlessly funny. Insightful in the way that Altman reveals the complicated genealogy of people in the South, <em>Cookie’s Fortune</em> shows the connections that might seem totally unlikely anywhere else, informed by a regrettable history that is quickly being remedied through love. Just like the defense offered by Ned Beatty&rsquo;s Lester Boyle (&quot;I&rsquo;ve fished with him&rdquo;), it&rsquo;s a recognizable phrase that pays homage to the color-blindness of Southernness and brotherhood that needn&rsquo;t be so clearly bifurcated by political manipulations and past atrocities, that is, the legacy of racism. <em>Cookie’s Fortune</em> not only challenges the strictly white-black divisions that connote the South, but it also reveals insights into the bonds that anyone, anywhere can make — those complicated branches on the family tree.</p>
-
-<h2 id="toc_12">Blade Runner 2049</h2>
-
-<p>September 19, 2020</p>
-
-<p>As imperfect as it was, the original <em>Blade Runner</em> (1982) had an ingenuity to it; noir, “cyberpunk,” and meta-consumerism formed that film’s dystopia. Ridley Scott’s advertising savvy turned that pulp nightmare into sci-fi chic. People hated the voice-over and the ending, but they had to admit that the film itself wasn&rsquo;t exactly a full-fledged vision from the beginning; it was a wonderful visionary concept that was rough around the edges but ultimately satisfying. Genre mixing, these admittedly synthetic market inventions, nonetheless grounded all the humane elements of the super-advanced technology of trashworld Earth into something that was simultaneously glossy yet dirty — and at least human.</p>
-
-<p>Skipping out on those pulpy genre roots, <em>BR2049</em>’s design, contradistinctly, is elaborate and ornate. Things in the world shimmer, or look smoothed with a palette knife. The <em>Blade Runner</em> world is a trash world. The Villeneuve post-Earth skips trash for glam. Even then, the themes are largely the same, when you get right down to it, but the film’s fascination with technology, rather than psychology, economizes the depth of Blade Runner&rsquo;s oft-maligned original cut. So, if the O.C. of Blade Runner was blue, <em>BR2049</em> is orange — but anyone who saw the original knows that aesthetics can only get you so far.</p>
-
-<h2 id="toc_13">Freddy Got Fingered</h2>
-
-<p>September 15, 2020</p>
-
-<p>Insane, absurd, ridiculous, pointless, irrational. One of the most bold and tasteless movies ever released by a major motion picture studio (probably) — but, importantly, bold and tasteless doesn’t necessarily mean bad. Throughout the seemingly disconnected acts of 2000s-flavor absurdist, gross-out humor (and remember: humor is subjective) there is a totally conventional father-son-Hollywood storyline, but Tom Green’s sense of (anti)humor turns the film’s sexual vulgarity into revolting acts of carnal impudence — a 28-year-old’s coming-of-age story. There’s occasionally homage, with obvious nods to Buster Keaton and <em>Apocalypse Now</em>, invoking not only the spirit of Hollywood spectacle but the long history of cinema’s physical comedians and body humorists. Tom Green’s rebellion is pointless and retarded, insofar that the film’s insanity and mere existence is the joke, yet it’s hilarious, and as an art object <em>Freddy Got Fingered</em> is the kind of joke that only people with genuine counter-cultural interests will understand. Burn money the right way.</p>
-
-<h2 id="toc_14">Straight Up</h2>
-
-<p>September 11, 2020</p>
-
-<p><em>Straight Up</em> (2020) is a movie that is so of-this-moment that a lot of what it’s getting at is really more progressive than the so-called, lame-ass “progressives” who understand the world in a very rigid way, even if they claim to profess otherwise. Operating outside of the jizzed up world of Millenial and GenZ, <em>Straight Up</em> isn’t actually reactionary, though dumb Letterboxd reviewers would have you think so. What James Sweeney does here is actually expose how both contemporary and traditional models of relationships can fail to provide happiness or fulfillment. Modern problems require modern solutions. In that sense, the movie is progressive, in that Sweeney’s character, a mostly sexless OCD man who identifies as gay (then doesn’t — and that’s where a lot of the quippy humor happens), attempts to bridge these disparate worlds together. What Sweeney finds out is that relationships are a lot deeper than sex (obvious), but also that relationships aren’t about finding “love” either; they’re about not being alone; but his best move — the one that makes the movie work so well — is turning that revelation into something humanistic. Sweeney shows the complexity of the world that leaves political and cultural propagandists totally perplexed.</p>
-
-<h2 id="toc_15">Crumb</h2>
-
-<p>September 9, 2020</p>
-
-<p>There are limitations inherent in Terry Zwigoff&rsquo;s form of film-making — the documentary — in <em>Crumb</em>: we can tell that there’s more that these three brothers aren’t revealing about their obviously fucked-up childhood, which the film can&rsquo;t probe because it&rsquo;s dealing with real, screwed-up people. Maxon’s ascetic lifestyle cloaks a past of molesting women and violent seizures; Charles, whose pedophilic desires probably explain why he’s never had sex, and among the Crumb brothers seems to harbor the most violent fantasies; and Robert’s misogyny manifests itself most famously through his behemoth, sometimes headless, women. Eventually, this documentary becomes entirely about sex and art, and how art can provide a sort of “therapy” for sexually aberrant fantasies — the sort that Zwigoff helps us become intimately familiar with, especially with Robert, whose incestuous, racist, and misogynistic cartoons stimulate most of the movie’s thoughtful contemplations on the subject.</p>
-
-<p>The revelation for this documentary, then, passed through various critics and ex-lovers of Robert and the various interviews, is that the impetus of what Crumb’s twisted comix depict are on some level subconscious. Of course, this is not a remarkable discovery by any means, but by letting everyone simply talk, a picture is formed: Crumb’s dissatisfactions with the people around him, especially with America (he’s leaving with his wife and child for countryside France), is the result of a deeply disturbing childhood that soiled the images sold to him through mass-media advertising — the jilted fantasy that Crumb brazenly depicts in his fantastic deviant cartoons.</p>
-
-<p>But Zwigoff’s good enough to remind us that Crumb’s antisocial behavior is on some level warranted, even if what actually motivates Robert isn’t entirely known to him, and disturbs us.</p>
-
-<h2 id="toc_16">Tenet</h2>
-
-<p>September 6, 2020</p>
-
-<p>Never has a spy seemed so clueless as John David Washington’s “Protagonist,” one of Chris Nolan’s several meta-genre conceits that are all poorly executed in <em>Tenet</em>. Our nameless Protagonist seems for the most part to have — if you would allow me to use a wonderful Southern phrase — fallen off the turnip truck just yesterday, a flat response to everything hurled towards him, from time-travel to a predicament which one character calls “worse than nuclear holocaust.”</p>
-
-<p>Washington’s face doesn’t read indescribable, in that he’s enigmatic, wiry; he just seems bored. Even some of Nolan’s most clever lines (like Washington’s reply to Michael Caine: You overestimate my powers of seduction.) which tease James Bond’s canonical lustiness and racist black American stereotypes, appear on Washington’s face as though he were breaking bad news to someone. It&rsquo;s an indication that Nolan himself perhaps didn’t intend such moments of cultural self-awareness, as brilliant as they are.</p>
-
-<p>But, of course, Nolan isn’t really concerned with politics or culture; he never really is. Once again, Nolan has attempted to fool audiences with a hack filmmaker’s technological spectacle. As time, Nolan’s crutch, moves both forwards and backwards, any overarching plot becomes moot. It doesn&rsquo;t work as well as it did in <em>Memento</em>, where Nolan succeeded, for the most part, in showing how knowledge (informed by time) creates morality. That’s because Nolan’s intricate plotting, which films like <em>Memento</em> required a delicate consideration of, here fall flat because Nolan’s pretends philosophical depth and enables braindead nihilism — a problem only exaggerated through his penchant for filmmaking brainfreezes.</p>
-
-<h2 id="toc_17">Casino</h2>
-
-<p>August 30, 2020</p>
-
-<p>Past 1980-something, Scorsese seems to have kept hitting repeat on his work. The question I have is, what do you get here that you don’t get from his other mob movies? They, too, take the glitz-glam of decadent gangster and covers it all in blood, turbulent romance, and sin. After <em>The Godfather</em>, directors have yet to turn gangster trash into gold like Coppola did.</p>
-
-<p>But there’s something particularly well-developed about Joe Pesci’s character though that moves what Scorsese has him usually do and makes him distinct from his usual shtick, that combination of hot-headedness and wise-assery that makes a Joe Pesci performance so movie-stealing; only now, Pesci has the capacity for romantic feeling, as we see in his affair with Ginger (Sharon Stone).</p>
-
-<p>There are just so many storytelling devices here that were done because the meat of this movie is boring: the wise-ass, Pescian violence-humor; the overbearing voiceover; the ethnic conflict that is really just greed. That these tough guys have the capacity for emotions that aren’t anger isn’t impressive.</p>
-
-<h2 id="toc_18">Polytechnique</h2>
-
-<p>August 26, 2020</p>
-
-<p>The obvious comparison one will immediately want to make is Van Sant’s <em>Elephant</em>, because this is about a school shooting, but at least <em>Elephant</em> understood the pointless, nihilistic violence of that act, The Columbine Massacre, which Van Sant rooted in the intersections of the sociopolitical. Instead, in <em>Polytechnique</em> Villeneuve foregrounds aesthetics: a black and white filter and ambient-piano score that tries to emphasize beauty over empathy — an aesthetic detachment from reality which many have misinterpreted as understanding. It’s not.</p>
-
-<h2 id="toc_19">Saturday Night Fever</h2>
-
-<p>August 7, 2020</p>
-
-<p>Obviously, the best scenes are the dance scenes, which shine and sparkle with that machismo and glam that you’d make the 70s to be, so Travolta’s rambunctious teenager can dance like the rooster he’s meant to be, at least in his mind. The dancing is something to do to get you where you’re really meant to; you might dread the slow days of working, but on the weekend the pent-up physicality contained by drudgery can be let loose. That director John Badham understands this makes it a very fun film, even if the ending is blah and the love interest is blah.</p>
-
-<h2 id="toc_20">Mulholland Drive</h2>
-
-<p>February 29, 2020</p>
-
-<p>Inside the ethical dilemmas tied to the myth of Hollywood, Lynch contorts genre(s) to show how bizarre Hollywood is and uses pop culture to find a moral center. In <em>Mulholland Drive</em>, we see Hollywood as everyone else has seen it and, simultaneously, as no one has seen it; Lynch warps Hollywood’s cultural image with nostalgia without obfuscating its exploitative reputation.</p>
-
-<p>This is to say that Lynch depicts Hollywood as only he sees it — auspicious palm trees, perky blonde-haired women (evoking Hollywood industry propaganda like Jean Negulesco’s <em>Alice in Movieland</em>); helicopter-POV shots of the Hollywood sign; all-white couples dancing the Jitterbug (or, later, white and black couples singing “Sixteen Reasons”); deep-focused, esoteric corporate big-wigs controlling things from the shadows; meetings with executives picky about their espressos (like babies); casting couches that aren’t quite casting couches.</p>
-
-<p>This is all redeemed because Lynch uses pop culture — always subject to his nostalgia — as a moral center in Betty’s (Naomi Watts) dilemma. Club Silencio singer Rebekah Del Rio sings a Spanish version of Roy Orbison’s “Crying,” updating, recontextualizing and reframing Hollywood pop culture. Here Lynch’s sense of pop culture captures Betty’s doomed longing for Rita, a lesbian romance that Lynch’s camera empathizes through an honest, universal feeling of sadness. The Club Silencio scene converges as a point where fiction meets reality, where dreams of stardom are made and shattered; it’s the perfect analogy for L.A.</p>
-
-
-
-
-</body>
-
+      [hidden] {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 id="toc_1">Love &amp; Friendship</h2>
+
+    <p>February 24, 2021</p>
+
+    <p>
+      <em>Love and Friendship</em>, starring Kate Beckinsale as Lady Susan
+      Vernon, formerly an Austen character whose noble title only describes her
+      social rank reminds me that Mr. Whit Stillman is a rare breed of
+      filmmaker: he&rsquo;s neither insane, nor self-obsessed, but he&rsquo;s
+      also, fittingly, witty and precise. His observations about human behavior
+      are mostly satire; that&rsquo;s been his mode in all of his films, and
+      it&rsquo;s clear by now that Jane Austen &mdash; genius satirist &mdash;
+      inspires him greatly. Lady Susan, like many other of Stillman&rsquo;s
+      well-to-do characters, casually slips between the role of the satirist and
+      the object of satire. It&rsquo;s through her that Stillman calls America a
+      &ldquo;nation of ingrates&rdquo;; it&rsquo;s the type of line that cuts
+      right through the spoiled insanity that runs through our nation. It leaves
+      the crazies fuming and the reasonable and pleasant satisfied. That means
+      it&rsquo;s one of his best, one of his most timely. She&rsquo;s a jealous
+      woman, manipulative and cunning too, but we can&rsquo;t forget that her
+      environment encourages her behavior &mdash; and that&rsquo;s the
+      film&rsquo;s Stillmanian wit coming out, if you can catch it.
+    </p>
+
+    <h2 id="toc_2">Paterson</h2>
+
+    <p>February 22, 2021</p>
+
+    <p>
+      Adam Driver&rsquo;s &ldquo;Paterson&rdquo; and Jim Jarmusch&rsquo;s
+      <em>Paterson</em> suffer the problem of timidity. Paterson, a secret poet,
+      writes poems about matches, his girlfriend, in solitude. He drives a bus
+      for a living, so he figures himself a bus driver only. His girlfriend
+      (Golshifteh Farahani) encourages his work, and he encourages hers &mdash;
+      though not with the same enthusiasm as she does with his. She&rsquo;s a
+      visual artist, a baker, and, curiously, wants to be a country singer.
+      &ldquo;Like Patsy Cline,&rdquo; she says. Farahani&rsquo;s depiction is so
+      eccentric and kooky that, I imagine, Jarmusch wants to make you feel bad
+      if you doubt her delusions (which the film continually confuses as
+      &ldquo;dreams&rdquo;).
+    </p>
+
+    <p>
+      If Driver&rsquo;s Paterson really is so closed off from the world
+      (Jarmusch likes to go back to a photo of Driver in military uniform), one
+      wonders why he ever decided to pick up the pen. Why write? How the hell
+      did he get into David Foster Wallace? These questions remain unresolved;
+      you&rsquo;re not meant to question their veracity. That&rsquo;s a more
+      interesting subject than his own relation to himself as an
+      &ldquo;artist,&rdquo; and one can&rsquo;t but help think that Jarmusch
+      thought that answering the latter would answer the former. It certainly
+      doesn&rsquo;t.
+    </p>
+
+    <p>
+      But it would be wrong to suggest that Paterson the poet &mdash;mystically
+      encouraged by a Japanese businessman&mdash;would come to embody Paterson
+      the place just by word association. Paterson guards his talents in a way
+      that the city doesn&rsquo;t; in fact, the film shows a city blooming with
+      talent, people with beautiful souls, who come to be more than they seem.
+      Does Paterson&rsquo;s presumptions about these people &mdash; which are,
+      it is implied, quickly assuaged by simply talking &mdash; come from
+      Paterson or Jarmusch? This is just to say that where Paterson ends and
+      Jarmusch begins isn&rsquo;t clear. But Paterson is Paterson, just not in
+      the way you might think. Mostly, Jim Jarmusch wants you to know he&rsquo;s
+      cool, that his characters are cool. So cool, mind you, that they
+      can&rsquo;t quite process their emotions in a way that&rsquo;s relatable
+      &mdash; or inviting &mdash; to his viewers.
+    </p>
+
+    <h2 id="toc_3">The Long Day Closes</h2>
+
+    <p>February 18, 2021</p>
+
+    <p>
+      When the protagonist’s mother (Marjorie Yates) in Terence Davies’
+      <em>The Long Day Closes</em> sings “Me and My Shadow” to her son, the
+      blossoming and peculiar Bud (Leigh McCormack), her words lie down deep
+      inside her. Not seeking escape so much as expression, she finds herself
+      respite in her son, “all alone and feeling blue,” and by that point we
+      already know that young Bud feels the same.
+    </p>
+
+    <p>
+      <em>The Long Day Closes</em> is the first film I’ve seen from British
+      director Terence Davies, and I saw it mostly on the recommendation of
+      Armond White, who called it “<a
+        href="https://www.advocate.com/print-issue/current-issue/2014/07/23/armond-white-long-day-closes-greatest-gay-film-ever-made?pg=full"
+        >the greatest gay film ever made</a
+      >.” I’d be hard pressed to disagree.
+    </p>
+
+    <p>
+      Davies&#39; Bud, an 11-year old in 1950s Liverpool, discovers he&rsquo;s
+      gay in a moment that&rsquo;s particular &mdash; but also peculiar &mdash;
+      to gay men: staring out his working-class apartment onto the street, he
+      catches the eye of a bricklayer, who winks at him. It&rsquo;s a moment of
+      pleasure and pain; the moment reads on Bud’s face as a realization that
+      he’s enraptured, but with the pain that accompanies the isolation of what
+      it used to mean to be queer.
+    </p>
+
+    <p>
+      Bud is always around his mother, an older widow with several older
+      children, but her connection to Bud seems closer. Sitting on the couch
+      with Bud, their fingers intertwine; she cries, and Davies’ memory of her
+      tears becomes another memory of rain, like when Bud tries to get money
+      outside the cinema. One can’t but help wonder if her tears are a silent
+      acknowledgment of Bud’s peculiarity.
+    </p>
+
+    <p>
+      Davies understands well the dynamics of gay life, even for a young boy. In
+      a scene at a carnival, Bud’s brothers take up BB gun shooting, while Bud
+      follows his sister, eating a cotton candy. There’s rapport, like when
+      Bud’s mom asks him, “Do you prefer havin’ nits?” But Bud’s family’s
+      acceptance of his individuality — the way he washes his brother’s back,
+      the way he buys his sister perfume and laughs in harmony with the girls —
+      gently dissolves the temptation to pathologize that seems to guide our
+      current culture. When Bud’s mother sings “If I Had My Life to Live Over,”
+      it’s all love, all feeling.
+    </p>
+
+    <p>
+      Davies knows, too, the way the gay imagination is guided by pop culture,
+      the way the gay imagination plays with and subverts it — he knows, too,
+      that we’re all guided by it. Bud’s daydreams picture a vast world outside
+      Liverpool: first he sees a ship, sailing on the sea; then he’s full of
+      wonder at the clouds in the sky, and God. The film’s now-famous “Tammy”
+      sequence is its best: as Debbie Reynolds’ voice sets the mundane montage
+      of Bud’s life, it captures perfectly the loneliness typical of a longing
+      young boy, but it also suggests the specific feminine identification of
+      all gay men.
+    </p>
+
+    <p>
+      Davies grounds the film — and Bud’s understanding — in pop culture memory,
+      those movies and songs that carry the experience of what academics would
+      call <em>jouissance</em>; the moment when the pleasure principle meets
+      identification, leading to a distinctly emptying transgression of pleasure
+      and pain. It’s why the daydreams about sailing on the open sea and staring
+      at the vastness of the stars is accompanied by a nightmare: a man reaches
+      out, grabs Bud, and steals him away. That’s every child’s (and parent’s)
+      fear, but it takes on a queer tone, too, in every gay man’s fear of coming
+      out. This film is sublime.
+    </p>
+
+    <h2 id="toc_4">The Thin Red Line</h2>
+
+    <p>February 14, 2021</p>
+
+    <p>
+      Terrence Malick&rsquo;s <em>The Thin Red Line</em> (1998) is brutal.
+      Consider Malick&rsquo;s well-known predilection for soft frames filled
+      with beauty and one would think, at first, that the barbarity of war would
+      reduce or muddle this softness. One assumes the fields of grass will fold
+      under an Army book. Not so: Malick mixes together moments of humane,
+      conscious film-making and moral courage inside what is otherwise Hell,
+      like a war film must.
+    </p>
+
+    <p>
+      This isn&rsquo;t a techno-fest of blood and guts like Sam Mendes&#39;
+      horrible <em>1917</em> (2019), in which there are no spoils of war, it
+      turns out, and that is the greatest tragedy of all, apparently. No;
+      Malick&rsquo;s operating on a different level — not so much as a
+      pop-auteur, like his 1998 war-film colleague Steven Spielberg; instead,
+      Malick uses the camera to film soldiers in amazement and horror, often
+      misinterpreted as &ldquo;sublimity.&rdquo; But it&rsquo;s what the
+      soldiers say and do that matters more. Their bravery, such as John
+      Cusack&rsquo;s character&rsquo;s flanking of five Japanese gunners,
+      invokes humanism just as much as the sometimes highfalutin dialogue,
+      though its some of the best ever put in a war film.
+    </p>
+
+    <p>
+      Malick reaches across enemy lines, too, like Spielberg was scared to do in
+      <em>Saving Private Ryan</em> and Mel Gibson kind of did in
+      <em>Hacksaw Ridge</em> (2016) — except better. This sequence starts with a
+      Japanese soldier&rsquo;s face in the dirt; mist fills the screen, tempting
+      the sublime, but the effect is ghostly, and the soldier&rsquo;s dead-POV
+      voice-over speaks:
+    </p>
+
+    <blockquote>
+      <p>
+        Are you righteous? Kind? Does your confidence lie in this? Are you loved
+        by all? Know that I was, too. Do you imagine your sufferings will be
+        less because you loved goodness? Truth?
+      </p>
+    </blockquote>
+
+    <p>
+      Malick cuts to a soldier&rsquo;s face (Jim Caviezel of Gibson&rsquo;s
+      <em>Passion of the Christ</em> fame) then to a roaring fire on the
+      hillside. Caviezel&rsquo;s character, Pvt. Witt, goes AWOL at the
+      beginning of the film and lives among the indigenous population.
+      He&rsquo;s a more humane version, if not less cynical, of Stanley
+      Kubrick&rsquo;s Joker (played by Matthew Modine). Now he&rsquo;s been cast
+      into the fire. This is Malick&rsquo;s recognition that there is no beauty
+      to be found in war, in the inhumanity of politics. It&rsquo;s a
+      recognition that doesn&rsquo;t absolve us of politics. One character
+      speaks an uncomfortable truth, and it almost gets lost beneath the fury of
+      gunfire: &ldquo;It&rsquo;s all for property!&rdquo; More for property than
+      God (or good) that is, which seems to be Malick&rsquo;s point.
+    </p>
+
+    <h2 id="toc_5">Sounder</h2>
+
+    <p>February 9, 2021</p>
+
+    <p>
+      <em>Sounder</em> is one of the best American films ever made. Set in the
+      sharecropping South — now understood in contemporary history as the cousin
+      of slavery and white supremacy — the story is simple: a father steals a
+      pig to feed his family; he is caught and sent away; the son looks for him,
+      meets a kind teacher, and returns without his father; through God&rsquo;s
+      grace, or mere happenstance, he returns, and demands his son get an
+      education. The film&rsquo;s emotion and weight is carried by performances
+      by the recently-departed Cicely Tyson, whose Rebecca is tested by cruelty
+      and hardship, yet is stronger than it all through faith and love, as well
+      as Paul Winfield&rsquo;s wisened humility hubris, upon whom the film
+      inflicts most of the physical pain, save for Sounder the dog. These are
+      characters whose history we can read on their faces; yet their charm and
+      humor and wisdom is always deeper than their pain, and we, the audience,
+      soon realize that, after Nathan (Winfield&rsquo;s character) returns from
+      a labor camp almost crippled, that they already have, by experience,
+      intuited the words of W. E. B. Du Bois, spoken from the heart by the kind
+      teacher Ms. Camille (Myrl Sharkey). Their pain runs deep but their love
+      for each other runs deeper.
+    </p>
+
+    <p>
+      Like all classic, timeless films, Martin Ritt&rsquo;s <em>Sounder</em> is
+      not, also, a perfect film. But it is an amazing, moving film about love
+      and struggle — as simple as that may sound — that is made even richer, and
+      deeper, because it&rsquo;s a film that puts truth above all else. Like
+      <em>The Birth of a Nation</em>, <em>Nashville</em>,
+      <em>The Godfather</em>, <em>Gone with the Wind</em>, <em>Sounder</em> is a
+      vital film in the American film art tradition; you&rsquo;d be missing out
+      a lot if you neglected it.
+    </p>
+
+    <h2 id="toc_6">The Deer Hunter</h2>
+
+    <p>February 2, 2021</p>
+
+    <p>
+      I just yesterday watched The Deer Hunter (1978), directed by Michael
+      Cimino and starring Robert De Niro, Christopher Walken, and Meryl Streep.
+      I posted my take on it on my Letterboxd, but I will post the review here,
+      too:
+    </p>
+
+    <p>
+      One of the biggest complaints about this movie that is totally fair to
+      lodge — that isn&rsquo;t about it being too long, a side effect of
+      over-diagnosed ADHD Letterboxd brains — is that the highs of this movie
+      are so great, and Cimino&rsquo;s direction is so brilliant in parts, and
+      all of the actors are doing their best, considering that their characters
+      aren&rsquo;t much to work with, truthfully, but the movie, while anti-war,
+      really and truly doesn&rsquo;t know what kind of moral attitude it really
+      wants to have about all the totally brutal scenes that happen during the
+      middle of the film. It&rsquo;s oddly structured, with a too Romantic jump
+      from total terror, with the escape from a Vietnamese torture camp to the
+      awkward sexual chastity back in middle America.
+    </p>
+
+    <p>
+      Cimino&rsquo;s steel town middle Americans experience the terror of war
+      and people so foreign to them they&rsquo;re alien (It is not bleeding
+      heart liberalism to suggest that the Vietnamese of this film are portrayed
+      in a particularly harsh way, at least I don&rsquo;t think.) But this is a
+      wonderful film, honestly on-par with the much-lauded
+      <em>Apocalypse Now</em>, if only because we aren&rsquo;t allowed to see a
+      civilian world in <em>Apocalypse Now</em> — where [as
+      <a
+        href="https://disquietthoughts.blogspot.com/2007/11/baudrillard-on-apocalypse-now.html"
+        >Baudrillard</a
+      >
+      suggests] Coppola is caught up in the spectacle of war — in The Deer
+      Hunter the spacious world from America to Vietnam becomes a testament to
+      the spaciousness of our own capabilities under the heart of darkness.
+      Perhaps the brutality of De Niro&rsquo;s character in Vietnam is a
+      extrapolation of his pent-up sexual energies. If only Cimino was able to
+      articulate a position more fully developed, then who knows, maybe more
+      people would talk about The Deer Hunter like they do about Apocalypse Now,
+      but what&rsquo;s here is already pretty near great. Cimino&rsquo;s vision
+      is astounding.
+    </p>
+
+    <h2 id="toc_7">Close Encounters of the Third Kind</h2>
+
+    <p>October 11, 2020</p>
+
+    <p>
+      The fixation on technology as the sole manufacturer of movie
+      &ldquo;magic&rdquo; in Hollywood is probably worse than it&rsquo;s ever
+      been, so it&rsquo;s shocking to see, through Steven Spielberg&rsquo;s
+      third feature film <em>Close Encounters of the Third Kind</em> (1977),
+      that there existed a time when such a fascination with spectacle actually
+      furthered the humanist imagination.
+    </p>
+
+    <p>
+      Close Encounters sees power company employee Roy Neary (Richard Dreyfuss)
+      and single mother Jillian Guiler (Melinda Dillon) experience strange,
+      obsessive visions after the arrival of apparently extra-terrestrial
+      beings, who descend upon the Malick-like dusty Midwest fields of Muncie,
+      Indiana. Suburbanite Roy&rsquo;s intense fascination with his UFO
+      encounter leaves half his face tanned-and with visions of a strange
+      organic shape-while Jillian&rsquo;s son Barry, who serves as the
+      film&rsquo;s second hero, is lured by the starships and disappears into
+      the clouds.
+    </p>
+
+    <p>
+      But Spielberg&rsquo;s sense of pro-human filmmaking doesn&rsquo;t render a
+      totally culture-blind picture: Roy&rsquo;s obsession not only drives his
+      family apart, but it also tortures him, as he waits for the strange
+      shape-a pyramidal form that represents divine providence-to finally make
+      sense. The same goes for Barry, whose child&rsquo;s wonder at the UFOs
+      invokes his own joy for toys (&ldquo;Toys! Toys! Toys!&rdquo; he yells).
+      The various reactions of the Muncie townspeople to the unprecedented
+      events happening before them provide a spectrum across which human belief
+      exists-like the thought that gets slowly burned into the face of
+      Roy&rsquo;s wife Ronnie (Teri Garr) that her husband might have really
+      just gone insane, which Spielberg pokes fun at with one man&rsquo;s tall
+      tale about Bigfoot. As the two families are torn apart, Roy&rsquo;s and
+      Barry&rsquo;s predicaments provide us with both the incomprehensible
+      wonder-and horror-of technology.
+    </p>
+
+    <p>
+      So as a UFO investigation team, headed by French scientist Claude Lacombe
+      (played here by perhaps American cinema&rsquo;s most influential
+      proponent, François Truffaut), head to Muncie to investigate the series of
+      disturbances, Lacombe&rsquo;s act of cross-cultural witnessing — from
+      Mexico to India to America — breaks down both cultural and language
+      barriers, as he soon discovers that the events unfolding before him
+      aren&rsquo;t meant for him to experience.
+    </p>
+
+    <p>
+      It&rsquo;s why he tells Roy, &ldquo;I envy you&rdquo;; he&rsquo;s found
+      himself disallowed from the transcendent experiences of Roy, Barry, and
+      Jillian, but he&rsquo;s more than willing to believe in something he
+      hasn&rsquo;t experienced himself. This is the essence of the cinematic
+      experience and, importantly, it&rsquo;s also at the core of religious
+      belief, what most would call faith.
+    </p>
+
+    <p>
+      Spielberg&rsquo;s Judeo-Christian allegories have always been enlightening
+      and, like the wonderful cross images in <em>Amistad</em> (1997), the 9/11
+      allegory of the omniscient PreCogs in <em>Minority Report</em> (2002), as
+      well as, well, the entirety of <em>A.I.</em> (2001), his sense of
+      Americanism stems from those shared universal values that connect us
+      all-no matter what religion, culture, or language we profess. That sense
+      of humanism, now rare, speaks a language that anyone can understand, the
+      kind of humanism that artists like Truffaut championed and was fully
+      realized in the &lsquo;70s, perhaps the best decade for American movies.
+    </p>
+
+    <h2 id="toc_8">Hacksaw Ridge</h2>
+
+    <p>October 9, 2020</p>
+
+    <p>
+      In <em>Hacksaw Ridge</em>, the war scenes are terrifying, surreal,
+      inspiring and maddeningly evil — none so effective as when a U.S. and
+      Japanese soldier grab each other by their bare hands, in
+      close-quarters-combat, only for an artillery strike to brutalize them. The
+      spectacle of the representations in <em>Hacksaw Ridge</em> make the bloody
+      tolls of war not-quite-real through a constant haze of smoke and fire and
+      bombs that cloak and disguise the sky, an inhumane abandonment of God.
+      Through the acts of World War Two medic Donald Doss (Andrew Garfield), an
+      unarmed Conscientious Objector who risks his life to save his fellow
+      soldiers, director Mel Gibson reminds the rest of us-especially the
+      Washington elite-of the basic denial of humanity, and the viciousness, of
+      war.
+    </p>
+
+    <p>
+      But the mass of bleeding soldiers, fighting for the U.S. and Japan,
+      don&rsquo;t aim to distract as clichéd &ldquo;anti-war&rdquo; spectacle;
+      they aim to universalize the calamity of war as yet another reminder of
+      mankind&rsquo;s deeply savage capabilities. This is why the battlefield
+      seems staged; a theater for the wars that take millions of innocent
+      combatant lives and make the rich a lot of money, subjects about which
+      lesser films pretend philosophical sophistication but which this film
+      boldly eschews for deeply held religious conviction. Gibson cuts through
+      this brutality with well-placed empathy, like in the scene where Doss
+      soothes the pain of a bleeding, dying Japanese solider with morphine, a
+      reminder of the quiet moments of humanism and empathy that wars
+      don&rsquo;t allow.
+    </p>
+
+    <p>
+      In the recent war film <em>1917</em> (2019), Sam Mendes&rsquo; steady-cam,
+      on-rails, one-take trickery only served to make war a visual experiment, a
+      marvel of modern technology that expressed the current, status quo
+      Hollywood arrogance and cynicism about sacrifice; the kind of sacrifice
+      and personal commitment that most can&rsquo;t comprehend today, especially
+      Hollywood and the media-class, who only understand it through the lens of
+      their institutional nepotism. That kind of media-class vindictiveness Mel
+      Gibson has come to know so well, and he cuts through the godless skies of
+      Hollywood savagery with a noble, humane response to this era&rsquo;s
+      ruthlessness — mostly unarmed.
+    </p>
+
+    <h2 id="toc_9">Metropolis</h2>
+
+    <p>September 29, 2020</p>
+
+    <p>
+      One can’t help but think that Fritz Lang&rsquo;s 1927 film of the
+      &ldquo;future&rdquo; of politics is greatly simplified to a really
+      egregious point — even if it might have been made to appeal to
+      working-class audiences. If this is propaganda for some sort of “workers’
+      revolution,” one would think it pertinent to not make the proles so dull,
+      that is, unthinking, or to make the film’s “workers” so ravenous and
+      barbaric and easily manipulated. Of course, they can&rsquo;t help it, Lang
+      suggests; they&rsquo;re under a magic spell from the bourgeoisie.
+    </p>
+
+    <p>
+      There is truly wonderful imagery though, especially when Lang enters into
+      occultist semiology — the inverted pentagram, the Whore of Babylon all
+      strike the eye in an awe-inspiring way; they&rsquo;re dark reversals of
+      science and “progress.&ldquo; Lang&rsquo;s biblical poetry is wonderful,
+      but I get the sense he means it too literally. People, even the poor ones,
+      have better morals than the bourgeoisie, and this film feels a bit too
+      condescending when it talks about the Whore of Babylon, who stirs up all
+      the lust of the workers. The workers are controlled by their desires, and
+      the bourgeoisie is controlled by their desires, too, except workers want
+      sex and bougie people want money. Maybe Lang is onto something, but the
+      proles are smarter than you think. I’ll look elsewhere though if I want a
+      smarter depiction of how the world works and how people act in it.
+    </p>
+
+    <h2 id="toc_10">Babe: Pig in the City</h2>
+
+    <p>September 23, 2020</p>
+
+    <p>
+      Despite the commercial success of the <em>Mad Max</em> films and the
+      critical acclaim of the environmental propagandizing of
+      <em>Happy Feet</em>, George Miller’s filmmaking was as never so precise —
+      and artful — as it is in <em>Babe: Pig in the City</em>. In our current
+      political moment, where revenge and enmity rule the political landscape —
+      be it the professional anarchist class of wealthy, white, young people;
+      ruling elites that break their own rules (like Nancy Pelosi’s secret spa
+      day); or mob violence in the streets — Pig in the City answers our current
+      political moment’s insanity with a small animal’s humanism.
+    </p>
+
+    <p>
+      Set just moments after the events of <em>Babe</em>, where little pig Babe
+      wins acclaim for his sheepherding talent (really his unique ability to
+      empathize), <em>Pig in the City</em> raises the stakes with an accident
+      that leaves Farmer Hoggett and his farm under threat of ruin by bankers. A
+      generous appearance fee provokes Mrs. Hoggett and Babe to leave for the
+      city — but not before animal hijinks throws her entire plan into disarray,
+      leaving her and the pig strayed in the big city and their home in danger.
+    </p>
+
+    <p>
+      In previous films, Miller’s political vision had never matched his kinetic
+      frenzy. <em>Mad Max: Fury Road</em> tapped into obvious feminist themes,
+      espousing questionable (yet predictable) radical-sympathizing politics,
+      while <em>Happy Feet</em>’s obnoxious, bleeding-heart environmentalism
+      goaded the Oscars to give him some attention. But the brilliance of
+      <em>Pig in the City</em> is that Miller’s political commitments have never
+      been less didactic: in this film, Miller’s filmmaking not only evokes
+      populist themes; it’s mildly spiritual, and also clever.
+    </p>
+
+    <p>
+      The animals at the simply labeled HOTEL where Babe and Mrs. Hoggett stay
+      embody sympathetic human failures and their outcomes, like the mistreated
+      pink poodle prostitute or the disabled, purblind Flealick, an aggressive,
+      wheelchair-bound Jack Russell terrier. Though they all distinguish
+      themselves by their animality, their proximity to human guile and folly
+      gives them qualities that distinguish them from the stratified farm
+      animals that filled the first film.
+    </p>
+
+    <p>
+      This time, empathy isn’t simplified. The film’s best subplot involves
+      Thelonious (brilliantly voiced by James Cosmo), an orangutan whose
+      affected accent and distinguished get-up signify desires beyond basic
+      animal instinct — the desire to become human; in humans, the tendency to
+      social climb. These animals’ alienation both inspire the compassionate
+      Babe to help while also forming recognizable human types that the audience
+      can identify. That these eccentric pets aren’t so far away from the
+      follies of humans is the point. They&rsquo;re eccentric, but so are
+      humans. In <em>Pig in the City</em>, the unnamed city is a grab-bag of
+      urban landscapes, blending Hollywood, New York, San Francisco, even
+      Sydney, into a synecdoche that evokes all cities in all places. The focus
+      here isn’t to romanticize the pastoral of the left-behind farm, where the
+      film ends; instead, Miller’s focus is on urbanity’s ultra-capitalist, as
+      well as spiritual, failures — those who are left behind, avoided, and
+      forgotten.
+    </p>
+
+    <p>
+      But <em>Pig in the City</em> is also about forgiveness. Far from the
+      technical prowess of the rest of the film, which elevates its storybook
+      construction, Miller’s best scene breaks through potentially maudlin
+      material with genuinely moving animal empathy. After Babe saves his
+      attacker, a bull terrier, from drowning, the terrier offers his collar as
+      recompense; but when he laments, “A murderous shadow lies hard across my
+      soul,” the film moves past the previous film’s one-note unsophistication
+      into humane brilliance.
+    </p>
+
+    <p>
+      And in this way, each new scene not only reveals new ways of seeing the
+      world, using identifiable types and moral predicaments, but also new ways
+      of seeing movies. Babe’s moral consistency in the film’s scenarios exposes
+      the frailty of our own morality in everyday situations. What we at first
+      might have confused in Babe the pig for childish naïveté Miller reveals as
+      ethics, a concern for the well-being others that religious believers take
+      seriously, which is abused by our powerful elites.
+    </p>
+
+    <p>
+      Over the last decade, moviegoers endured — and eventually succumbed to —
+      Marvel-movie insanity. Now in the era of streaming, filmmakers look to
+      cash-in on its conditioned audience with pointless movies that indulge the
+      neuroses of the filmmaker, like Charlie Kaufman’s most recent worst film,
+      <em>I&rsquo;m Thinking of Ending Things</em>. Today&rsquo;s filmmakers
+      propagate our always-current political problem of solipsism. As fewer good
+      movies are made, and more of our political discourse revolves around
+      violence and revenge, it’s always good to remember a time when political
+      and moral values could influence good art.
+    </p>
+
+    <h2 id="toc_11">Cookie&rsquo;s Fortune</h2>
+
+    <p>September 19, 2020</p>
+
+    <p>
+      Catfish enchilada-flavored little comedy with clever parallels to
+      <em>Salome</em> (I haven&rsquo;t seen it yet) that ends with tragic irony
+      — yet it’s relentlessly funny. Insightful in the way that Altman reveals
+      the complicated genealogy of people in the South,
+      <em>Cookie’s Fortune</em> shows the connections that might seem totally
+      unlikely anywhere else, informed by a regrettable history that is quickly
+      being remedied through love. Just like the defense offered by Ned
+      Beatty&rsquo;s Lester Boyle (&quot;I&rsquo;ve fished with him&rdquo;),
+      it&rsquo;s a recognizable phrase that pays homage to the color-blindness
+      of Southernness and brotherhood that needn&rsquo;t be so clearly
+      bifurcated by political manipulations and past atrocities, that is, the
+      legacy of racism. <em>Cookie’s Fortune</em> not only challenges the
+      strictly white-black divisions that connote the South, but it also reveals
+      insights into the bonds that anyone, anywhere can make — those complicated
+      branches on the family tree.
+    </p>
+
+    <h2 id="toc_12">Blade Runner 2049</h2>
+
+    <p>September 19, 2020</p>
+
+    <p>
+      As imperfect as it was, the original <em>Blade Runner</em> (1982) had an
+      ingenuity to it; noir, “cyberpunk,” and meta-consumerism formed that
+      film’s dystopia. Ridley Scott’s advertising savvy turned that pulp
+      nightmare into sci-fi chic. People hated the voice-over and the ending,
+      but they had to admit that the film itself wasn&rsquo;t exactly a
+      full-fledged vision from the beginning; it was a wonderful visionary
+      concept that was rough around the edges but ultimately satisfying. Genre
+      mixing, these admittedly synthetic market inventions, nonetheless grounded
+      all the humane elements of the super-advanced technology of trashworld
+      Earth into something that was simultaneously glossy yet dirty — and at
+      least human.
+    </p>
+
+    <p>
+      Skipping out on those pulpy genre roots, <em>BR2049</em>’s design,
+      contradistinctly, is elaborate and ornate. Things in the world shimmer, or
+      look smoothed with a palette knife. The <em>Blade Runner</em> world is a
+      trash world. The Villeneuve post-Earth skips trash for glam. Even then,
+      the themes are largely the same, when you get right down to it, but the
+      film’s fascination with technology, rather than psychology, economizes the
+      depth of Blade Runner&rsquo;s oft-maligned original cut. So, if the O.C.
+      of Blade Runner was blue, <em>BR2049</em> is orange — but anyone who saw
+      the original knows that aesthetics can only get you so far.
+    </p>
+
+    <h2 id="toc_13">Freddy Got Fingered</h2>
+
+    <p>September 15, 2020</p>
+
+    <p>
+      Insane, absurd, ridiculous, pointless, irrational. One of the most bold
+      and tasteless movies ever released by a major motion picture studio
+      (probably) — but, importantly, bold and tasteless doesn’t necessarily mean
+      bad. Throughout the seemingly disconnected acts of 2000s-flavor absurdist,
+      gross-out humor (and remember: humor is subjective) there is a totally
+      conventional father-son-Hollywood storyline, but Tom Green’s sense of
+      (anti)humor turns the film’s sexual vulgarity into revolting acts of
+      carnal impudence — a 28-year-old’s coming-of-age story. There’s
+      occasionally homage, with obvious nods to Buster Keaton and
+      <em>Apocalypse Now</em>, invoking not only the spirit of Hollywood
+      spectacle but the long history of cinema’s physical comedians and body
+      humorists. Tom Green’s rebellion is pointless and retarded, insofar that
+      the film’s insanity and mere existence is the joke, yet it’s hilarious,
+      and as an art object <em>Freddy Got Fingered</em> is the kind of joke that
+      only people with genuine counter-cultural interests will understand. Burn
+      money the right way.
+    </p>
+
+    <h2 id="toc_14">Straight Up</h2>
+
+    <p>September 11, 2020</p>
+
+    <p>
+      <em>Straight Up</em> (2020) is a movie that is so of-this-moment that a
+      lot of what it’s getting at is really more progressive than the so-called,
+      lame-ass “progressives” who understand the world in a very rigid way, even
+      if they claim to profess otherwise. Operating outside of the jizzed up
+      world of Millenial and GenZ, <em>Straight Up</em> isn’t actually
+      reactionary, though dumb Letterboxd reviewers would have you think so.
+      What James Sweeney does here is actually expose how both contemporary and
+      traditional models of relationships can fail to provide happiness or
+      fulfillment. Modern problems require modern solutions. In that sense, the
+      movie is progressive, in that Sweeney’s character, a mostly sexless OCD
+      man who identifies as gay (then doesn’t — and that’s where a lot of the
+      quippy humor happens), attempts to bridge these disparate worlds together.
+      What Sweeney finds out is that relationships are a lot deeper than sex
+      (obvious), but also that relationships aren’t about finding “love” either;
+      they’re about not being alone; but his best move — the one that makes the
+      movie work so well — is turning that revelation into something humanistic.
+      Sweeney shows the complexity of the world that leaves political and
+      cultural propagandists totally perplexed.
+    </p>
+
+    <h2 id="toc_15">Crumb</h2>
+
+    <p>September 9, 2020</p>
+
+    <p>
+      There are limitations inherent in Terry Zwigoff&rsquo;s form of
+      film-making — the documentary — in <em>Crumb</em>: we can tell that
+      there’s more that these three brothers aren’t revealing about their
+      obviously fucked-up childhood, which the film can&rsquo;t probe because
+      it&rsquo;s dealing with real, screwed-up people. Maxon’s ascetic lifestyle
+      cloaks a past of molesting women and violent seizures; Charles, whose
+      pedophilic desires probably explain why he’s never had sex, and among the
+      Crumb brothers seems to harbor the most violent fantasies; and Robert’s
+      misogyny manifests itself most famously through his behemoth, sometimes
+      headless, women. Eventually, this documentary becomes entirely about sex
+      and art, and how art can provide a sort of “therapy” for sexually aberrant
+      fantasies — the sort that Zwigoff helps us become intimately familiar
+      with, especially with Robert, whose incestuous, racist, and misogynistic
+      cartoons stimulate most of the movie’s thoughtful contemplations on the
+      subject.
+    </p>
+
+    <p>
+      The revelation for this documentary, then, passed through various critics
+      and ex-lovers of Robert and the various interviews, is that the impetus of
+      what Crumb’s twisted comix depict are on some level subconscious. Of
+      course, this is not a remarkable discovery by any means, but by letting
+      everyone simply talk, a picture is formed: Crumb’s dissatisfactions with
+      the people around him, especially with America (he’s leaving with his wife
+      and child for countryside France), is the result of a deeply disturbing
+      childhood that soiled the images sold to him through mass-media
+      advertising — the jilted fantasy that Crumb brazenly depicts in his
+      fantastic deviant cartoons.
+    </p>
+
+    <p>
+      But Zwigoff’s good enough to remind us that Crumb’s antisocial behavior is
+      on some level warranted, even if what actually motivates Robert isn’t
+      entirely known to him, and disturbs us.
+    </p>
+
+    <h2 id="toc_16">Tenet</h2>
+
+    <p>September 6, 2020</p>
+
+    <p>
+      Never has a spy seemed so clueless as John David Washington’s
+      “Protagonist,” one of Chris Nolan’s several meta-genre conceits that are
+      all poorly executed in <em>Tenet</em>. Our nameless Protagonist seems for
+      the most part to have — if you would allow me to use a wonderful Southern
+      phrase — fallen off the turnip truck just yesterday, a flat response to
+      everything hurled towards him, from time-travel to a predicament which one
+      character calls “worse than nuclear holocaust.”
+    </p>
+
+    <p>
+      Washington’s face doesn’t read indescribable, in that he’s enigmatic,
+      wiry; he just seems bored. Even some of Nolan’s most clever lines (like
+      Washington’s reply to Michael Caine: You overestimate my powers of
+      seduction.) which tease James Bond’s canonical lustiness and racist black
+      American stereotypes, appear on Washington’s face as though he were
+      breaking bad news to someone. It&rsquo;s an indication that Nolan himself
+      perhaps didn’t intend such moments of cultural self-awareness, as
+      brilliant as they are.
+    </p>
+
+    <p>
+      But, of course, Nolan isn’t really concerned with politics or culture; he
+      never really is. Once again, Nolan has attempted to fool audiences with a
+      hack filmmaker’s technological spectacle. As time, Nolan’s crutch, moves
+      both forwards and backwards, any overarching plot becomes moot. It
+      doesn&rsquo;t work as well as it did in <em>Memento</em>, where Nolan
+      succeeded, for the most part, in showing how knowledge (informed by time)
+      creates morality. That’s because Nolan’s intricate plotting, which films
+      like <em>Memento</em> required a delicate consideration of, here fall flat
+      because Nolan’s pretends philosophical depth and enables braindead
+      nihilism — a problem only exaggerated through his penchant for filmmaking
+      brainfreezes.
+    </p>
+
+    <h2 id="toc_17">Casino</h2>
+
+    <p>August 30, 2020</p>
+
+    <p>
+      Past 1980-something, Scorsese seems to have kept hitting repeat on his
+      work. The question I have is, what do you get here that you don’t get from
+      his other mob movies? They, too, take the glitz-glam of decadent gangster
+      and covers it all in blood, turbulent romance, and sin. After
+      <em>The Godfather</em>, directors have yet to turn gangster trash into
+      gold like Coppola did.
+    </p>
+
+    <p>
+      But there’s something particularly well-developed about Joe Pesci’s
+      character though that moves what Scorsese has him usually do and makes him
+      distinct from his usual shtick, that combination of hot-headedness and
+      wise-assery that makes a Joe Pesci performance so movie-stealing; only
+      now, Pesci has the capacity for romantic feeling, as we see in his affair
+      with Ginger (Sharon Stone).
+    </p>
+
+    <p>
+      There are just so many storytelling devices here that were done because
+      the meat of this movie is boring: the wise-ass, Pescian violence-humor;
+      the overbearing voiceover; the ethnic conflict that is really just greed.
+      That these tough guys have the capacity for emotions that aren’t anger
+      isn’t impressive.
+    </p>
+
+    <h2 id="toc_18">Polytechnique</h2>
+
+    <p>August 26, 2020</p>
+
+    <p>
+      The obvious comparison one will immediately want to make is Van Sant’s
+      <em>Elephant</em>, because this is about a school shooting, but at least
+      <em>Elephant</em> understood the pointless, nihilistic violence of that
+      act, The Columbine Massacre, which Van Sant rooted in the intersections of
+      the sociopolitical. Instead, in <em>Polytechnique</em> Villeneuve
+      foregrounds aesthetics: a black and white filter and ambient-piano score
+      that tries to emphasize beauty over empathy — an aesthetic detachment from
+      reality which many have misinterpreted as understanding. It’s not.
+    </p>
+
+    <h2 id="toc_19">Saturday Night Fever</h2>
+
+    <p>August 7, 2020</p>
+
+    <p>
+      Obviously, the best scenes are the dance scenes, which shine and sparkle
+      with that machismo and glam that you’d make the 70s to be, so Travolta’s
+      rambunctious teenager can dance like the rooster he’s meant to be, at
+      least in his mind. The dancing is something to do to get you where you’re
+      really meant to; you might dread the slow days of working, but on the
+      weekend the pent-up physicality contained by drudgery can be let loose.
+      That director John Badham understands this makes it a very fun film, even
+      if the ending is blah and the love interest is blah.
+    </p>
+
+    <h2 id="toc_20">Mulholland Drive</h2>
+
+    <p>February 29, 2020</p>
+
+    <p>
+      Inside the ethical dilemmas tied to the myth of Hollywood, Lynch contorts
+      genre(s) to show how bizarre Hollywood is and uses pop culture to find a
+      moral center. In <em>Mulholland Drive</em>, we see Hollywood as everyone
+      else has seen it and, simultaneously, as no one has seen it; Lynch warps
+      Hollywood’s cultural image with nostalgia without obfuscating its
+      exploitative reputation.
+    </p>
+
+    <p>
+      This is to say that Lynch depicts Hollywood as only he sees it —
+      auspicious palm trees, perky blonde-haired women (evoking Hollywood
+      industry propaganda like Jean Negulesco’s <em>Alice in Movieland</em>);
+      helicopter-POV shots of the Hollywood sign; all-white couples dancing the
+      Jitterbug (or, later, white and black couples singing “Sixteen Reasons”);
+      deep-focused, esoteric corporate big-wigs controlling things from the
+      shadows; meetings with executives picky about their espressos (like
+      babies); casting couches that aren’t quite casting couches.
+    </p>
+
+    <p>
+      This is all redeemed because Lynch uses pop culture — always subject to
+      his nostalgia — as a moral center in Betty’s (Naomi Watts) dilemma. Club
+      Silencio singer Rebekah Del Rio sings a Spanish version of Roy Orbison’s
+      “Crying,” updating, recontextualizing and reframing Hollywood pop culture.
+      Here Lynch’s sense of pop culture captures Betty’s doomed longing for
+      Rita, a lesbian romance that Lynch’s camera empathizes through an honest,
+      universal feeling of sadness. The Club Silencio scene converges as a point
+      where fiction meets reality, where dreams of stardom are made and
+      shattered; it’s the perfect analogy for L.A.
+    </p>
+  </body>
 </html>

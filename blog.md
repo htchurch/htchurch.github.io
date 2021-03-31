@@ -1,10 +1,8 @@
-# Phantom Cinema
-
 ## Love & Friendship
 
 February 24, 2021
 
-*Love and Friendship*, starring Kate Beckinsale as Lady Susan Vernon, formerly an Austen character whose noble title only describes her social rank reminds me that Mr. Whit Stillman is a rare breed of filmmaker: he's neither insane, nor self-obsessed, but he's also, fittingly, witty and precise. His observations about human behavior are mostly satire; that's been his mode in all of his films, and it's clear by now that Jane Austen &mdash; genius satirist &mdash; inspires him greatly. Lady Susan, like many other of Stillman's well-to-do characters, casually slips between the role of the satirist and the object of satire. It's through her that Stillman calls America a "nation of ingrates"; it's the type of line that cuts right through the spoiled insanity that runs through our nation. It leaves the crazies fuming and the reasonable and pleasant satisfied. That means it's one of his best, one of his most timely. She's a jealous woman, manipulative and cunning too, but we can't forget that her environment encourages her behavior &mdash; and that's the film's Stillmanian wit coming out, if you can catch it.
+_Love and Friendship_, starring Kate Beckinsale as Lady Susan Vernon, formerly an Austen character whose noble title only describes her social rank reminds me that Mr. Whit Stillman is a rare breed of filmmaker: he's neither insane, nor self-obsessed, but he's also, fittingly, witty and precise. His observations about human behavior are mostly satire; that's been his mode in all of his films, and it's clear by now that Jane Austen &mdash; genius satirist &mdash; inspires him greatly. Lady Susan, like many other of Stillman's well-to-do characters, casually slips between the role of the satirist and the object of satire. It's through her that Stillman calls America a "nation of ingrates"; it's the type of line that cuts right through the spoiled insanity that runs through our nation. It leaves the crazies fuming and the reasonable and pleasant satisfied. That means it's one of his best, one of his most timely. She's a jealous woman, manipulative and cunning too, but we can't forget that her environment encourages her behavior &mdash; and that's the film's Stillmanian wit coming out, if you can catch it.
 
 ## Paterson
 

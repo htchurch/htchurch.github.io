@@ -10,7 +10,6 @@
   font-size: 20px;
 }
 body {
-  font-family: "ConcourseT3", "Athelas", serif;
   color: #141414;
   background-color: rgb(240, 234, 214);
 }
@@ -42,7 +41,6 @@ a:hover {
   border: 1px solid lightgray;
 }
 .container h1 {
-  font-family: "ConcourseC6";
   text-align: center;
   font-size: 1.4rem;
 }
