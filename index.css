@@ -10,23 +10,12 @@
   font-family: "ConcourseT4";
   src: url(fonts/Concourse/WOFF2_web/concourse_t3_regular.woff2);
 }
-@font-face {
-  font-family: "FiraSans";
-  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-Book.woff2);
-}
-@font-face {
-  font-family: "FiraSansSB";
-  src: url(fonts/Fira_Sans_WEB_4301/Normal/Roman/FiraSans-SemiBold.woff2);
-}
-@font-face {
-  font-family: "FiraSansMono";
-  src: url(fonts/Fira_Mono_3_2/Fonts/FiraMono_WEB_32/FiraMono-Regular.woff2);
-}
 :root {
   font-size: 18px;
 }
 body {
-  background-color: rgb(240, 234, 214);
+  /** background-color: rgb(240, 234, 214);**/
+  background-color: black;
   color: #3d3d3d;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
