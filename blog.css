@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "IBM";
+  src: url(fonts/ibm-plex/IBMPlexMono-Medium.otf);
+}
+
+@font-face {
+  font-family: "IBM body";
+  src: url(fonts/ibm-plex/IBMPlexSans-Text.otf);
+}
+html {
+  font-family: "IBM body";
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+body {
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "IBM";
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+blockquote {
+  font-size: 0.9em;
+}

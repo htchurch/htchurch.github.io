@@ -1,3 +1,21 @@
+# Blog
+
+## 1492: Conquest of Paradise
+
+April 6, 2021
+
+Ridley Scott by 1992, 500 years after Columbus did you-know-what: pretty, usually, but also, usually, pretty unpleasant. Reviewers not pleased with the depiction of Columbus should probably grow up, but _The New World_ (2005) this is not.
+
+## The Deep Blue Sea, The Day After, Wall Street
+
+April 5, 2021
+
+Tom Hiddleston (Amerimutts will know him as tricky Loki in the Marvel capeshit “movies”) in Terence Davies’ _The Deep Blue Sea_ (2011) doesn’t disappoint, but Rachel Weisz and her pathetic 12-aspirin suicide attempt seem more laughable than serious &mdash;and ambivalent, which is how Mr. Davies feels about love, but even if he’s not so convinced about it, Weisz doesn’t exactly help things by being so maudlin.
+
+_The Day After_ (1983) was a made-for-TV movie about the end of the world where Kansas and Missouri get blown to Hell, where old people make side remarks about the Cuban Missile Crisis and how this time will be the same, all right before they’re holocausted. Cold War torture porn, midwest fundamentalist apocalypticism for the Reagan era that is, overall, pretty fucked.
+
+_Wall Street_ (1987) has Charlie Sheen and his union dad (eyeroll) take on stogie-smoking Michael Douglas in a film in which I am supposed to think Darryl Hannah is a hot babe and which I am also supposed to understand how the stock market works and Oliver Stone’s mission to take on the Big Guys, only I learned that liberals probably loved this, and that all the Reagan-era narcissism was, in their minds, presumably shoved onto Trump. Wait ‘til they learn about Goldman Sachs’ “Womyn in International African Loans” program. Capitalism is about shapeshifting.
+
 ## Love & Friendship
 
 February 24, 2021
