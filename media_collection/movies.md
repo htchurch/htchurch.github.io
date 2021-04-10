@@ -1,134 +1,156 @@
 # Movies
+
 Example entry: /Title/ (Directed By, Year Released, Disc Format)
 
 ## Misc.
-*2-Movie Family Fun Pack: Babe & Babe: Pig in the City* (2014, DVD)  
-*4-Movie Collection: Adam Sandler: Click; Big Daddy; 50 First Dates; Mr. Deeds* (2014, DVD)  
-*4-Movie Spotlight Series: Eddie Murphy: The Nutty Professor; The Nutty Professor 2: The Klumps; Bowfinger; Life* (2013; DVD)  
-*20 Films: Alfred Hitchcock: A Legacy of Suspense* (DVD)  
-*300* (Zack Snyder, 2008, DVD)  
-*2001: A Space Odyssey* (Stanley Kubrick, 2007, BD)
+
+_2-Movie Family Fun Pack: Babe & Babe: Pig in the City_ (2014, DVD)  
+_4-Movie Collection: Adam Sandler: Click; Big Daddy; 50 First Dates; Mr. Deeds_ (2014, DVD)  
+_4-Movie Spotlight Series: Eddie Murphy: The Nutty Professor; The Nutty Professor 2: The Klumps; Bowfinger; Life_ (2013; DVD)  
+_20 Films: Alfred Hitchcock: A Legacy of Suspense_ (DVD)  
+_300_ (Zack Snyder, 2008, DVD)  
+_2001: A Space Odyssey_ (Stanley Kubrick, 2007, BD)
 
 ## A
-*Amistad* (Steven Spielberg, 1999, DVD)
+
+_Amistad_ (Steven Spielberg, 1999, DVD)
 
 ## B
-*Barcelona* (Whit Stillman, 2016, BD)  
-*Batman v Superman: Dawn of Justice* (Zack Snyder, 2016, DVD)  
-*Be Kind, Rewind* (Michel Gondry, 2008)  
-*Before Sunset* (Richard Linklater, 2005, DVD)  
-*Being John Malkovich* (Spike Jonze, 2000, DVD)  
-*The Big Lebowski* (Joel Coen, 2005, DVD)  
-*The Birth of a Nation* (D. W. Griffith, 2015, BD)  
-*The Black Dahlia* (Brian De Palma, 2006, DVD)  
-*Blade Runner: The Director’s Cut* (Ridley Scott, 1997, DVD)  
-*Blade Runner: The Final Cut & Blade Runner 2049: Double Feature* (Ridley Scott & Denis  Villeneuve, 2018, DVD)  
-*Blow-Up* (Michelangelo Antonioni, 2017, BD)  
-*Bone Tomahawk* (Craig Zahler, 2015, DVD)  
-*Brawl in Cell Block 99* (Craig Zahler, 2017, BD)
+
+_Barcelona_ (Whit Stillman, 2016, BD)  
+_Batman v Superman: Dawn of Justice_ (Zack Snyder, 2016, DVD)  
+_Be Kind, Rewind_ (Michel Gondry, 2008)  
+_Before Sunset_ (Richard Linklater, 2005, DVD)  
+_Being John Malkovich_ (Spike Jonze, 2000, DVD)  
+_The Big Lebowski_ (Joel Coen, 2005, DVD)  
+_The Birth of a Nation_ (D. W. Griffith, 2015, BD)  
+_The Black Dahlia_ (Brian De Palma, 2006, DVD)  
+_Blade Runner: The Director’s Cut_ (Ridley Scott, 1997, DVD)  
+_Blade Runner: The Final Cut & Blade Runner 2049: Double Feature_ (Ridley Scott & Denis Villeneuve, 2018, DVD)  
+_Blow-Up_ (Michelangelo Antonioni, 2017, BD)  
+_Bone Tomahawk_ (Craig Zahler, 2015, DVD)  
+_Brawl in Cell Block 99_ (Craig Zahler, 2017, BD)
 
 ## C
-*Capote* (Bennett Miller, 2006, DVD)  
-*Carmen Jones* (Otto Preminger, 2002, DVD)  
-*Chinatown* (Roman Polanski, 2017, DVD)  
-*Click* (Frank Coraci, 2006, DVD)  
-*Close Encounters of the Third Kind* (Steven Spielberg, 2002, DVD)  
-*The Color People* (2007, Steven Spielberg, DVD)  
-*The Conversation* (2010, Francis Ford Coppola, DVD)  
-*Cookie's Fortune* (Robert Altman, DVD)
+
+_Capote_ (Bennett Miller, 2006, DVD)  
+_Carmen Jones_ (Otto Preminger, 2002, DVD)  
+_Chinatown_ (Roman Polanski, 2017, DVD)  
+_Click_ (Frank Coraci, 2006, DVD)  
+_Close Encounters of the Third Kind_ (Steven Spielberg, 2002, DVD)  
+_The Color People_ (2007, Steven Spielberg, DVD)  
+_The Conversation_ (2010, Francis Ford Coppola, DVD)  
+_Cookie's Fortune_ (Robert Altman, DVD)
 
 ## D
-*Damsels in Distress* (Whit Stillman, 2012, BD)  
-*The Darjeeling Limited* (Wes Anderson, DVD)  
-*The Deer Hunter* (Michael Cimino, 2012, BD)  
-*Dirty Harry* (Don Segel, 1997, DVD)  
-*Dog Day Afternoon* (Sidney Lumet, 1997, DVD)  
-*Dogville* (Lars Von Trier, 2004, DVD)  
-*Dragged Across Concrete* (Craig Zahler, 2019, BD)  
-*Drive* (Nicolas Windig Refn, 2012, DVD)
+
+_Damsels in Distress_ (Whit Stillman, 2012, BD)  
+_The Darjeeling Limited_ (Wes Anderson, DVD)  
+_The Deer Hunter_ (Michael Cimino, 2012, BD)  
+_Dirty Harry_ (Don Segel, 1997, DVD)  
+_Dog Day Afternoon_ (Sidney Lumet, 1997, DVD)  
+_Dogville_ (Lars Von Trier, 2004, DVD)  
+_Dragged Across Concrete_ (Craig Zahler, 2019, BD)  
+_Drive_ (Nicolas Windig Refn, 2012, DVD)
 
 ## E
-*E.T. The Extra Terrestrial: Anniversary Edition* (Steven Spielberg, 2012, DVD)  
-*Elephant* (Gus Van Sant, DVD)  
-*Eternal Sunshine of the Spotless Mind* (Michel Gondry, 2009, BD)
+
+_E.T. The Extra Terrestrial: Anniversary Edition_ (Steven Spielberg, 2012, DVD)  
+_Elephant_ (Gus Van Sant, DVD)  
+_Eternal Sunshine of the Spotless Mind_ (Michel Gondry, 2009, BD)
 
 ## F
-*Fat Kid Rules the World* (Matthew Lillard, 2013, DVD)  
-*Fear of a Black Hat* (Rusty Cundieff, 2003, DVD)  
-*Femme Fatale* (Brian De Palma, 2003, DVD)
+
+_Fat Kid Rules the World_ (Matthew Lillard, 2013, DVD)  
+_Fear of a Black Hat_ (Rusty Cundieff, 2003, DVD)  
+_Femme Fatale_ (Brian De Palma, 2003, DVD)
 
 ## G
-*General Idi Amin Dada: A Self-Portrait* (Barbet Schroeder, 2017, BD)  
-*Gentleman Broncos* (Jared Hess, 2010, BD)  
-*Ghost World* (Terry Zwigoff, 2002, DVD)  
-*The Godfather* (Francis Ford Coppola, 2017, DVD)  
-*The Godfather Trilogy: Omerta Edition* (Francis Ford Coppola, BD)  
-*Gone with the Wind* (Victor Fleming, 2009, BD)  
-*Gone with the Wind* (Victor Fleming, 2004, DVD)
+
+_General Idi Amin Dada: A Self-Portrait_ (Barbet Schroeder, 2017, BD)  
+_Gentleman Broncos_ (Jared Hess, 2010, BD)  
+_Ghost World_ (Terry Zwigoff, 2002, DVD)  
+_The Godfather_ (Francis Ford Coppola, 2017, DVD)  
+_The Godfather Trilogy: Omerta Edition_ (Francis Ford Coppola, BD)  
+_Gone with the Wind_ (Victor Fleming, 2009, BD)  
+_Gone with the Wind_ (Victor Fleming, 2004, DVD)
 
 ## H
-*Hacksaw Ridge* (Mel Gibson, 2017, BD)
+
+_Hacksaw Ridge_ (Mel Gibson, 2017, BD)
 
 ## J
-*John Wick* (Chad Stahleski, BD)
-*John Wick 2* (Chad Stahleski, BD)
+
+_John Wick_ (Chad Stahleski, BD)
+_John Wick 2_ (Chad Stahleski, BD)
 
 ## K
-*Kids* (Larry Clarke, DVD)
+
+_Kids_ (Larry Clarke, DVD)
 
 ## L
-*Lady Bird* (Greta Gerwig, BD)  
-*The Ladykillers* (Ethan & Joel Coen, 2004, DVD)  
-*The Last Days of Disco* (Whit Stillman, 2012, BD)  
-*The Life Aquatic with Stever Zissou* (Wes Anderson, 2005, DVD)  
-*The Life Aquatic with Stever Zissou* (Wes Anderson, 2005, DVD)  
-*The Long Goodbye* (Robert Altman, 2014, BD)
+
+_Lady Bird_ (Greta Gerwig, BD)  
+_The Ladykillers_ (Ethan & Joel Coen, 2004, DVD)  
+_The Last Days of Disco_ (Whit Stillman, 2012, BD)  
+_The Life Aquatic with Stever Zissou_ (Wes Anderson, 2005, DVD)  
+_The Life Aquatic with Stever Zissou_ (Wes Anderson, 2005, DVD)  
+_The Long Goodbye_ (Robert Altman, 2014, BD)
 
 ## M
-*Marie Antoinette* (Sofia Coppola, 2006, DVD)  
-*Melancholie Der Engel* (Marian Dora, 2020, BD)  
-*Metropolitan* (Whit Stillman, 2012, BD)  
-*Minority Report* (Steven Spielberg, 2002, DVD)  
-*Mr. 3000* (Charles Stone III, 2004, DVD)  
-*Mulholland Dr.* (David Lynch, 2002, DVD)  
-*Munich* (Steven Spielberg, 2006, DVD)  
-*My Neighbor Totoro* (Hayao Miyazaki, 2013, BD)
+
+_Marie Antoinette_ (Sofia Coppola, 2006, DVD)  
+_Melancholie Der Engel_ (Marian Dora, 2020, BD)  
+_Metropolitan_ (Whit Stillman, 2012, BD)  
+_Minority Report_ (Steven Spielberg, 2002, DVD)  
+_Mr. 3000_ (Charles Stone III, 2004, DVD)  
+_Mulholland Dr._ (David Lynch, 2002, DVD)  
+_Munich_ (Steven Spielberg, 2006, DVD)  
+_My Neighbor Totoro_ (Hayao Miyazaki, 2013, BD)
 
 ## N
-*Nacho Libre* (Jared Hess, 2006, DVD)  
-*Napoleon Dynamite* (Jared Hess, BD)  
-*Nashville* (Robert Altman, 2016, BD)
+
+_Nacho Libre_ (Jared Hess, 2006, DVD)  
+_Napoleon Dynamite_ (Jared Hess, BD)  
+_Nashville_ (Robert Altman, 2016, BD)
 
 ## O
-*Office Space* (Mike Judge, 2005, DVD)
+
+_Office Space_ (Mike Judge, 2005, DVD)
 
 ## P
-*Pi* (&#960;) (Darren Aronofsky, 1999, DVD)  
-*Psycho* (Alfred Hitchcock, 2012, DVD)
+
+_Pi_ (&#960;) (Darren Aronofsky, 1999, DVD)  
+_Psycho_ (Alfred Hitchcock, 2012, DVD)
 
 ## R
-*Rear Window* (Alfred Hitchcock, 2012, DVD)  
-*Repulsion* (Roman Polanski, 2009, DVD)
+
+_Rear Window_ (Alfred Hitchcock, 2012, DVD)  
+_Repulsion_ (Roman Polanski, 2009, DVD)
 
 ## S
-*Safe* (Todd Haynes, 2014, BD)  
-*Scott Pilgrim vs. The World* (Edgar Wright, 2010, DVD)  
-*Shoah* (Claude Lanzmann, DVD)  
-*Short Cuts* (Robert Altman, 2008, DVD)  
-*Southland Tales* (Richard Kelly, 2008, DVD)  
-*Spanglish* (James L. Brooks, 2005, DVD)  
-*Straight Up* (James Sweeney, 2020, DVD)  
-*The Science of Sleep* (Michel Gondry, DVD)
+
+_Safe_ (Todd Haynes, 2014, BD)  
+_Scott Pilgrim vs. The World_ (Edgar Wright, 2010, DVD)  
+_Shoah_ (Claude Lanzmann, DVD)  
+_Short Cuts_ (Robert Altman, 2008, DVD)  
+_Southland Tales_ (Richard Kelly, 2008, DVD)  
+_Spanglish_ (James L. Brooks, 2005, DVD)  
+_Straight Up_ (James Sweeney, 2020, DVD)  
+_The Science of Sleep_ (Michel Gondry, 2006, DVD)
 
 ## T
-*The Thin Red Line* (Terrence Malick, 2001, DVD)  
-*Three Kings* (David O. Russel, 2000, DVD)  
-*Tiny Furniture* (Lena Dunham, 2012, DVD)  
-*Twin Peaks: Fire Walk with Me* (David Lynch, 2002, DVD)
+
+_The Thin Red Line_ (Terrence Malick, 2001, DVD)  
+_Three Kings_ (David O. Russel, 2000, DVD)  
+_Tiny Furniture_ (Lena Dunham, 2012, DVD)  
+_Twin Peaks: Fire Walk with Me_ (David Lynch, 2002, DVD)
 
 ## V
-*Vera Drake* (Mike Leigh, 2005, DVD)  
-*Vertigo* (Alfred Hitchcock, 2012, DVD)
+
+_Vera Drake_ (Mike Leigh, 2005, DVD)  
+_Vertigo_ (Alfred Hitchcock, 2012, DVD)
 
 ## W
-*A Whit Stillman Trilogy: Metropolitan, Barcelona, The Last Days of Disco* (Whit Stillman, 2016, BD)
+
+_A Whit Stillman Trilogy: Metropolitan, Barcelona, The Last Days of Disco_ (Whit Stillman, 2016, BD)

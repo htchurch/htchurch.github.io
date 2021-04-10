@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: "IBMbody";
-  src: url(/fonts/ibm-plex/IBMPlexSans-Text.otf);
+  src: url(/fonts/ibm-plex/IBMPlexSans-Regular.otf);
 }
 html {
   line-height: 1.5;
-  font-family: "IBMbody", Iowan Old Style, "Times New Roman", Times, serif;
+  font-family: "IBMbody", "Times New Roman", Times, serif;
   font-size: 18px;
   color: #1a1a1a;
   background-color: #fdfdfd;
