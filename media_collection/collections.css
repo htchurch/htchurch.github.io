@@ -10,8 +10,8 @@ html {
   line-height: 1.5;
   font-family: "IBMbody", "Times New Roman", Times, serif;
   font-size: 18px;
-  color: #1a1a1a;
-  background-color: #fdfdfd;
+  color: white;
+  background-color: black;
 }
 body {
   margin: 0 auto;
