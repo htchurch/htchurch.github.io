@@ -9,15 +9,15 @@
  */
 @font-face {
   font-family: "IBMmonomed";
-  src: url(fonts/ibm-plex/IBMPlexMono-Medium.otf);
+  src: url(/fonts/ibm-plex/IBMPlexMono-Medium.otf);
 }
 @font-face {
   font-family: "IBMsanslight";
-  src: url(fonts/ibm-plex/IBMPlexSans-Light.otf);
+  src: url(/fonts/ibm-plex/IBMPlexSans-Light.otf);
 }
 @font-face {
   font-family: "IBMbody";
-  src: url(fonts/ibm-plex/IBMPlexSans-Text.otf);
+  src: url(/fonts/ibm-plex/IBMPlexSans-Text.otf);
 }
 
 html {
@@ -61,6 +61,7 @@ h1 {
 }
 h2 {
   font-family: "IBMsanslight";
+  margin-top: 2em;
 }
 
 p {

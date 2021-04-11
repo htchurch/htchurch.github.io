@@ -2,15 +2,15 @@
   font-size: 18px;
 }
 @font-face {
-  font-family: "IBMSansThin";
-  src: url(fonts/ibm-plex/IBMPlexSans-Light.otf);
+  font-family: "IBMSansReg";
+  src: url(/fonts/ibm-plex/IBMPlexSans-Regular.otf);
 }
 @font-face {
   font-family: "IBMmono";
-  src: url(fonts/ibm-plex/IBMPlexMono-Light.otf);
+  src: url(/fonts/ibm-plex/IBMPlexMono-Light.otf);
 }
-html{
-  font-family:"IBMSansThin";
+html {
+  font-family: "IBMSansReg";
 }
 body {
   /** background-color: rgb(240, 234, 214);**/
@@ -26,8 +26,7 @@ h2 {
   line-height: 1.1;
 }
 h1 {
-  font-family:"IBMmono", sans-serif;
-  letter-spacing: 0.05em;
+  font-family: "IBMmono", sans-serif;
 }
 nav a,
 nav a:hover {
