@@ -41,8 +41,8 @@ html {
 body {
   max-width: 60ch;
   margin: 0 auto;
-  background-color: black;
-  color: #fefefe;
+  background-color: #212121;
+  color: #f0f2ed;
 }
 
 /**

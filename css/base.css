@@ -37,8 +37,8 @@ html {
 body {
   max-width: 60ch;
   margin: 0 auto;
-  background-color: black;
-  color: #fefefe;
+  background-color: #212121;
+  color: #f0f2ed;
 }
 
 /**
@@ -104,15 +104,14 @@ pre {
  */
 
 a {
-  text-decoration: none;
+  color: inherit;
   background-color: transparent;
+  text-decoration-color: #d61c1c;
   font-family: "IBMsanslight";
-  color: #d61c1c;
 }
 a:hover {
-  color: #fefefe;
-  text-decoration: underline;
-  text-decoration-color: #d61c1c;
+  text-decoration: none;
+  background-color: #d61c1c;
 }
 
 /**

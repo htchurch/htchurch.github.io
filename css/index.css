@@ -3,19 +3,23 @@
 }
 @font-face {
   font-family: "IBMSansReg";
-  src: url(/fonts/ibm-plex/IBMPlexSans-Regular.otf);
+  src: url(/fonts/ibm-plex/IBMPlexSans-Medium.otf);
 }
 @font-face {
   font-family: "IBMmono";
   src: url(/fonts/ibm-plex/IBMPlexMono-Light.otf);
 }
+@font-face {
+  font-family: "IBMsans";
+  src: url(/fonts/ibm-plex/IBMPlexSans-Thin.otf);
+}
 html {
-  font-family: "IBMSansReg";
+  font-family: "IBMsans";
 }
 body {
   /** background-color: rgb(240, 234, 214);**/
-  background-color: black;
-  color: #3d3d3d;
+  background-color: #212121;
+  color: #f0f2ed;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
   font-variant-ligatures: common-ligatures;
@@ -27,12 +31,6 @@ h2 {
 }
 h1 {
   font-family: "IBMmono", sans-serif;
-}
-nav a,
-nav a:hover {
-  text-transform: uppercase;
-  color: #c43e3d;
-  text-decoration: none;
 }
 
 .container {
@@ -61,15 +59,24 @@ nav li {
   padding: 10px 10px;
 }
 nav a {
-  font-size: 1rem;
-  padding: 10px 10px;
-  border: 1px solid darkgray;
+  font-family: ;
+  color: #f0f2ed;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  text-decoration-color: red;
+  /*border: 1px solid darkgray;
   box-shadow: 1px 1px gray;
   border-radius: 1%;
-  background: linear-gradient(#ffffff, #f9f9f9);
+  background: linear-gradient(#ffffff, #f9f9f9);*/
 }
+
+nav a:hover {
+  text-decoration: none;
+  background-color: #d61c1c;
+}
+
 img {
-  height: auto;
+  max-height: 80%;
   max-width: 80%;
   display: block;
   border: 1px solid darkgray;
@@ -87,27 +94,14 @@ img {
   html {
     font-size: 20px;
   }
-  body {
-    background-color: black;
-  }
   h1 {
     line-height: 1.1;
     font-size: 1.4rem;
   }
-  nav a,
-  nav a:hover {
-    color: #c43e3d;
-  }
-  nav a:hover {
-    outline: 1px solid black;
-    text-decoration: none;
-  }
+
   .container {
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     margin-top: 35px;
-    margin-bottom: 35px;
-    border: 1px solid lightgray;
-    background-color: #ffffff;
   }
 }
