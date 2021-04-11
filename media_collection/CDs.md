@@ -26,7 +26,7 @@ sorted before Weyes Blood.
 
 *Tidal* \[Clean Slate/Work, 1996\]
 
-*When the Pawn...* \[Clean Slate/Work, 1999\]
+*When the Pawn&hellip;* \[Clean Slate/Work, 1999\]
 
 ## The Beach Boys
 
@@ -111,6 +111,9 @@ sorted before Weyes Blood.
 ## Weyes Blood
 
 *Titanic Rising* \[Sub Pop, 2019\] **B-**
+
+## Brian Wilson
+*Smile* [Nonesuch, 2004]
 
 ## Wussy
 
