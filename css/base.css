@@ -23,7 +23,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-size: 20px;
+  font-size: 22px;
   font-family: "IBMbody";
 }
 
@@ -56,16 +56,17 @@ main {
 
 h1 {
   font-family: "IBMmonomed";
-  font-size: 2em;
+  font-size: 25px;
   margin: 0.67em 0;
 }
 h2 {
   font-family: "IBMsanslight";
+  font-size: 24px;
   margin-top: 2em;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 145%;
 }
 
 blockquote {

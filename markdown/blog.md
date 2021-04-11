@@ -1,5 +1,55 @@
 # Blog
 
+## Postcolonial Re-imaginings in Mambèty's _Touki Bouki_
+
+April 11, 2021
+
+The French New Wave finally made its way to Africa in the late 1960s, thanks in part to the French postcolonial presence on the African continent, which gave rise to the particularly influential artistic output of directors in Senegal, with films like Djibril Diop Mambèty's _Touki Bouki_ (_Journey of the Hyena_, 1973). Though originally a commercial flop, and previously only available on low-quality VHS releases, _Touki Bouki_ was on the first films restored in 2008 by Martin Scorcese's [World Cinema Project](https://www.film-foundation.org/world-cinema), which "preserves and restores neglected cinema from around the world." Now in streaming format on the [Criterion Channel](https://www.criterion.com/films/28412-touki-bouki), we can all see Mambèty's brave film in a modern context.
+
+Mambèty's nonlinear tale shows two college students, Mory (Magaye Niang) and Anta (Mareme Niang), as they scheme to steal some money, but after that plan fails, the two wander (and wonder) aimlessly around postcolonial Senegal. Repeating shots and spatial incongruities form Mory and Anta's fantasy landscape as they attempt to break free from their colonial consciousness. The real daring of Mambèty, though, is in his stark refusal to be a propagandist.
+
+Past critics have noted that _Touki Bouki_ represents an aesthetic counterpoint to what is called Third Cinema, postcolonial cinema best represetned in film's like Gillo Pontecorvo's _The Battle of Algiers_ (1966) and Ousmane Sembène's _Black Girl_ (1966), two films with explicitly revolutionary politics, their aims toward anti-capitalism and, ultimately, decolonization.
+
+In _Touki Bouki_ Mambèty's filmmaking is, in fact, ambiguously political. He rebelliously refuses to make the sort of political statemetns that in many ways defined Francophone African cinema. This not to say, of course, that Mambèty is apolitical; certainly, the images of violent animal bloodletting (such as when cattle are slaughtered and a goat's throt is slit) and the film's famous bull-horns, Mambèty's images of fate, say otherwise. The representation of left politics in the film, signified by a group of hostile revolutionaries who hassle Mory and Anta, shows total defiance toward an African intellectual elite.
+
+That's because Mambèty's goals in _Touki Bouki_ weren't unequivocally political. Using the road genre, a love story about two university students, Mambety's camera syncretizes two different cultural practices &mdash; the aural and the aural-visual &mdash; into a distinctly African style of filmmaking that recontextualizes them both.
+
+More recently, _Touki Bouki_ has entered the public consciousness, through its appropriation by billionaire-millionaire artists Jay-Z and Beyoncé. In 2018, the couple recreated an iconic image of the film &mdash; with the film's protagonist on their fledgling motorcycle with mounted bull-horns &mdash; for the _On the Run II_ tour (June-October 2018). Like Mory and Anta, whose daydreams blend fantasy and reality in postcolonial Senegal, Beyoncé and Jay-Z's recreation hoped for a diasporic effect, suggesting they, too, are runaways.
+
+In one scene, Anta and Mory pull a heist; they steal a wealthy gay man's gay, nabbing some of his clothes, too (he calls the police and flirts with the investigator). The joyride takes place on an empty road, heading into town. Mory emerges, naked, on top of the car, and begins a hostile-yet-not-angry speech. In it, Mory declares victory over all his foes, real or not, describing in detail how he wrestled his way to the top. Intercutting the sequence are shots of children running alongside the car. But the camera reaveals that these children are a fantasy, Mory's imagined audience. The result is that the scene is an astonishingly great act of myth-making.
+
+The stolen car, painted in red, white, and blue, provides Mambèty perhaps his most daring image of rebellion, an image that not only re-contextualizes an African storytelling tradition called Griot in postcolonial France but also reminds the audience of an American and British colonial past. Mory's naked oration mixes personal fantasy with colonial history, an appropriation of oppressive symbolism that now provides, at least for a moment, the feeling of freedom, pre-Oedipal plenitude, where anything and everything is possible.
+
+Mory's griot, though certainly not a strictly tradition griot performance, nevertheless syncretizes the Senegal tradition with a then-contemporary postcolonail subject's desires &mdash; a representation of what scholars David Murphy and Patrick Williams call in African postcolonial cinenma the _griauteur_, a hybridization of the African (griot) and Western (auteur) storyteller. As the film intercuts the car sequence with the children sequence, he creates a mythos of victory &mdash; of conquering through wrestling &mdash; with masculine self-assurance. It's a distinctly African sequence, transformed by both histories of European colonialism and technology. Mambèty's filmic equivalent bring African tradition to European film and European film to African tradition.
+
+Mambèty's daring in this scene reveals the importance of that kind of brazen, naked freedom that many Americans are afraid of, let alone reflected back at them onscreen. Mambèty's hybrid style is, on its face, typical of the categorizations applied to African filmmakers whose styles combine the West with the Global South; yet his execution and craftsmanship, his awareness of both African and European filmmaking styles, is nevertheless unique.
+
+To be sure, he never makes overt political statements, unlike his contemporaries. For the viewer, however, Mambèty's understanding of the postcolonial situatino, its politics and cultural impact, is deeply intuitive and instinctual. Now, at least, we can all appreciate Mambèty's cheekiness.
+
+_Originally published at Popmatter on November 4, 2020_
+
+## Sean Baker's _Khait_ Makes Punk Classy
+
+April 11, 2021
+
+Imagine knife fights in knee boots; graffiti in clops; turnstile-hopping in coyote fur; _The Warriors_ in heels. That's the latest short film idea by director Sean Baker, whose new short film _Khaite_ brings high-class fasion to the New York underground.
+
+In _Khaite_, now available on [Youtube](<[youtube.com/](https://www.youtube.com/watch?v=oUfu1el2ZPg&feature=emb_imp_woyt)>), Baker's approach is familiar; he looks at and sees the shortcuts of the inner city. Set to Ace Frehley's "[New York Groove](https://www.youtube.com/watch?v=LKdHy18rZcI)," the short film's grimy gangs argue, cajole, and wreak havoc on the city to an internal, self-justifying musical rhythm.
+
+Baker's central concept is a gender-swap parody of Walter Hill's 1979 cult classic _The Warriors_, with a general nod to that era's shaky-cam realism. But Baker's gangs aren't a sweaty, buff ensemble; they're the downwardly mobile, a collection of models who take the underground for themselves.
+
+This top-down look at New York mixes high fashion with hard crime. Baker's punk models climb down the social ladder and live how the other half lives &mdash; having fun while doing it.
+
+It's tinged with a vision of '70s New York, filled with lawlessness and urban decay &mdash; the gang members run from the police and harass pedestrians, being, in general reprobates &mdash; but Baker aims to muddy these models' beauty. They jump turnstiles and spray the walls with graffiti, but with a taste for the "finer things" in life: they wear puffy red coats and black dresses and elaborate sweaters while they rebel. Baker's ironic conceit is that these lawbreakers aren't just pretty; they're vicious, too.
+
+As a filmmaker, Baker's interests have ranged from a "hard-hitting" documentary view of immigrant life (his look at a Chinese immmigrant in 2004's _Take Out_) to a downright romantic look at how impoverished people live (2017 hit _The Florida Project_). Baker's focus on poverty has always been sympathetic. But in _Khaite_ he betrays his previous subjects by striving for prestige, unlike his film's punks, who abandon it.
+
+Confusingly, _Khaite_ embodies Baker's ambivalence about urban life and poverty. His look at the _nouveau poor_ stresses the contradictory feelings of those idolize New York. This view of city life abandons the social havoc of crime &mdash; the misfortunes of the people who live in poverty &mdash; for status quo nostalgia. In doing so, Baker conflates systemic failure with freedom and fun.
+
+_Khaite_ will invite the fancy of Baker fans, as well as the bohemians and the upper-class who can afford Khaite fasion, but it negates and mocks the unseen hard-strivers he used to valorize.
+
+_Originally published at Popmatters on March 9, 2021._
+
 ## 1492: Conquest of Paradise
 
 April 6, 2021

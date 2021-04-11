@@ -27,7 +27,6 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-size: 20px;
   font-family: "IBMmono";
 }
 
@@ -39,7 +38,7 @@ html {
  */
 
 body {
-  max-width: 60ch;
+  max-width: 65ch;
   margin: 0 auto;
   background-color: #212121;
   color: #f0f2ed;
@@ -60,21 +59,23 @@ main {
 
 h1 {
   font-family: "IBMmonomed";
-  font-size: 2em;
+  font-size: 25px;
   margin: 0.67em 0;
 }
 h2 {
+  font-size: 24px;
   font-family: "IBMsanslight";
-  margin-top: 1.5em;
+  margin-top: 2em;
 }
 /* This is for the three paragraphs in the music catalog*/
-#preamble p {
-  font-family: "IBMsanstext";
-  line-height: 1.4;
-}
-
 p {
+  font-size: 18px;
   line-height: 1;
+}
+#preamble p {
+  font-size: 22px;
+  font-family: "IBMsanstext";
+  line-height: 1.45;
 }
 
 blockquote {
