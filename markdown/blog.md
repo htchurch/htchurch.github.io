@@ -1,5 +1,11 @@
 # Blog
 
+## Hitchcock Kills Dad
+
+April 11, 2021
+
+I wrote about *The Lodger: A Story of the London Fog* (1927), *Shadow of a Doubt* (1943), and how Hitchcock kills dads at [Apocalypse Confidential](https://apocalypse-confidential.com/2021/04/11/hitchcock-kills-dad/).
+
 ## Postcolonial Re-imaginings in Mambèty's _Touki Bouki_
 
 April 11, 2021
