@@ -24,6 +24,8 @@ A QUESTION OF REFINEMENT ([B&N](https://www.barnesandnoble.com/w/a-question-of-r
 
 ## Articles
 
+[HITCHCOCK KILLS DAD](https://apocalypse-confidential.com/2021/04/11/hitchcock-kills-dad/) APRIL 2021
+
 [SEAN BAKER'S 'KHAITE' MAKES PUNK CLASSY](https://www.popmatters.com/sean-baker-khaite-short-film) MARCH 2021
 
 [POSTCOLONIAL RE-IMAGININGS IN MAMBÈTY'S 'TOUKI BOUKI'](https://www.popmatters.com/djibril-diop-mambty-touki-boukihayden-church-2648621797.html) NOVEMBER 2020
