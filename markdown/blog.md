@@ -52,7 +52,7 @@ As a filmmaker, Baker's interests have ranged from a "hard-hitting" documentary 
 
 Confusingly, _Khaite_ embodies Baker's ambivalence about urban life and poverty. His look at the _nouveau poor_ stresses the contradictory feelings of those idolize New York. This view of city life abandons the social havoc of crime &mdash; the misfortunes of the people who live in poverty &mdash; for status quo nostalgia. In doing so, Baker conflates systemic failure with freedom and fun.
 
-_Khaite_ will invite the fancy of Baker fans, as well as the bohemians and the upper-class who can afford Khaite fasion, but it negates and mocks the unseen hard-strivers he used to valorize.
+_Khaite_ will invite the fancy of Baker fans, as well as the bohemians and the upper-class who can afford Khaite fashion, but it negates and mocks the unseen hard-strivers he used to valorize.
 
 _Originally published at Popmatters on March 9, 2021._
 
