@@ -38,7 +38,7 @@ _Originally published at Popmatters on November 4, 2020_
 
 April 11, 2021
 
-Imagine knife fights in knee boots; graffiti in clops; turnstile-hopping in coyote fur; _The Warriors_ in heels. That's the latest short film idea by director Sean Baker, whose new short film _Khaite_ brings high-class fasion to the New York underground.
+Imagine knife fights in knee boots; graffiti in clops; turnstile-hopping in coyote fur; _The Warriors_ in heels. That's the latest short film idea by director Sean Baker, whose new short film _Khaite_ brings high-class fashion to the New York underground.
 
 In _Khaite_, now available on [Youtube](<[youtube.com/](https://www.youtube.com/watch?v=oUfu1el2ZPg&feature=emb_imp_woyt)>), Baker's approach is familiar; he looks at and sees the shortcuts of the inner city. Set to Ace Frehley's "[New York Groove](https://www.youtube.com/watch?v=LKdHy18rZcI)," the short film's grimy gangs argue, cajole, and wreak havoc on the city to an internal, self-justifying musical rhythm.
 
