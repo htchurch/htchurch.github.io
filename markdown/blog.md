@@ -4,11 +4,11 @@
 
 April 11, 2021
 
-The French New Wave finally made its way to Africa in the late 1960s, thanks in part to the French postcolonial presence on the African continent, which gave rise to the particularly influential artistic output of directors in Senegal, with films like Djibril Diop Mambèty's _Touki Bouki_ (_Journey of the Hyena_, 1973). Though originally a commercial flop, and previously only available on low-quality VHS releases, _Touki Bouki_ was on the first films restored in 2008 by Martin Scorcese's [World Cinema Project](https://www.film-foundation.org/world-cinema), which "preserves and restores neglected cinema from around the world." Now in streaming format on the [Criterion Channel](https://www.criterion.com/films/28412-touki-bouki), we can all see Mambèty's brave film in a modern context.
+The French New Wave finally made its way to Africa in the late 1960s, thanks in part to the French postcolonial presence on the African continent, which gave rise to the particularly influential artistic output of directors in Senegal, with films like Djibril Diop Mambèty's _Touki Bouki_ (_Journey of the Hyena_, 1973). Though originally a commercial flop, and previously only available on low-quality VHS releases, _Touki Bouki_ was one of the first films restored in 2008 by Martin Scorcese's [World Cinema Project](https://www.film-foundation.org/world-cinema), which "preserves and restores neglected cinema from around the world." Now in streaming format on the [Criterion Channel](https://www.criterion.com/films/28412-touki-bouki), we can all see Mambèty's brave film in a modern context.
 
 Mambèty's nonlinear tale shows two college students, Mory (Magaye Niang) and Anta (Mareme Niang), as they scheme to steal some money, but after that plan fails, the two wander (and wonder) aimlessly around postcolonial Senegal. Repeating shots and spatial incongruities form Mory and Anta's fantasy landscape as they attempt to break free from their colonial consciousness. The real daring of Mambèty, though, is in his stark refusal to be a propagandist.
 
-Past critics have noted that _Touki Bouki_ represents an aesthetic counterpoint to what is called Third Cinema, postcolonial cinema best represetned in film's like Gillo Pontecorvo's _The Battle of Algiers_ (1966) and Ousmane Sembène's _Black Girl_ (1966), two films with explicitly revolutionary politics, their aims toward anti-capitalism and, ultimately, decolonization.
+Past critics have noted that _Touki Bouki_ represents an aesthetic counterpoint to what is called Third Cinema, postcolonial cinema best represetned in film's like Gillo Pontecorvo's _The Battle of Algiers_ (1966) and Ousmane Sembène's _Black Girl_ (1966) &mdash; two films with explicitly revolutionary politics, their aims toward anti-capitalism and, ultimately, decolonization.
 
 In _Touki Bouki_ Mambèty's filmmaking is, in fact, ambiguously political. He rebelliously refuses to make the sort of political statemetns that in many ways defined Francophone African cinema. This not to say, of course, that Mambèty is apolitical; certainly, the images of violent animal bloodletting (such as when cattle are slaughtered and a goat's throt is slit) and the film's famous bull-horns, Mambèty's images of fate, say otherwise. The representation of left politics in the film, signified by a group of hostile revolutionaries who hassle Mory and Anta, shows total defiance toward an African intellectual elite.
 
@@ -26,7 +26,7 @@ Mambèty's daring in this scene reveals the importance of that kind of brazen, n
 
 To be sure, he never makes overt political statements, unlike his contemporaries. For the viewer, however, Mambèty's understanding of the postcolonial situatino, its politics and cultural impact, is deeply intuitive and instinctual. Now, at least, we can all appreciate Mambèty's cheekiness.
 
-_Originally published at Popmatter on November 4, 2020_
+_Originally published at Popmatters on November 4, 2020_
 
 ## Sean Baker's _Khait_ Makes Punk Classy
 
