@@ -2,8 +2,8 @@
 <channel>
 <title>Hayden Church's blog</title>
 <description>A blog about movies</description>
-<link>https://www.htchurch.xyz/rss.xml</link>
-<atom:link href="http://htchurch.xyz/rss.xml" rel="self" type="application/rss+xml" />
+<link>https://htchurch.xyz/rss.xml</link>
+<atom:link href="https://htchurch.xyz/rss.xml" rel="self" type="application/rss+xml" />
 <language>en-us</language>
 <item>
     <title>Pi</title>
