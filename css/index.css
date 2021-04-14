@@ -1,20 +1,20 @@
 :root {
-  font-size: 18px;
+  font-size: 20px;
 }
 @font-face {
-  font-family: "IBMSansReg";
-  src: url(/fonts/ibm-plex/IBMPlexSans-Medium.otf);
+  font-family: "IBMsanssb";
+  src: url(/fonts/ibm-plex/IBMPlexSans-SemiBold.otf);
 }
 @font-face {
   font-family: "IBMmono";
   src: url(/fonts/ibm-plex/IBMPlexMono-Light.otf);
 }
 @font-face {
-  font-family: "IBMsans";
+  font-family: "IBMsansthin";
   src: url(/fonts/ibm-plex/IBMPlexSans-Thin.otf);
 }
 html {
-  font-family: "IBMsans";
+  font-family: "IBMsanssb";
 }
 body {
   /** background-color: rgb(240, 234, 214);**/
@@ -32,16 +32,21 @@ h2 {
 h1 {
   font-family: "IBMmono", sans-serif;
 }
+main img {
+  max-height: 80%;
+  max-width: 80%;
+  display: block;
+  border: 1px solid darkgray;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
 #container {
   width: 100%;
   margin: 0 auto;
 }
 
-#rss img {
-  display: inline;
-  margin: 0 auto;
-  max-width: 1em;
-}
 header {
   text-align: left;
   padding-top: 15px;
@@ -60,11 +65,12 @@ nav ul {
 nav li {
   display: inline-flex;
   justify-content: center;
-  padding: 10px 10px;
+  padding: 0px 10px;
 }
 nav a {
   color: #f0f2ed;
-  font-size: 1.1rem;
+  font-size: 22px;
+  font-family: "IBMsansthin";
   text-decoration: underline;
   text-decoration-color: red;
   /*border: 1px solid darkgray;
@@ -78,16 +84,6 @@ nav a:hover {
   background-color: #d61c1c;
 }
 
-nav img {
-  max-height: 80%;
-  max-width: 80%;
-  display: block;
-  border: 1px solid darkgray;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-}
 .footer {
   font-family: "IBMmono";
   text-align: center;
