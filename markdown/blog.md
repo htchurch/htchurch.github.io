@@ -1,5 +1,11 @@
 # Blog
 
+## Pi (&#960;)
+
+April 13, 2021
+
+So rough-edged and clearly Aronofsky's first film even if you hadn't been told that ahead of time, _Pi_ (or &#960; if you like) is also his best film, part schizo-collage like _Requiem for a Dream_ but also the first to feature one of his mentally ill obssessives who push it too far like in _The Wrestler_, _The Black Swan_, and, I guess, _Noah_. Of course the film's subtle critique of Jewish paranoia is provoking, but it's at the cost of the film's worst move: _Pi_ rudely conflates religious wonderment with mental frailty. In the end we're not supposed to see any order in the world &mdash; it's all random, allegedly &mdash; and nothing means nothing. Aronovsky never really evolves from there, does he?
+
 ## Hitchcock Kills Dad
 
 April 11, 2021
