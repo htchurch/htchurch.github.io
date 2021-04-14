@@ -1,5 +1,13 @@
 # Blog
 
+## The RSS feed is finally here
+
+April 14, 2021
+
+If you keep up with my blog (I'm not sure that anyone actually does; best not to ask), you can now keep up with RSS, a simple and easy way for me to send my blog directly to you. Have a blessed day.
+
+RSS link: [https://www.htchurch.xyz/rss.xml](https://www.htchurch.xyz/rss.xml)
+
 ## Pi (&#960;)
 
 April 13, 2021

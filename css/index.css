@@ -32,16 +32,20 @@ h2 {
 h1 {
   font-family: "IBMmono", sans-serif;
 }
-
-.container {
+#container {
   width: 100%;
   margin: 0 auto;
 }
+
+#rss img {
+  display: inline;
+  margin: 0 auto;
+  max-width: 1em;
+}
 header {
-  text-align: center;
+  text-align: left;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 30px;
 }
 nav {
   max-width: 100%;
@@ -59,7 +63,6 @@ nav li {
   padding: 10px 10px;
 }
 nav a {
-  font-family: ;
   color: #f0f2ed;
   font-size: 1.1rem;
   text-decoration: underline;
@@ -75,7 +78,7 @@ nav a:hover {
   background-color: #d61c1c;
 }
 
-img {
+nav img {
   max-height: 80%;
   max-width: 80%;
   display: block;
@@ -98,9 +101,12 @@ img {
     line-height: 1.1;
     font-size: 1.4rem;
   }
+  h2 {
+    font-size: 1.2rem;
+  }
 
   .container {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 35px;
   }
