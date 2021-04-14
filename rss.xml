@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Hayden Church's blog</title>
-<link>https://www.htchurch.xyz</link>
 <description>A blog about movies</description>
+<link>https://www.htchurch.xyz/rss.xml</link>
 <atom:link href="http://htchurch.xyz/rss.xml" rel="self" type="application/rss+xml" />
 <language>en-us</language>
 <item>
     <title>Pi</title>
     <link>https://www.htchurch.xyz/blog#26</link>
-    <guid isPermalink="false">https://www.htchurch.xyz/blog#26</guid>
+    <guid isPermaLink="false">https://www.htchurch.xyz/blog#26</guid>
     <description><![CDATA[ <p>So rough-edged and clearly Aronofsky's first film even if you hadn't been told that ahead of time, <em>Pi</em> (or π if you like) is also his best film, part schizo-collage like <em>Requiem for a Dream</em> but also the first to feature one of his mentally ill obssessives who push it too far like in <em>The Wrestler</em>, <em>The Black Swan</em>, and, I guess, <em>Noah</em>. Of course the film's subtle critique of Jewish paranoia is provoking, but it's at the cost of the film's worst move: <em>Pi</em> rudely conflates religious wonderment with mental frailty. In the end we're not supposed to see any order in the world — it's all random, allegedly — and nothing means nothing. Aronovsky never really evolves from there, does he?</p>]]> </description>
 </item>
 <item>
     <title>Hitchcock Kills Dad</title>
     <link>https://www.htchurch.xyz/blog#25</link>
-    <guid isPermalink="false">https://www.htchurch.xyz/blog#25</guid>
+    <guid isPermaLink="false">https://www.htchurch.xyz/blog#25</guid>
     <description><![CDATA[ <p>I wrote about <em>The Lodger: A Story of the London Fog</em> (1927), <em>Shadow of a Doubt</em> (1943), and how Hitchcock kills dads at <a href="https://apocalypse-confidential.com/2021/04/11/hitchcock-kills-dad/">Apocalypse Confidential</a>.</p> ]]></description>
 </item>
 </channel>
