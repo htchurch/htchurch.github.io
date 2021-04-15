@@ -8,11 +8,13 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+:root {
+  font-size: 20px;
+}
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-size: 20px;
   color: #232323;
   background-color: #e0e0e0;
 }
@@ -74,16 +76,18 @@ main {
  */
 
 h1 {
-  font-size: 28px;
+  font-size: 1.3rem;
   font-family: "concoursecaps";
   margin: 0.67em 0;
   text-transform: uppercase;
+  line-height: 100%;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.2rem;
+  line-height: 130%;
   text-transform: uppercase;
-  margin-top: 1.5em;
+  margin-top: 2em;
   letter-spacing: 0.05em;
   font-family: "concourse";
 }
