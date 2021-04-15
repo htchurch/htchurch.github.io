@@ -1,5 +1,6 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+/* THIS IS THE BASE FOR THE BASE.CSS FILE!!!!!!!*/
 /* Document
    ========================================================================== */
 
@@ -7,27 +8,10 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@font-face {
-  font-family: "IBMmonomed";
-  src: url(/fonts/ibm-plex/IBMPlexMono-Medium.otf);
-}
-@font-face {
-  font-family: "IBMsanslight";
-  src: url(/fonts/ibm-plex/IBMPlexSans-Light.otf);
-}
-@font-face {
-  font-family: "IBMsanstext";
-  src: url(/fonts/ibm-plex/IBMPlexSans-Text.otf);
-}
-@font-face {
-  font-family: "IBMmono";
-  src: url(/fonts/ibm-plex/IBMPlexMono-Regular.otf);
-}
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-family: "IBMmono";
 }
 
 /* Sections
@@ -38,10 +22,7 @@ html {
  */
 
 body {
-  max-width: 65ch;
-  margin: 0 auto;
-  background-color: #212121;
-  color: #f0f2ed;
+  margin: 0;
 }
 
 /**
@@ -58,28 +39,8 @@ main {
  */
 
 h1 {
-  font-family: "IBMmonomed";
-  font-size: 25px;
+  font-size: 2em;
   margin: 0.67em 0;
-}
-h2 {
-  font-size: 24px;
-  font-family: "IBMsanslight";
-  margin-top: 2em;
-}
-/* This is for the three paragraphs in the music catalog*/
-p {
-  font-size: 18px;
-  line-height: 1;
-}
-#preamble p {
-  font-size: 22px;
-  font-family: "IBMsanstext";
-  line-height: 1.45;
-}
-
-blockquote {
-  font-size: 0.9em;
 }
 
 /* Grouping content
@@ -114,15 +75,7 @@ pre {
  */
 
 a {
-  text-decoration: none;
   background-color: transparent;
-  font-family: "IBMsanslight";
-  color: #d61c1c;
-}
-a:hover {
-  color: #fefefe;
-  text-decoration: underline;
-  text-decoration-color: #d61c1c;
 }
 
 /**
