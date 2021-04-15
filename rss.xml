@@ -1,15 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Hayden Church/title>
+<title>Hayden Church</title>
 <description>A blog about movies</description>
 <language>en-us</language>
 <link>https://htchurch.xyz/rss.xml</link>
 <atom:link href="https://htchurch.xyz/rss.xml" rel="self" type="application/rss+xml" />
-<image>
-<title>Hayden Church</title>
-<url>https://htchurch.xyz/images/me-drawing.png</url>
-<link>https://htchurch.xyz/rss.xml</link>
-</image>
 <item>
     <title>Pi</title>
     <link>https://www.htchurch.xyz/blog#26</link>
