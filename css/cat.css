@@ -61,6 +61,7 @@ p {
   line-height: 1.2;
   margin: 0.5em 0;
 }
+
 /* Grouping content
    ========================================================================== */
 
@@ -94,7 +95,6 @@ pre {
 
 a {
   background-color: transparent;
-  color: ;
 }
 
 /**
