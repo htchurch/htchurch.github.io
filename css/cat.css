@@ -15,7 +15,8 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background-color: #e0e0e0;
+  background-color: #fff1e6;
+  color: #272838;
 }
 
 /* Sections
@@ -48,7 +49,6 @@ main {
 h1 {
   font-size: 1.4em;
   margin: 0.67em 0;
-  border-bottom: 1px solid black;
 }
 h2 {
   font-size: 1.3em;
@@ -62,7 +62,9 @@ p {
   line-height: 1.2;
   margin: 0.5em 0;
 }
-
+li {
+  list-style: none;
+}
 /* Grouping content
    ========================================================================== */
 
@@ -96,6 +98,8 @@ pre {
 
 a {
   background-color: transparent;
+  color: #cb997e;
+  /**color: #ddbea9;*/
 }
 
 /**
