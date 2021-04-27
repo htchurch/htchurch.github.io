@@ -48,6 +48,10 @@ _Volta_ \[Atlantic, 2007\]
 
 _Biophilia_ \[Nonesuch, 2011\]
 
+## Patsy Cline
+
+_The Definitive Collection_ \{MCA Nashville, 2004\}
+
 ## Miles Davis
 
 _Birth of the Cool_ \[Capitol, 1957; reissue, 1989\]
@@ -55,6 +59,10 @@ _Birth of the Cool_ \[Capitol, 1957; reissue, 1989\]
 ## Ella Fitzgerald & Louis Armstrong
 
 _Ella and Louis_ \[Verve, 1956; reissue, 2000\]
+
+## Merle Haggard
+
+_40 Greatest Hits_ \[Intersound, 2004\]
 
 ## PJ Harvey
 
