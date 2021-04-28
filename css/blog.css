@@ -49,10 +49,11 @@ main {
 h1 {
   font-size: 1.4em;
   margin: 0.67em 0;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 1em;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 p {
