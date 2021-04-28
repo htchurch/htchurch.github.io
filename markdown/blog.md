@@ -1,5 +1,11 @@
 # Blog
 
+## The Man Who Wasn't There
+
+April 27, 2021
+
+_The Man Who Wasn't There_ takes all of noir and pop culture (especially _Double Indemnity_), chews it up, and spits it back out, exposing the failure of noir and pop culture more generally, "straight down the line." It's regrettable that the top review is about how this film can be read as "queer," because Ed Crane's (Billy Bob Thornton) sense of alienation and descent into nihilism is not at all a uniquely queer experience — it's a universal one — which Joel Coen, like all great moral artists, understands as a failure of culture to uplift the human spirit. He shows the terrible decisions everyone is bound to make when culture fails, where relationships are reduced to the ethics of corporatism. It's really difficult to find a movie made with such moral clear-mindedness anymore, but don't mistake that for today's filmmakers who are preaching to the choir — there's bigger things than partisan politics going on here.
+
 ## The RSS feed is finally here
 
 April 14, 2021
