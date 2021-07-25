@@ -4,6 +4,8 @@
 
 ### Online
 
+[THREE POEMS](https://tragickal.com/three-poems) JULY 2021
+
 [KILLING GOMER PYLE / ROSEBUD](https://apocalypse-confidential.com/2021/03/09/killing-gomer-pyle-rosebud/) MARCH 2021
 
 [LOCATING THE EDGE](https://azurebell.com/2021/01/15/locating-the-edge/) JANUARY 2021
