@@ -27,7 +27,7 @@ html {
 
 body {
   font-family: "Optima", serif;
-  max-width: 60ch;
+  max-width: 40ch;
   margin: 0 auto;
 }
 
@@ -54,9 +54,6 @@ h2 {
 }
 h3 {
   font-size: 0.9rem;
-}
-p {
-  line-height: 1.4;
 }
 
 /* Grouping content

@@ -26,7 +26,6 @@ html {
  */
 
 body {
-  font-family: "Optima", serif;
   max-width: 60ch;
   margin: 0 auto;
 }
@@ -37,6 +36,10 @@ body {
 
 main {
   display: block;
+}
+main,
+footer {
+  font-family: "Optima", serif;
 }
 
 /**
