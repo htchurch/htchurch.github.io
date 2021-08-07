@@ -9,10 +9,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-:root {
-  font-size: 24px;
-  background-color: #fff1e6;
-}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -26,10 +22,8 @@ html {
  */
 
 body {
-  font-family: "Optima", serif;
-  border: solid;
-  margin: auto;
-  max-width: 40ch;
+  max-width: 80ch;
+  margin: 0 auto;
 }
 
 /**
@@ -46,15 +40,8 @@ main {
  */
 
 h1 {
-  font-size: 50px;
+  font-size: 2em;
   margin: 0.67em 0;
-}
-h2 {
-  font-size: 1.2rem;
-  margin-top: 2rem;
-}
-h3 {
-  font-size: 0.9rem;
 }
 
 /* Grouping content
@@ -80,9 +67,6 @@ pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
-blockquote {
-  font-size: 0.9rem;
-}
 
 /* Text-level semantics
    ========================================================================== */
@@ -91,16 +75,13 @@ blockquote {
  * Remove the gray background on active links in IE 10.
  */
 
-li {
-  list-style: none;
-}
-
 a {
   background-color: transparent;
-  text-decoration: none;
 }
-a:hover {
-  background-color: ivory;
+
+img {
+  image-rendering: optimizeQuality;
+  max-width: 80ch;
 }
 
 /**
