@@ -80,6 +80,7 @@ a {
 }
 
 img {
+  
   image-rendering: optimizeQuality;
   max-width: 80ch;
 }
